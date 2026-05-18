@@ -23,14 +23,6 @@ body_class: page-cv
 
 <div class="cv-main">
 
-<div class="cv-header">
-  <div class="cv-header-text">
-    <h1>CV</h1>
-    <p style="color: var(--color-muted); margin: 0;">Version PDF complète disponible sur demande.</p>
-  </div>
-  <a href="mailto:marie-lea.pouliquen@univ-rennes.fr" class="cv-pdf-button">📧 Me contacter</a>
-</div>
-
 <section class="cv-section" id="general">
 <h2>Informations générales</h2>
 <dl class="cv-info-grid">
