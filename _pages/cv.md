@@ -27,9 +27,9 @@ body_class: page-cv
 <h2>Informations générales</h2>
 <dl class="cv-info-grid">
   <dt>Nom</dt><dd>Marie-Léa Pouliquen</dd>
-  <dt>Disciplines</dt><dd>Sociologie de l'environnement · Sciences du climat et de l'atmosphère · Éducation aux enjeux écologiques</dd>
+  <dt>Disciplines</dt><dd>Sociologie de l'environnement · Sciences du climat et de l'atmosphère · Éducation aux enjeux climatiques</dd>
   <dt>Langues</dt><dd>Français (langue maternelle), Anglais (courant)</dd>
-  <dt>Informatique</dt><dd>Python · R · Matlab · GitHub · LaTeX · Canvas LMS · WordPress</dd>
+  <dt>Informatique</dt><dd>Python · R · GitHub · LaTeX · Canvas LMS · WordPress</dd>
 </dl>
 </section>
 
@@ -40,10 +40,6 @@ body_class: page-cv
   <div class="cv-entry-content">
     <span class="cv-entry-title">Doctorante-ingénieure en Sociologie de l'Environnement et Géosciences</span>
     <span class="cv-entry-place">CNRS · Géosciences Rennes (UMR 6118) × Espaces et Sociétés (UMR 6590) · Université Rennes 2</span>
-    <ul>
-      <li>École Doctorale Espaces, Sociétés, Civilisations</li>
-      <li>Co-encadrement : V. Van Tilbeurgh, L. Longuevergne, G. Barragan-Jason</li>
-    </ul>
   </div>
 </div>
 </section>
@@ -54,10 +50,10 @@ body_class: page-cv
   <span class="cv-entry-date">2017 — 2020</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Normalienne en Géosciences et Environnement</span>
-    <span class="cv-entry-place">École Normale Supérieure (Ulm), Paris</span>
+    <span class="cv-entry-place">École Normale Supérieure de Paris (Ulm)</span>
     <ul>
-      <li>Majeure Géosciences — Master Recherche Sciences de l'Océan, de l'Atmosphère et du Climat</li>
-      <li>Mineure Environnement et Société — CERES</li>
+      <li>Majeure Géosciences (Master Recherche Sciences de l'Océan, de l'Atmosphère et du Climat)</li>
+      <li>Mineure Environnement et Société</li>
     </ul>
   </div>
 </div>
@@ -66,15 +62,12 @@ body_class: page-cv
   <div class="cv-entry-content">
     <span class="cv-entry-title">Ingénieure généraliste</span>
     <span class="cv-entry-place">École des Mines de Douai</span>
-    <ul>
-      <li>Spécialité Génie de l'Environnement et des Risques Industriels</li>
-    </ul>
   </div>
 </div>
 <div class="cv-entry">
   <span class="cv-entry-date">2012 — 2014</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">CPGE Mathématiques-Physique (MPSI/MP)</span>
+    <span class="cv-entry-title">Classes Préparatoires Maths-Physique (MPSI/MP)</span>
     <span class="cv-entry-place">Lycée Lakanal, Sceaux</span>
   </div>
 </div>
