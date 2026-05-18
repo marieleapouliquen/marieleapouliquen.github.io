@@ -15,8 +15,6 @@ body_class: page-cv
     <li><a href="#formation">Formation</a></li>
     <li><a href="#enseignement-sup">Enseignement universitaire</a></li>
     <li><a href="#enseignement-sec">Enseignement secondaire</a></li>
-    <li><a href="#international">Expériences internationales</a></li>
-    <li><a href="#stages">Stages de formation</a></li>
     <li><a href="#distinctions">Prix et distinctions</a></li>
   </ul>
 </aside>
@@ -185,85 +183,16 @@ body_class: page-cv
 </div>
 
 <div class="cv-entry">
-  <span class="cv-entry-date">2015 — 2016</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Tutorat en Mathématiques, Physique et Chimie</span>
-    <span class="cv-entry-place">Lycée Edgar Morin, Douai</span>
-    <ul>
-      <li>Soutien scolaire à des lycéens en difficulté, dans le cadre de l'engagement étudiant de l'École des Mines de Douai</li>
-    </ul>
-  </div>
-</div>
-
-</section>
-
-
-<section class="cv-section" id="international">
-<h2>Expériences internationales</h2>
-<div class="cv-entry">
-  <span class="cv-entry-date">Juillet 2023</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Environmental Educator Retreat</span>
-    <span class="cv-entry-place">Cornell Lab of Ornithology — New York, USA</span>
-    <ul>
-      <li>Formation : innovation pédagogique, évaluation formative, eBird, Merlin ID</li>
-    </ul>
-  </div>
-</div>
-<div class="cv-entry">
   <span class="cv-entry-date">Mars 2023</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Professeure invitée</span>
     <span class="cv-entry-place">Choate Rosemary Hall — Connecticut, USA</span>
     <ul>
-      <li>Cours et ateliers en sciences environnementales (échange académique SYA)</li>
+      <li>Cours et ateliers en sciences environnementales</li>
     </ul>
   </div>
 </div>
-</section>
 
-<section class="cv-section" id="stages">
-<h2>Stages de formation initiale</h2>
-<div class="cv-entry">
-  <span class="cv-entry-date">2019, 4 mois</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Stage de Master — Laboratoire de Météorologie Dynamique</span>
-    <span class="cv-entry-place">ENS-Ulm, Paris · Pr. Bernard Legras</span>
-    <ul>
-      <li>Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique (Traczilla-Flexpart)</li>
-    </ul>
-  </div>
-</div>
-<div class="cv-entry">
-  <span class="cv-entry-date">2018, 5 mois</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Stage de Master — Max Planck Institute für Meteorologie</span>
-    <span class="cv-entry-place">Hambourg · Pr. Björn Stevens et Dr. James Ruppert</span>
-    <ul>
-      <li>Modélisation du couplage thermodynamique océan-atmosphère (PyOM, ICON)</li>
-    </ul>
-  </div>
-</div>
-<div class="cv-entry">
-  <span class="cv-entry-date">2017, 6 mois</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Stage d'ingénieur — Laboratoire de l'Atmosphère et des Cyclones</span>
-    <span class="cv-entry-place">La Réunion · Dr. Valentin Duflot</span>
-    <ul>
-      <li>Inversion lidar/satellite pour la caractérisation des aérosols troposphériques</li>
-    </ul>
-  </div>
-</div>
-<div class="cv-entry">
-  <span class="cv-entry-date">2016, 4 mois</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Stage d'ingénieur — Délégation Générale de l'Armement</span>
-    <span class="cv-entry-place">Maîtrise de l'Information, Bruz</span>
-    <ul>
-      <li>Traitement et intercomparaison de relevés lidar/radiosondages/satellites avec NRL-MSISE00</li>
-    </ul>
-  </div>
-</div>
 </section>
 
 <section class="cv-section" id="distinctions">
@@ -282,6 +211,7 @@ body_class: page-cv
 
 </div>
 </div>
+
 
 <script>
 // Sommaire qui surligne la section active au scroll
