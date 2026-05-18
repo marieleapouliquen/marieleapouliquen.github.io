@@ -200,11 +200,8 @@ body_class: page-cv
 <div class="cv-entry">
   <span class="cv-entry-date">2023</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Certified AMS Teacher</span>
+    <span class="cv-entry-title">Certified AMS Teacher #85</span>
     <span class="cv-entry-place">American Meteorological Society</span>
-    <ul>
-      <li>Certification d'enseignement obtenue sur dossier (projet pédagogique sur la qualité de l'air)</li>
-    </ul>
   </div>
 </div>
 </section>
