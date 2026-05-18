@@ -26,6 +26,8 @@ Convaincue que les sciences du climat doivent sortir des laboratoires, je consac
   </div>
 </div>
 
+## Conférences en milieu scolaire / universitaire
+
 <div class="teaching-entry">
   <p class="teaching-period">Janvier 2020</p>
   <h3 class="teaching-title">Perspectives historiques sur le changement climatique</h3>
