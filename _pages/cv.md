@@ -13,9 +13,9 @@ body_class: page-cv
     <li><a href="#general">Informations générales</a></li>
     <li><a href="#position">Position actuelle</a></li>
     <li><a href="#formation">Formation</a></li>
+    <li><a href="#distinctions">Prix et distinctions</a></li>
     <li><a href="#enseignement-sup">Enseignement universitaire</a></li>
     <li><a href="#enseignement-sec">Enseignement secondaire</a></li>
-    <li><a href="#distinctions">Prix et distinctions</a></li>
   </ul>
 </aside>
 
@@ -71,6 +71,16 @@ body_class: page-cv
 </div>
 </section>
 
+<section class="cv-section" id="distinctions">
+<h2>Prix et distinctions</h2>
+<div class="cv-entry">
+  <span class="cv-entry-date">2023</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Certified AMS Teacher #85</span>
+    <span class="cv-entry-place">American Meteorological Society</span>
+  </div>
+</div>
+</section>
 
 <section class="cv-section" id="enseignement-sup">
 <h2>Enseignement universitaire</h2>
@@ -193,17 +203,6 @@ body_class: page-cv
   </div>
 </div>
 
-</section>
-
-<section class="cv-section" id="distinctions">
-<h2>Prix et distinctions</h2>
-<div class="cv-entry">
-  <span class="cv-entry-date">2023</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Certified AMS Teacher #85</span>
-    <span class="cv-entry-place">American Meteorological Society</span>
-  </div>
-</div>
 </section>
 
 </div>
