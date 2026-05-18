@@ -21,7 +21,11 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-brand">{{ site.title }}</a>
+      {% unless page.url == '/' %}
+        <a href="{{ '/' | relative_url }}" class="site-brand">{{ site.title }}</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}" class="site-brand site-brand-hidden" aria-label="{{ site.title }}"></a>
+      {% endunless %}
       <nav class="site-nav" aria-label="Navigation principale">
         {% for item in site.data.navigation %}
           {% assign current = page.url | replace: '/index.html', '/' %}
