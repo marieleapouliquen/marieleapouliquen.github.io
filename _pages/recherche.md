@@ -24,17 +24,3 @@ Ce travail vise à dépasser l'opposition binaire **nature vs technologie** et �
 **Direction&nbsp;:** Géosciences Rennes × ESO Rennes
 **Financement&nbsp;:** Contrat doctoral CNRS
 
-## Thématiques
-
-- Relations humain-nature *(Human-Nature Connectedness)*
-- Sciences du climat et de l'atmosphère
-- Éducation à l'environnement
-- Sciences participatives et médiation écologique
-
-## Publications
-
-Voir la page [Publications]({{ '/publications/' | relative_url }}) pour la liste complète.
-
-## Communications
-
-*Cette section sera mise à jour au fil des conférences et colloques.*
