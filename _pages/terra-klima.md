@@ -17,9 +17,9 @@ Chaque module propose un **simulateur en accès libre** permettant aux élèves 
     <p>Pourquoi la Terre est-elle « juste à la bonne température » ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
   </div>
   <div class="card">
-    <h3>Modèle 2 — Émissions de CO₂ et réchauffement <span style="font-size:0.75rem;color:var(--color-muted);">(à venir)</span></h3>
-    <p>Projection des trajectoires climatiques à l'horizon 2100 selon différents scénarios d'émissions.</p>
-  </div>
+    <h3><a href="{{ '/terra-klima/co2-rechauffement/' | relative_url }}">Modèle 2 — Émissions de CO₂ et réchauffement</a></h3>
+    <p>Projection des trajectoires climatiques à l'horizon 2100 selon différents scénarios d'émissions et différentes dates de zéro émissions nettes.</p>
+  </div>  
   <div class="card">
     <h3>Modèle 3 — Colonne atmosphérique 1D <span style="font-size:0.75rem;color:var(--color-muted);">(à venir)</span></h3>
     <p>Flux radiatif au sol, diffusion turbulente et relaxation radiative dans une atmosphère simplifiée.</p>
