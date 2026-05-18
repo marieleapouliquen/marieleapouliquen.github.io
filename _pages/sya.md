@@ -87,13 +87,6 @@ Les **sciences de l'environnement** se consacrent à l'étude de la nature au se
 
 </div>
 
-### Méthode d'enseignement
-
-- **Cours magistraux** — présentations en classe pour introduire les concepts et théories clés.
-- **Projets de groupe** — projets de recherche en collaboration sur des sujets tels que le changement climatique, la conservation de l'environnement ou les formes de relief.
-- **Discussions en classe** — débats sur les questions et controverses environnementales actuelles.
-- **Participation à des projets de science citoyenne** — expériences et recherches pratiques pour explorer les écosystèmes locaux, les conditions météorologiques et les pollutions environnementales.
-
 ## EnviroSYA — chaîne YouTube de vulgarisation
 
 Dans le cadre de mes cours à SYA, j'ai conçu une **chaîne YouTube de vulgarisation** en sciences de l'environnement, avec et pour les élèves. Vidéos courtes (en français et en anglais) couvrant les grands thèmes du programme : climat, écosystèmes, biodiversité.
