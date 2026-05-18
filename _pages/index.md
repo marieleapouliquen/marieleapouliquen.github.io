@@ -5,11 +5,14 @@ title: Accueil
 description: Marie-Léa Pouliquen — Doctorante en sciences et humanités environnementales, Université de Rennes
 ---
 
-## Bienvenue
-
-Comment les 15-25 ans se relient-ils aujourd'hui au vivant, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout&nbsp;? C'est la question que j'explore à la croisée de la **sociologie**, de la **psychologie environnementale** et de l'**écologie sensorielle**.
-
-Ma recherche doctorale, **Cap Nature**, articule enquêtes quantitatives, revue systématique et ateliers expérimentaux mobilisant des capteurs participatifs (bioacoustique, applications d'identification d'espèces). L'hypothèse centrale : bien scénarisés, ces outils ne substituent pas la nature à un écran — ils en deviennent un **seuil**.
+<div class="home-hero">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
+  <div class="home-intro">
+    <h2>Bienvenue</h2>
+    <p>Comment les 15-25 ans se relient-ils aujourd'hui au vivant, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question que j'explore à la croisée de la <strong>sociologie</strong>, de la <strong>psychologie environnementale</strong> et de l'<strong>écologie sensorielle</strong>.</p>
+    <p>Ma recherche doctorale, <strong>Cap Nature</strong>, articule enquêtes quantitatives, revue systématique et ateliers expérimentaux mobilisant des capteurs participatifs (bioacoustique, applications d'identification d'espèces). L'hypothèse centrale : bien scénarisés, ces outils ne substituent pas la nature à un écran — ils en deviennent un <strong>seuil</strong>.</p>
+  </div>
+</div>
 
 <div class="cards">
   <div class="card">
