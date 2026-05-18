@@ -75,6 +75,12 @@ Les **sciences de l'environnement** se consacrent à l'étude de la nature au se
 - **Discussions en classe** — débats sur les questions et controverses environnementales actuelles.
 - **Participation à des projets de science citoyenne** — expériences et recherches pratiques pour explorer les écosystèmes locaux, les conditions météorologiques et les pollutions environnementales.
 
+## EnviroSYA — chaîne YouTube de vulgarisation
+
+Dans le cadre de mes cours à SYA, j'ai conçu une **chaîne YouTube de vulgarisation** en sciences de l'environnement, avec et pour les élèves. Vidéos courtes (en français et en anglais) couvrant les grands thèmes du programme : climat, écosystèmes, biodiversité.
+
+<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
+
 ## Le Capstone Project
 
 ### Qu'est-ce qu'un Capstone ?
@@ -128,12 +134,6 @@ Voici, à titre non exhaustif, quelques projets que j'ai supervisés en tant qu'
   <p><em>Keili</em></p>
   <p>Étude des circuits courts alimentaires. Visite de marchés et de restaurants pour interroger producteurs, restaurateurs et consommateurs sur l'origine des produits qu'ils vendent, cuisinent et consomment.</p>
 </div>
-
-## EnviroSYA — chaîne YouTube de vulgarisation
-
-Dans le cadre de mes cours à SYA, j'ai conçu et animé une **chaîne YouTube de vulgarisation** en sciences de l'environnement, conçue avec et pour les élèves. Vidéos courtes (en français et en anglais) couvrant les grands thèmes du programme : climat, écosystèmes, biodiversité, énergie.
-
-<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
 
 
 Pour le détail complet, voir la page [CV]({{ '/cv/' | relative_url }}).
