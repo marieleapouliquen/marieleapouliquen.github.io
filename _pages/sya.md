@@ -9,6 +9,93 @@ De **2021 à 2024**, j'ai été enseignante à temps plein de **Sciences Environ
 
 Au-delà de la transmission du programme américain *AP Environmental Science*, cette expérience m'a permis de développer une **approche pédagogique expérientielle** mêlant sorties de terrain hebdomadaires, projets interdisciplinaires et accompagnement individualisé d'élèves engagé·e·s dans leurs propres projets de recherche.
 
+## Le cours de Sciences Environnementales
+
+*Année 2023-24 · Programme AP Environmental Science · ~40 élèves de Terminale*
+
+### Présentation
+
+Les **sciences de l'environnement** se consacrent à l'étude de la nature au sens large. Cette étude s'étend de la description du monde physique qui nous entoure à l'étude des interactions entre les communautés animales ou végétales, en passant par la recherche des lois fondamentales régissant le fonctionnement des organismes et de leur milieu. Par essence, les sciences de l'environnement sont un domaine **pluridisciplinaire**.
+
+### Objectifs du cours
+
+- Fournir une **base solide** pour comprendre les **enjeux environnementaux contemporains** liés au changement climatique, à la perte de biodiversité, à la gestion des ressources et au développement durable.
+- Amener à une **compréhension globale** des caractéristiques physiques de la Terre.
+- Étudier les **impacts des activités humaines** sur l'environnement naturel.
+- Familiariser avec les pratiques du **développement durable** (*sustainable development*).
+- Développer des **compétences scientifiques** (observation, hypothèse, déduction, pensée critique) et d'**analyse spatiale** et de **communication** (écriture de rapports scientifiques, présentation orale).
+
+### Les quatre grands thèmes abordés
+
+<div class="syllabus-bubbles">
+  <div class="bubble bubble-eco">
+    <h4>Écosystèmes, biodiversité et conservation</h4>
+    <p>Principes de l'écologie globale, distribution de la vie végétale et animale sur Terre.</p>
+  </div>
+  <div class="bubble bubble-geo">
+    <h4>Géographie physique</h4>
+    <p>Analyse du paysage, histoire géologique et ressources minérales de la France.</p>
+  </div>
+  <div class="bubble bubble-clim">
+    <h4>Climat, air et océan</h4>
+    <p>Facteurs climatiques, dynamique de l'atmosphère et de l'océan.</p>
+  </div>
+  <div class="bubble bubble-res">
+    <h4>Ressources et sociétés humaines</h4>
+    <p>Impacts des activités humaines sur les ressources (eau, air, biodiversité), pollutions, développement durable.</p>
+  </div>
+</div>
+
+### Programme détaillé sur l'année
+
+<div class="syllabus-program">
+
+<div class="semester">
+<h4>Premier semestre</h4>
+
+<div class="program-item">
+<strong>Écosystèmes, biodiversité et conservation</strong> — introduction aux principes d'écologie globale, exploration de la distribution de la vie végétale et animale sur Terre, et impacts des activités humaines sur les habitats naturels et la biodiversité.
+<em>Accent particulier sur les écosystèmes locaux à travers des sorties d'écologie dans les parcs urbains.</em>
+</div>
+
+<div class="program-item">
+<strong>Géographie physique de la France</strong> — étude des paysages, de l'histoire géologique et des ressources minérales du territoire français.
+</div>
+
+<div class="program-item">
+<strong>Processus géologiques de la Terre</strong> — vue d'ensemble de la Terre solide, sa formation et les processus géodynamiques qui modèlent les paysages terrestres.
+</div>
+
+</div>
+
+<div class="semester">
+<h4>Second semestre</h4>
+
+<div class="program-item">
+<strong>Processus climatiques</strong> — introduction aux paléoclimats et à l'évolution contemporaine, répartition des climats (classification de Köppen) et indicateurs statistiques, effet de serre.
+<em>Accent particulier sur les effets locaux du changement climatique (îlots de chaleur urbains).</em>
+</div>
+
+<div class="program-item">
+<strong>Systèmes atmosphériques et océaniques</strong> — vue d'ensemble de la dynamique globale de l'atmosphère et de l'océan, introduction à la qualité de l'air.
+<em>Utilisation de la station météorologique pédagogique et des données locales de qualité de l'air dans le cadre d'un projet de science citoyenne.</em>
+</div>
+
+<div class="program-item">
+<strong>Ressources en eau</strong> — vue d'ensemble du cycle hydrologique, introduction à la qualité de l'eau, aux systèmes de production alimentaire et à leurs interactions avec la société.
+</div>
+
+</div>
+
+</div>
+
+### Méthode d'enseignement
+
+- **Cours magistraux** — présentations en classe pour introduire les concepts et théories clés.
+- **Projets de groupe** — projets de recherche en collaboration sur des sujets tels que le changement climatique, la conservation de l'environnement ou les formes de relief.
+- **Discussions en classe** — débats sur les questions et controverses environnementales actuelles.
+- **Participation à des projets de science citoyenne** — expériences et recherches pratiques pour explorer les écosystèmes locaux, les conditions météorologiques et les pollutions environnementales.
+
 ## Le Capstone Project
 
 ### Qu'est-ce qu'un Capstone ?
