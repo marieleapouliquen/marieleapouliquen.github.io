@@ -594,3 +594,83 @@ body.page-cv .container { max-width: 1280px; }
   background: var(--color-text);
   color: var(--color-bg);
 }
+
+
+/* ---------- DIAGRAMME À BULLES (Syllabus SYA) ---------- */
+.syllabus-bubbles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 700px;
+}
+
+.bubble {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  padding: 2rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bubble:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.bubble h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 0.6rem 0;
+  color: white;
+  line-height: 1.25;
+}
+
+.bubble p {
+  font-size: 0.82rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.4;
+}
+
+/* Couleurs inspirées de l'original */
+.bubble-eco { background: #3a7a52; }       /* Vert forêt */
+.bubble-geo { background: #6dab87; }       /* Vert clair */
+.bubble-clim { background: #4a7fa0; }      /* Bleu océan */
+.bubble-res { background: #7fc3d6; }       /* Bleu clair */
+
+/* Légère imbrication visuelle façon original */
+.bubble-eco { transform: translate(20px, 20px); }
+.bubble-geo { transform: translate(-10px, -10px); }
+.bubble-clim { transform: translate(10px, -20px); }
+.bubble-res { transform: translate(-15px, 10px); }
+
+.bubble-eco:hover { transform: translate(20px, 17px); }
+.bubble-geo:hover { transform: translate(-10px, -13px); }
+.bubble-clim:hover { transform: translate(10px, -23px); }
+.bubble-res:hover { transform: translate(-15px, 7px); }
+
+@media (max-width: 600px) {
+  .syllabus-bubbles {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bubble {
+    aspect-ratio: 1.4 / 1;
+    border-radius: 16px;
+    padding: 1.2rem;
+    transform: none !important;
+  }
+}
