@@ -32,8 +32,6 @@ Au-delà de la transmission du programme de sciences environnementales, cette ex
 
 ## Le cours de Sciences Environnementales
 
-*Année 2023-24 · Programme AP Environmental Science · ~40 élèves de Terminale*
-
 ### Présentation
 
 Les **sciences de l'environnement** se consacrent à l'étude de la nature au sens large. Cette étude s'étend de la description du monde physique qui nous entoure à l'étude des interactions entre les communautés animales ou végétales, en passant par la recherche des lois fondamentales régissant le fonctionnement des organismes et de leur milieu. Par essence, les sciences de l'environnement sont un domaine **pluridisciplinaire**.
