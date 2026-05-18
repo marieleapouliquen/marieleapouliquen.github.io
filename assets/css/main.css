@@ -1,5 +1,5 @@
 /* ===========================================================================
-   STYLE ACADÉMIQUE ÉPURÉ — inspiré du site de Camille Godbillot
+   STYLE ACADÉMIQUE ÉPURÉ 
    =========================================================================== */
 
 :root {
@@ -252,14 +252,14 @@ figcaption {
 .site-footer a:hover { color: var(--color-text); text-decoration: underline; }
 
 /* ===========================================================================
-   PAGE CV — sommaire latéral sticky + cartes (style Camille)
+   PAGE CV — sommaire latéral sticky + cartes
    =========================================================================== */
 
 .cv-layout {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 3rem;
-  max-width: var(--max-width);
+  grid-template-columns: 170px 1fr;
+  gap: 2.5rem;
+  max-width: 1280px;
   margin: 0 auto;
   align-items: start;
 }
@@ -281,10 +281,12 @@ figcaption {
 
 .cv-toc-list a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 0.8rem;
   color: var(--color-muted);
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 1.3;
   border-left: 2px solid transparent;
   margin-left: -1px;
   transition: all 0.15s ease;
