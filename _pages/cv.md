@@ -210,8 +210,6 @@ body_class: page-cv
 </div>
 </section>
 
-<p style="margin-top: 2rem;">Voir aussi : <a href="{{ '/publications/' | relative_url }}">Publications</a> · <a href="{{ '/diffusion/' | relative_url }}">Diffusion et médiation</a></p>
-
 </div>
 </div>
 
