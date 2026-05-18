@@ -544,5 +544,4 @@ body.page-cv .container { max-width: 1280px; }
 /* Cacher le nom dans le header sur la page d'accueil */
 .site-brand-hidden {
   visibility: hidden;
-  width: 0;
 }
