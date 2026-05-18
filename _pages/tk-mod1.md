@@ -5,7 +5,7 @@ title: ""
 description: "Modèle interactif d'équilibre radiatif planétaire — Terra Klima"
 ---
 
-<p style="margin-bottom: 1.5rem;"><a href="{{ '/diffusion/' | relative_url }}">← Retour à Diffusion</a></p>
+<p style="margin-bottom: 1.5rem;"><a href="{{ '/terra-klima/' | relative_url }}">← Retour à Terra Klima</a></p>
 
 <!-- ============ TERRA KLIMA · MODÈLE 1 · PLANÈTES BOUCLE D'OR ============ -->
 <style>
