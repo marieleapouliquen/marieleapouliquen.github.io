@@ -4,23 +4,20 @@
 - title: Accueil
   url: /
 
-- title: Recherche
-  url: /recherche/
+- title: À propos
+  url: /about/
 
-- title: Enseignement
-  url: /enseignement/
+- title: CV
+  url: /cv/
 
 - title: Publications
   url: /publications/
 
 - title: Diffusion
   url: /diffusion/
-
-- title: CV
-  url: /cv/
-
-- title: À propos
-  url: /about/
+  
+- title: Enseignement
+  url: /enseignement/
 
 - title: English
   url: /en/
