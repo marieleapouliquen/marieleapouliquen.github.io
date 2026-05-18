@@ -9,6 +9,27 @@ De **2021 à 2024**, j'ai été enseignante à temps plein de **Sciences Environ
 
 Au-delà de la transmission du programme de sciences environnementales, cette expérience m'a permis de développer une **approche pédagogique expérientielle** mêlant sorties de terrain hebdomadaires, projets interdisciplinaires et accompagnement individualisé d'élèves engagé·e·s dans leurs propres projets de recherche.
 
+<div class="sya-gallery">
+  <a href="{{ '/assets/img/sya-jardin-recolte.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-jardin-recolte.jpg' | relative_url }}" alt="Élèves récoltant au jardin partagé de Rennes" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/sya-fieldwork-coucher-soleil.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-fieldwork-coucher-soleil.jpg' | relative_url }}" alt="Sortie de terrain au jardin partagé en fin de journée" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/sya-atelier-capteurs.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-atelier-capteurs.jpg' | relative_url }}" alt="Atelier de fabrication de capteurs en classe" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/sya-capteurs-mains.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-capteurs-mains.jpg' | relative_url }}" alt="Capteurs participatifs en cours d'assemblage" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/sya-expo-bauge-cob.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-expo-bauge-cob.jpg' | relative_url }}" alt="Visite d'exposition sur l'architecture vernaculaire (bauge, cob)" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/sya-cartes-climat.jpg' | relative_url }}" class="sya-gallery-item">
+    <img src="{{ '/assets/img/sya-cartes-climat.jpg' | relative_url }}" alt="Atelier cartes du climat en classe" loading="lazy">
+  </a>
+</div>
+
 ## Le cours de Sciences Environnementales
 
 *Année 2023-24 · Programme AP Environmental Science · ~40 élèves de Terminale*
