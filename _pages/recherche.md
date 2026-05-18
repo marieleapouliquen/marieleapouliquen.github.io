@@ -18,9 +18,3 @@ Le projet articule **trois études complémentaires** :
 - des **ateliers expérimentaux en plein air** mobilisant des capteurs participatifs (bioacoustique, applications d'identification d'espèces), avec mesures pré/post de la connexion à la nature.
 
 L'hypothèse centrale : bien scénarisés, ces outils ne substituent pas la nature à un écran — ils en deviennent un **seuil**. Ils rendent audible et visible ce que l'œil et l'oreille nus ne captent plus, et soutiennent un lien sensible et réflexif au vivant.
-
-Ce travail vise à dépasser l'opposition binaire **nature vs technologie** et à produire des repères utiles aux **éducateurs, médiateurs et collectivités** engagés dans la transition écologique.
-
-**Direction&nbsp;:** Géosciences Rennes × ESO Rennes
-**Financement&nbsp;:** Contrat doctoral CNRS
-
