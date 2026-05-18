@@ -481,11 +481,28 @@ body.page-cv .container { max-width: 1280px; }
   border: 0;
 }
 
-
 /* ---------- HERO PAGE D'ACCUEIL avec photo ---------- */
+.home-name {
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+
+.home-name h1 {
+  font-family: var(--font-serif);
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.home-name h1 strong {
+  font-weight: 600;
+}
+
 .home-hero {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 1fr 240px;
   gap: 2.5rem;
   align-items: start;
   margin-bottom: 3rem;
@@ -498,11 +515,6 @@ body.page-cv .container { max-width: 1280px; }
   display: block;
 }
 
-.home-intro h2 {
-  margin-top: 0;
-  font-size: 1.8rem;
-}
-
 .home-intro p {
   margin-bottom: 1rem;
 }
@@ -512,6 +524,10 @@ body.page-cv .container { max-width: 1280px; }
 }
 
 @media (max-width: 700px) {
+  .home-name h1 {
+    font-size: 2.4rem;
+  }
+
   .home-hero {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -520,9 +536,6 @@ body.page-cv .container { max-width: 1280px; }
   .home-photo {
     max-width: 220px;
     margin: 0 auto;
-  }
-
-  .home-intro {
-    text-align: left;
+    order: -1;
   }
 }
