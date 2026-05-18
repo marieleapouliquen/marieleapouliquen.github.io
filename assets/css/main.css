@@ -551,3 +551,46 @@ body.page-cv .container { max-width: 1280px; }
   content: "Marie-Léa Pouliquen";
   visibility: hidden;
 }
+
+
+/* ---------- CARTES CAPSTONE (page SYA) ---------- */
+.capstone {
+  border-left: 3px solid var(--color-border);
+  padding: 0.5rem 0 0.5rem 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.capstone h4 {
+  margin: 0 0 0.2rem 0;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--color-text);
+}
+
+.capstone p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.capstone p:first-of-type {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* ---------- BOUTON EXTERNE (YouTube, etc.) ---------- */
+.btn-external {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.btn-external:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
