@@ -73,53 +73,130 @@ body_class: page-cv
 </div>
 </section>
 
+
 <section class="cv-section" id="enseignement-sup">
 <h2>Enseignement universitaire</h2>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2026, hiver</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Dynamique des Enveloppes Fluides (Géophysique)</span>
-    <span class="cv-entry-place">Université de Rennes — Licence STE/SVT/CPES · 30h</span>
+    <span class="cv-entry-place">Université de Rennes — Licence Physique, Chimie, Sciences de la Terre · 30h</span>
+    <ul>
+      <li>Cours magistraux (lois fondamentales de la dynamique atmosphérique et océanique)</li>
+      <li>Travaux dirigés en demi-groupes (équations primitives, ondes, instabilités)</li>
+      <li>Module rattaché à la licence STE/SVT/CPES (3 ECTS indicatifs)</li>
+    </ul>
   </div>
 </div>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2025, automne</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Challenge Transition Énergétique et Sociétale</span>
-    <span class="cv-entry-place">Université de Rennes — Tutorat de 4 groupes au Géo Fablab · 20h</span>
+    <span class="cv-entry-place">Université de Rennes — Licence Physique, Chimie, Sciences de la Terre · 20h</span>
+    <ul>
+      <li>Encadrement (tutorat) de 4 groupes d'étudiant·e·s sur un projet expérimental au Géo Fablab</li>
+      <li>Accompagnement à la formulation d'une problématique, à la conception du protocole et à la restitution</li>
+    </ul>
   </div>
 </div>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2023, automne</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Milieux et Environnement</span>
-    <span class="cv-entry-place">Université Rennes 2 — Licence Géographie · 6h</span>
+    <span class="cv-entry-title">Milieux et Environnement (Géographie Physique et Sociale)</span>
+    <span class="cv-entry-place">Université Rennes 2 — Licence 1 Géographie · 12h (cours + séminaires)</span>
+    <ul>
+      <li>Cours magistraux et séminaires pour étudiant·e·s de licence (30 étudiants)</li>
+      <li>Approche centrée sur les environnements et enjeux environnementaux contemporains</li>
+      <li>Études de cas et projet municipal final (analyse territoriale)</li>
+    </ul>
   </div>
 </div>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2020, automne</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Processus du Système Climatique</span>
-    <span class="cv-entry-place">Institut Supérieur de l'Environnement, Versailles — Licence 2 · 20h</span>
+    <span class="cv-entry-place">Institut Supérieur de l'Environnement, Versailles — Bachelor 2 Écologie et Gestion de l'Environnement · 20h</span>
+    <ul>
+      <li>Conception complète de l'UE (objectifs, séquences, supports, évaluation)</li>
+      <li>Cours magistraux : bilan radiatif, dynamique atmosphérique, cycle de l'eau, forçages climatiques</li>
+      <li>Articulation avec les enjeux contemporains (GIEC, scénarios de transition)</li>
+    </ul>
   </div>
 </div>
+
 </section>
 
 <section class="cv-section" id="enseignement-sec">
 <h2>Enseignement secondaire</h2>
+
 <div class="cv-entry">
-  <span class="cv-entry-date">2021 — 2024</span>
+  <span class="cv-entry-date">2021 — 2024<br>3 ans</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Professeure de Sciences Environnementales (CDI temps complet)</span>
-    <span class="cv-entry-place">School Year Abroad (SYA France) — Rennes</span>
+    <span class="cv-entry-title">Professeure de Sciences Environnementales — CDI temps complet</span>
+    <span class="cv-entry-place">School Year Abroad (SYA France) — American School of Rennes</span>
+
+    <p style="margin: 0.6rem 0 0.4rem 0; color: var(--color-muted);"><em>SYA est un réseau international d'écoles américaines accueillant des lycéens américains pour une année d'immersion linguistique et culturelle (France, Italie, Espagne).</em></p>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Responsabilité du cursus de Sciences Environnementales</strong></p>
     <ul>
-      <li>Responsable du cursus Sciences Environnementales (AP Environmental Science)</li>
-      <li>Enseignement de 3 sections (9h/semaine, ~40 élèves)</li>
-      <li>Encadrement de projets de recherche, conseil pédagogique, voyages scolaires</li>
+      <li>Conception du syllabus complet conforme au programme américain <em>AP Environmental Science</em> (écosystèmes, cycles biogéochimiques, biodiversité, énergie, climat)</li>
+      <li>Planification annuelle, mise à jour des ressources pédagogiques, évaluation des apprentissages</li>
+      <li>Adaptation au contexte géographique et culturel français (études de cas, sorties locales)</li>
+    </ul>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Enseignement (9 h/semaine, ~40 élèves)</strong></p>
+    <ul>
+      <li>3 sections de cours de Sciences Environnementales, couvrant l'ensemble du programme AP</li>
+      <li>Utilisation des outils pédagogiques numériques (Canvas LMS, Slack) pour le suivi, la communication et l'évaluation continue</li>
+    </ul>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Activités pédagogiques complémentaires</strong></p>
+    <ul>
+      <li><strong>Fieldworks &amp; field-trips</strong> — sorties pédagogiques hebdomadaires (~30 par an) couplées à 2 h de cours : apprentissage expérientiel sur le terrain</li>
+      <li><strong>Encadrement des Capstones</strong> (2 h/semaine, 15-20 élèves) — projets de recherche interdisciplinaires des élèves de terminale</li>
+      <li><strong>Club de Sciences</strong> (5-6 élèves) — animations et expérimentations</li>
+      <li>Sorties spécifiques : échanges avec le lycée public Jean Macé, World Cleanup Day, projections-débats</li>
+    </ul>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Suivi individualisé</strong></p>
+    <ul>
+      <li>Conseil pédagogique : tutorat personnalisé de 8 élèves (accompagnement scolaire et personnel)</li>
+      <li>Lettres d'évaluation semestrielles et lettres de recommandation</li>
+      <li>Rédaction de rapports quadrimestriels aux familles</li>
+    </ul>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Vie de l'établissement</strong></p>
+    <ul>
+      <li>Participation aux réunions de faculté et au conseil pédagogique</li>
+      <li>Encadrement de voyages scolaires (3 semaines par an, France et Europe)</li>
+      <li>Accompagnement d'examens standardisés (SAT, AP)</li>
+      <li>Collaboration interdisciplinaire avec les enseignants d'histoire, littérature et arts (projets conjoints)</li>
+    </ul>
+
+    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Certification</strong></p>
+    <ul>
+      <li>Obtention du <strong>certificat d'enseignement de l'American Meteorological Society</strong> (CAT 85, 2023), sur présentation d'un dossier pédagogique relatif à la qualité de l'air auprès du jury de l'AMS</li>
     </ul>
   </div>
 </div>
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2015 — 2016</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Tutorat en Mathématiques, Physique et Chimie</span>
+    <span class="cv-entry-place">Lycée Edgar Morin, Douai</span>
+    <ul>
+      <li>Soutien scolaire à des lycéens en difficulté, dans le cadre de l'engagement étudiant de l'École des Mines de Douai</li>
+    </ul>
+  </div>
+</div>
+
 </section>
+
 
 <section class="cv-section" id="international">
 <h2>Expériences internationales</h2>
