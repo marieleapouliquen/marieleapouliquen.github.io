@@ -25,27 +25,6 @@ Les **sciences de l'environnement** se consacrent à l'étude de la nature au se
 - Familiariser avec les pratiques du **développement durable** (*sustainable development*).
 - Développer des **compétences scientifiques** (observation, hypothèse, déduction, pensée critique) et d'**analyse spatiale** et de **communication** (écriture de rapports scientifiques, présentation orale).
 
-### Les quatre grands thèmes abordés
-
-<div class="syllabus-bubbles">
-  <div class="bubble bubble-eco">
-    <h4>Écosystèmes, biodiversité et conservation</h4>
-    <p>Principes de l'écologie globale, distribution de la vie végétale et animale sur Terre.</p>
-  </div>
-  <div class="bubble bubble-geo">
-    <h4>Géographie physique</h4>
-    <p>Analyse du paysage, histoire géologique et ressources minérales de la France.</p>
-  </div>
-  <div class="bubble bubble-clim">
-    <h4>Climat, air et océan</h4>
-    <p>Facteurs climatiques, dynamique de l'atmosphère et de l'océan.</p>
-  </div>
-  <div class="bubble bubble-res">
-    <h4>Ressources et sociétés humaines</h4>
-    <p>Impacts des activités humaines sur les ressources (eau, air, biodiversité), pollutions, développement durable.</p>
-  </div>
-</div>
-
 ### Programme détaillé sur l'année
 
 <div class="syllabus-program">
@@ -156,15 +135,5 @@ Dans le cadre de mes cours à SYA, j'ai conçu et animé une **chaîne YouTube d
 
 <p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
 
-## Au-delà du Capstone
-
-Mon poste à SYA comportait plusieurs autres dimensions :
-
-- **Curriculum complet** *AP Environmental Science* — conception du syllabus, planification annuelle, mise à jour des ressources pédagogiques, évaluation continue (Canvas LMS).
-- **Fieldworks hebdomadaires** — environ 30 sorties de terrain par an, couplées aux 2 h de cours hebdomadaires, dans une logique d'apprentissage expérientiel.
-- **Club de Sciences** — animations et expérimentations avec un petit groupe d'élèves volontaires (2 h/mois).
-- **Conseil pédagogique** — tutorat personnalisé de 8 élèves (suivi scolaire, accompagnement personnel, lettres de recommandation).
-- **Voyages scolaires** — accompagnement et encadrement de séjours pédagogiques en France et en Europe (3 semaines/an).
-- **Vie de l'établissement** — réunions de faculté, encadrement d'examens standardisés (SAT, AP), collaborations interdisciplinaires avec les enseignants d'histoire, littérature et arts.
 
 Pour le détail complet, voir la page [CV]({{ '/cv/' | relative_url }}).
