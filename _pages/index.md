@@ -1,13 +1,9 @@
 ---
 layout: default
 permalink: /
-title: Accueil
+title: Marie-Léa Pouliquen
 description: Marie-Léa Pouliquen — Doctorante en sciences et humanités environnementales, Université de Rennes
 ---
-
-<header class="home-name">
-  <h1><strong>Marie-Léa</strong> Pouliquen</h1>
-</header>
 
 <div class="home-hero">
   <div class="home-intro">
