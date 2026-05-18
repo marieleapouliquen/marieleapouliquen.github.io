@@ -181,10 +181,12 @@ hr {
   position: sticky;
   top: 5rem;
   font-size: 0.9rem;
-  background: var(--color-sidebar-bg);
-  padding: 1.5rem;
+  background: #C0F0E0 !important;
+  padding: 1.5rem !important;
   border-radius: 4px;
+  min-height: 200px;
 }
+
 
 .sidebar-photo {
   width: 100%;
