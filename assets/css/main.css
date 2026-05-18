@@ -14,6 +14,9 @@
   --color-link: #000000;
   --color-link-hover: #666666;
 
+  --color-header-bg: #E8D9FC;  # Mauve Pâle
+  --color-sidebar-bg: #C0F0E0; # Vert Pâle
+   
   --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, Monaco, monospace;
