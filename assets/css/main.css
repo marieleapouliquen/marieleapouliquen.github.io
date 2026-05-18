@@ -477,3 +477,94 @@ figcaption {
   h1 { font-size: 2rem; }
   .page-title { font-size: 2rem; }
 }
+
+
+/* ===========================================================================
+   STYLE CV — date à gauche, contenu à droite (inspiré al-folio)
+   =========================================================================== */
+
+.cv-section {
+  margin: 2.5rem 0;
+}
+
+.cv-section h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0 0 1.2rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.4rem;
+  align-items: start;
+}
+
+.cv-entry .cv-date {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  padding-top: 0.2rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cv-entry .cv-content {
+  font-size: 0.95rem;
+}
+
+.cv-entry .cv-content strong,
+.cv-entry .cv-content .cv-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+  color: var(--color-text);
+}
+
+.cv-entry .cv-content .cv-place {
+  color: var(--color-muted);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.cv-entry .cv-content ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.cv-entry .cv-content ul li {
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+  .cv-entry .cv-date {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+}
+
+/* PDF download link en haut du CV */
+.cv-pdf-link {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+  padding: 0.8rem 1rem;
+  background: var(--color-bg-alt);
+  border-radius: 4px;
+}
+
+.cv-pdf-link a {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+
