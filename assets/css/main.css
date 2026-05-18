@@ -415,7 +415,7 @@ body.page-cv .page-content {
   max-width: none;
 }
 
-body.page-cv .container { max-width: 1200px; }
+body.page-cv .container { max-width: 1280px; }
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
