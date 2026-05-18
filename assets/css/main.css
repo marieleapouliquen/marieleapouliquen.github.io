@@ -1,0 +1,473 @@
+/* ===========================================================================
+   STYLE ACADÉMIQUE CLASSIQUE — NOIR & BLANC
+   Inspiré d'al-folio mais épuré sur mesure pour Marie-Léa Pouliquen
+   =========================================================================== */
+
+/* ---------- Variables ---------- */
+:root {
+  --color-text: #111111;
+  --color-muted: #666666;
+  --color-light: #999999;
+  --color-bg: #ffffff;
+  --color-bg-alt: #fafafa;
+  --color-border: #e5e5e5;
+  --color-link: #000000;
+  --color-link-hover: #666666;
+
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', Consolas, Monaco, monospace;
+
+  --max-width: 1200px;
+  --sidebar-width: 240px;
+  --gap: 3rem;
+
+  --text-base: 17px;
+  --line-height: 1.65;
+}
+
+/* ---------- Reset & base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: var(--text-base);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-feature-settings: 'kern', 'liga';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- Typographie ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 1.5em 0 0.5em 0;
+  color: var(--color-text);
+}
+
+h1 { font-size: 2.4rem; margin-top: 0; letter-spacing: -0.01em; }
+h2 { font-size: 1.7rem; margin-top: 2em; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.1rem; font-weight: 600; }
+
+p, ul, ol {
+  margin: 0 0 1em 0;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+strong { font-weight: 600; }
+em { font-style: italic; }
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 0.5em 1.5em;
+  border-left: 3px solid var(--color-border);
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-bg-alt);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 3em 0;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ---------- HEADER ---------- */
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  padding: 1.5rem 0;
+  background: var(--color-bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-brand {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+
+.site-brand:hover { color: var(--color-muted); }
+
+.site-nav {
+  display: flex;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--color-muted);
+  transition: color 0.15s ease;
+  font-weight: 400;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--color-text);
+}
+
+.site-nav a.active {
+  font-weight: 500;
+}
+
+/* ---------- MAIN avec sidebar ---------- */
+.site-main {
+  padding: 3rem 0 5rem 0;
+  min-height: 60vh;
+}
+
+.layout-with-sidebar {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  gap: var(--gap);
+  align-items: start;
+}
+
+/* ---------- SIDEBAR minimaliste ---------- */
+.sidebar {
+  position: sticky;
+  top: 5rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-photo {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.sidebar-name {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  margin: 0 0 0.3rem 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.sidebar-role {
+  margin: 0 0 0.8rem 0;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.sidebar-affiliation {
+  margin: 0 0 1.2rem 0;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.sidebar-affiliation a {
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.sidebar-affiliation a:hover {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+}
+
+.sidebar-links li {
+  margin: 0.3rem 0;
+}
+
+.sidebar-links a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.sidebar-links a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- CONTENU PRINCIPAL ---------- */
+.page-content {
+  max-width: 720px;
+}
+
+.page-header {
+  margin-bottom: 2.5rem;
+}
+
+.page-title {
+  font-size: 2.6rem;
+  margin: 0 0 0.3rem 0;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-muted);
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+/* ---------- Composants spéciaux ---------- */
+
+/* News (actualités à la Camille Godbillot) */
+.news-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.news-table td {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.news-table td.news-date {
+  width: 130px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  padding-right: 1rem;
+}
+
+/* Cartes (3 axes : recherche / enseignement / diffusion) */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+  background: var(--color-bg);
+  transition: border-color 0.15s ease;
+}
+
+.card:hover { border-color: var(--color-text); }
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/* Publication entries */
+.publication {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.publication:last-child { border-bottom: none; }
+
+.publication .pub-title {
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+}
+
+.publication .pub-authors {
+  color: var(--color-muted);
+  margin: 0 0 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.publication .pub-venue {
+  font-style: italic;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.publication .pub-abstract {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-top: 0.8rem;
+}
+
+/* Teaching entries */
+.teaching-entry {
+  margin-bottom: 2rem;
+}
+
+.teaching-entry .teaching-period {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.3rem 0;
+}
+
+.teaching-entry .teaching-title {
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+}
+
+.teaching-entry .teaching-institution {
+  color: var(--color-muted);
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Two-column block (pour l'accueil par ex.) */
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* ---------- FOOTER ---------- */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+.site-footer a {
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+/* ---------- IMAGES ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .layout-with-sidebar {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .sidebar {
+    position: static;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .sidebar-photo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .sidebar-links li { margin: 0; }
+}
+
+@media (max-width: 600px) {
+  :root { --text-base: 16px; }
+
+  .container { padding: 0 1.2rem; }
+
+  .site-nav {
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+
+  h1 { font-size: 2rem; }
+  .page-title { font-size: 2rem; }
+}

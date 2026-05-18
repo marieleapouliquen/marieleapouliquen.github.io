@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#f5f5f5"/>
+  <circle cx="250" cy="200" r="80" fill="#d0d0d0"/>
+  <path d="M 130 400 Q 130 320 250 320 Q 370 320 370 400 L 370 500 L 130 500 Z" fill="#d0d0d0"/>
+  <text x="250" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#888">profile.jpg</text>
+</svg>

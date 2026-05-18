@@ -1,0 +1,26 @@
+# Menu principal du site
+# L'ordre ici détermine l'ordre d'affichage dans le header
+
+- title: Accueil
+  url: /
+
+- title: Recherche
+  url: /recherche/
+
+- title: Enseignement
+  url: /enseignement/
+
+- title: Publications
+  url: /publications/
+
+- title: Diffusion
+  url: /diffusion/
+
+- title: CV
+  url: /cv/
+
+- title: À propos
+  url: /about/
+
+- title: English
+  url: /en/

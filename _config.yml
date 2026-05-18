@@ -1,0 +1,102 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Marie-Léa Pouliquen
+description: Doctorante en sciences et humanités environnementales — Université de Rennes
+url: https://USERNAME.github.io  # à remplacer après création du dépôt
+baseurl: ""
+permalink: /:title/
+lang: fr
+timezone: Europe/Paris
+
+# Auteur (apparaît partout)
+author:
+  name: Marie-Léa Pouliquen
+  email: marie-lea.pouliquen@univ-rennes.fr
+  affiliation: Université de Rennes
+  affiliation_short: Univ. Rennes
+  labs:
+    - name: Géosciences Rennes
+      url: https://geosciences.univ-rennes.fr/
+    - name: ESO Rennes
+      url: https://eso.cnrs.fr/
+
+# Liens académiques (apparaissent dans la sidebar et le footer)
+# Décommentez et remplissez quand les comptes sont créés
+social:
+  email: marie-lea.pouliquen@univ-rennes.fr
+  # orcid: 0000-0000-0000-0000
+  # google_scholar: XXXXXXXX
+  # hal: marie-lea-pouliquen
+  # linkedin: marielea-pouliquen
+  # researchgate: Marie-Lea-Pouliquen
+  # github: marielea-pouliquen
+
+# Photo de profil — uploadez votre photo dans assets/img/profile.jpg
+profile:
+  photo: profile.jpg
+  alt: "Marie-Léa Pouliquen"
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - MIGRATION.md
+  - LICENSE
+
+# Collections (équivalent d'al-folio, mais épuré)
+collections:
+  news:
+    output: false
+  pages:
+    output: true
+    permalink: /:path/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# -----------------------------------------------------------------------------
+# Apparence
+# -----------------------------------------------------------------------------
+
+# Style typographique : serif pour titres, sans-serif pour texte
+fonts:
+  serif: "EB Garamond"     # titres
+  sans_serif: "Inter"      # texte courant
+  monospace: "JetBrains Mono"
+
+# Palette (noir et blanc épuré)
+colors:
+  text: "#111111"
+  background: "#ffffff"
+  muted: "#666666"
+  border: "#e5e5e5"
+  link: "#000000"
+  link_hover: "#666666"
+
+# -----------------------------------------------------------------------------
+# Navigation
+# -----------------------------------------------------------------------------
+
+# Le menu est défini dans _data/navigation.yml
