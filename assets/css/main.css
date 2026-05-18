@@ -18,8 +18,8 @@
   --font-mono: 'JetBrains Mono', Consolas, Monaco, monospace;
 
   --max-width: 1100px;
-  --text-base: 17px;
-  --line-height: 1.65;
+  --text-base: 14px;
+  --line-height: 1.4;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
