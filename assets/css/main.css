@@ -544,4 +544,10 @@ body.page-cv .container { max-width: 1280px; }
 /* Cacher le nom dans le header sur la page d'accueil */
 .site-brand-hidden {
   visibility: hidden;
+  /* Garde la même largeur que le texte visible "Marie-Léa Pouliquen" */
+}
+
+.site-brand-hidden::before {
+  content: "Marie-Léa Pouliquen";
+  visibility: hidden;
 }
