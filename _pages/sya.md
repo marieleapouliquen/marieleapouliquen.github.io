@@ -134,6 +134,3 @@ Voici, à titre non exhaustif, quelques projets que j'ai supervisés en tant qu'
   <p><em>Keili</em></p>
   <p>Étude des circuits courts alimentaires. Visite de marchés et de restaurants pour interroger producteurs, restaurateurs et consommateurs sur l'origine des produits qu'ils vendent, cuisinent et consomment.</p>
 </div>
-
-
-Pour le détail complet, voir la page [CV]({{ '/cv/' | relative_url }}).
