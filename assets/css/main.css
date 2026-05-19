@@ -1249,3 +1249,118 @@ body.page-cv .container { max-width: 1280px; }
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ===========================================================================
+   ACCORDÉONS HTML5 (<details>) — pages Recherche & CV
+   =========================================================================== */
+
+/* Reset largeur des pages en accordéon : pleine largeur, pas de sidebar */
+body.page-accordion .page-content {
+  max-width: none;
+}
+
+body.page-accordion .container {
+  max-width: var(--max-width);
+}
+
+/* Header de page */
+body.page-accordion .cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+body.page-accordion .cv-header-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+body.page-accordion .cv-header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+/* Style de chaque accordéon */
+.accordion-section {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+/* Le résumé = titre cliquable */
+.accordion-section > summary {
+  cursor: pointer;
+  padding: 1.2rem 1.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  transition: background 0.15s ease;
+}
+
+.accordion-section > summary:hover {
+  background: var(--color-bg-alt);
+}
+
+/* Cache la flèche par défaut (Safari, Firefox) */
+.accordion-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-section > summary::marker {
+  display: none;
+}
+
+/* Ajoute notre propre indicateur */
+.accordion-section > summary::after {
+  content: "+";
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  transition: transform 0.2s ease;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.accordion-section[open] > summary::after {
+  content: "−";
+}
+
+.accordion-section[open] > summary {
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Contenu déplié */
+.accordion-content {
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.accordion-content > *:first-child {
+  margin-top: 0;
+}
+
+.accordion-content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Sur mobile : police plus petite pour les titres */
+@media (max-width: 700px) {
+  .accordion-section > summary {
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+  .accordion-content {
+    padding: 1.2rem 1.4rem 1.5rem 1.4rem;
+  }
+}
