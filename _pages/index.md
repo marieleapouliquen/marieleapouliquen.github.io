@@ -14,11 +14,11 @@ description: Marie-Léa Pouliquen — doctorante
 <div class="home-hero home-hero-card">
 
   <div class="home-intro">
-    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590).</p>
+    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590). J'explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/cap-nature/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature. </p>
 
     <p>Avant la thèse, j'ai étudié la physique de l'atmosphère et du climat (École des Mines de Douai, ENS Ulm), puis j'ai été <strong>enseignante à temps plein en sciences environnementales</strong> pendant trois ans à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a>.</p>
 
-    <p>À présent, j'explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/cap-nature/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature. J'enseigne également la climatologie en licence à l'Université de Rennes, et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
+    <p> A présent, j'enseigne également la climatologie en licence à l'Université de Rennes, et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
 
     <p>N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
