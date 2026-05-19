@@ -942,3 +942,125 @@ body.page-cv .container { max-width: 1280px; }
 .research-feature ul {
   margin-top: 0.8rem;
 }
+
+
+/* ---------- CARTES PROJETS PHARES (accueil) ---------- */
+.home-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.25s ease;
+}
+
+.project-card:hover {
+  border-color: var(--color-text);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-bg-alt);
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-card-image {
+  transform: scale(1.03);
+}
+
+.project-card-content {
+  padding: 1.3rem 1.4rem 1.5rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card .project-card-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.project-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  margin: 0 0 0.6rem 0;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.project-card p {
+  margin: 0 0 1rem 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  flex: 1;
+}
+
+.project-card .project-card-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-top: auto;
+  display: inline-block;
+}
+
+.project-card:hover .project-card-link {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .home-projects {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .project-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .project-card-image {
+    width: 35%;
+    aspect-ratio: auto;
+    flex-shrink: 0;
+  }
+
+  .project-card-content {
+    width: 65%;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-card-image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+  }
+
+  .project-card-content {
+    width: 100%;
+  }
+}
