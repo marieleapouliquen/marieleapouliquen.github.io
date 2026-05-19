@@ -26,9 +26,6 @@ Le projet articule **trois volets complémentaires** :
 
 L'hypothèse centrale : bien scénarisés, ces outils ne substituent pas la nature à un écran — ils en deviennent un **seuil**. Ils rendent audible et visible ce que l'œil et l'oreille nus ne captent plus, et soutiennent un lien sensible et réflexif au vivant.
 
-## Au-delà de la recherche
-
-Au-delà de mes activités académiques, je peins et photographie ce qui m'entoure. Ces pratiques nourrissent ma sensibilité au vivant et alimentent en retour ma manière d'aborder la médiation scientifique. Mon site artistique : <a href="http://mlykscorner.fr">MLYK's Corner</a>.
 
 ## Contact
 
