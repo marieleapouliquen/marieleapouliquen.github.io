@@ -31,6 +31,7 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
 ## Projets
 
 <div class="home-projects">
+
   <a href="{{ '/cap-nature/' | relative_url }}" class="project-card">
     <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}');"></div>
     <div class="project-card-content">
@@ -50,6 +51,8 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
       <span class="project-card-link">Explorer →</span>
     </div>
   </a>
+
+</div>
 
 ## Actualités
 
