@@ -46,19 +46,15 @@ body_class: page-accordion
 
 <h4>Ressources et partenariats</h4>
 
-<p>J'ai conçu un <strong>wiki collaboratif et libre</strong> rassemblant les ressources pour répliquer ces ateliers, destiné aux enseignant·e·s, médiateur·rice·s et éducateur·rice·s nature. Le projet bénéficie également du <strong>soutien institutionnel</strong> du dispositif <strong>Terra Forma</strong> Equipex+.</p>
-
 <div class="resource-links">
   <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-label">Partenariat institutionnel</span>
-    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
-    <span class="resource-link-desc">Présentation du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
+    <span class="resource-link-title">Cycle d'ateliers Cap Nature</span>
+    <span class="resource-link-desc">Présentation d'ateliers réalisés à l'automne 2025 sur le site de Terra Forma.</span>
   </a>
   
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-label">Ressource pédagogique</span>
-    <span class="resource-link-title">Wiki des ateliers ↗</span>
-    <span class="resource-link-desc">Guide pédagogique pour répliquer les ateliers (CC BY-SA 4.0).</span>
+    <span class="resource-link-title">Wiki Cap Nature</span>
+    <span class="resource-link-desc">Guide pédagogique pour répliquer les ateliers, destiné aux enseignant·e·s, médiateur·rice·s et éducateur·rice·s nature (CC BY-SA 4.0).</span>
   </a>
 </div>
 
