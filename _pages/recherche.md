@@ -61,21 +61,21 @@ body_class: page-cv
   <p class="pub-title">Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique</p>
   <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 2 Recherche)</p>
   <p class="pub-venue">Laboratoire de Météorologie Dynamique, ENS Ulm — 2019</p>
-  <p>Sous la direction du Pr. Bernard Legras. Modélisation lagrangienne (Traczilla-Flexpart).</p>
+  <p>Sous la direction du Pr. Bernard Legras.</p>
 </div>
 
 <div class="publication">
   <p class="pub-title">Coupling Sea Surface Temperature with Atmospheric Convection in the Tropical Atlantic</p>
   <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 1)</p>
   <p class="pub-venue">Max Planck Institut für Meteorologie, Hambourg — 2018</p>
-  <p>Sous la direction du Pr. Björn Stevens et du Dr. James Ruppert. Modélisation couplée océan-atmosphère (PyOM, ICON).</p>
+  <p>Sous la direction du Pr. Björn Stevens et du Dr. James Ruppert.</p>
 </div>
 
 <div class="publication">
   <p class="pub-title">Climatologie des propriétés optiques des aérosols troposphériques mesurés à La Réunion</p>
   <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire d'ingénieur)</p>
   <p class="pub-venue">Laboratoire de l'Atmosphère et des Cyclones, La Réunion — 2017</p>
-  <p>Sous la direction du Dr. Valentin Duflot. Inversion lidar/satellite des aérosols troposphériques.</p>
+  <p>Sous la direction du Dr. Valentin Duflot.</p>
 </div>
 
 </section>
