@@ -27,18 +27,20 @@ body_class: page-cv
 
 <section class="cv-section" id="these">
 <h2>Projet doctoral · 2024 — auj.</h2>
+
 <h3 style="margin-top: 0;">Cap Nature : des capteurs pour renouer avec le vivant</h3>
 
 <p><strong>Comment les 15-25 ans se relient-ils aujourd'hui au vivant</strong>, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question qui structure mon travail doctoral, à la <strong>croisée de la sociologie de l'environnement, de la psychologie environnementale et de l'écologie sensorielle</strong>.</p>
 
 <p>Mon doctorat articule <strong>trois études complémentaires</strong>&nbsp;:</p>
-    <ul>
-      <li><strong>Étude 1</strong> — Enquête quantitative sur les facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</li>
-      <li><strong>Étude 2</strong> — Revue systématique (méthodologie PRISMA) des pédagogies de reconnexion à la nature inspirées des sciences participatives.</li>
-      <li><strong>Étude 3</strong> — Protocole expérimental mobilisant des capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec des lycéen·ne·s et étudiant·e·s.</li>
-    </ul>
 
-<h3 style="margin-top: 0;">Cycle d'ateliers d'automne 2025</h3>
+<ul>
+  <li><strong>Étude 1</strong> — Enquête quantitative sur les facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</li>
+  <li><strong>Étude 2</strong> — Revue systématique (méthodologie PRISMA) des pédagogies de reconnexion à la nature inspirées des sciences participatives.</li>
+  <li><strong>Étude 3</strong> — Protocole expérimental mobilisant des capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec des lycéen·ne·s et étudiant·e·s.</li>
+</ul>
+
+<h3>Cycle d'ateliers d'automne 2025</h3>
 
 <p>À l'automne 2025, j'ai mené une <strong>série d'ateliers Cap Nature</strong> auprès de lycéen·ne·s du <strong>Lycée Lesven</strong> (Brest) et du <strong>Lycée Jeanne d'Arc</strong> (Rennes), ainsi que d'étudiant·e·s de l'<strong>Université de Rennes</strong>, de <strong>Rennes 2</strong> et de l'<strong>INSA Rennes</strong>.</p>
 
@@ -54,24 +56,22 @@ body_class: page-cv
 
 <p>Cette approche combine <strong>immersion située</strong>, <strong>capteurs environnementaux</strong> et <strong>attention au vivant</strong>, afin d'interroger le potentiel des technologies participatives pour renouveler notre relation à la nature.</p>
 
-  <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-label">Partenariat institutionnel</span>
-    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
-    <span class="resource-link-desc">Présentation du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
-  </a>
-
-<h3 style="margin-top: 0;">Wiki des ateliers</h3>
+<h3>Wiki des ateliers</h3>
 
 <p>En parallèle des ateliers, j'ai conçu un <strong>wiki</strong> rassemblant les ressources nécessaires pour répliquer ce type d'atelier. Il est destiné aux <strong>enseignant·e·s du secondaire et du supérieur, médiateur·rice·s scientifiques et éducateur·rice·s nature</strong> souhaitant accompagner des jeunes dans une expérience sensible et scientifique de leur environnement proche.</p>
 
 <div class="resource-links">
-
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
     <span class="resource-link-label">Ressource pédagogique</span>
     <span class="resource-link-title">Wiki des ateliers ↗</span>
     <span class="resource-link-desc">Protocole, fiches espèces et matériel pour répliquer les ateliers (CC BY-SA 4.0).</span>
   </a>
 
+  <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-label">Partenariat institutionnel</span>
+    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
+    <span class="resource-link-desc">Présentation du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
+  </a>
 </div>
 
 </section>
@@ -118,7 +118,6 @@ body_class: page-cv
 </div>
 
 <script>
-// Sommaire qui surligne la section active au scroll
 document.addEventListener('DOMContentLoaded', function() {
   const sections = document.querySelectorAll('.cv-section');
   const tocLinks = document.querySelectorAll('.cv-toc-list a');
@@ -137,7 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', setActive);
   setActive();
 
-  // Smooth scroll
   tocLinks.forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
