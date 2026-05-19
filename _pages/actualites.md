@@ -5,7 +5,7 @@ title: Actualités
 description: Conférences, publications, formations et événements
 ---
 
-Retrouvez ici l'ensemble de mes actualités : conférences, interventions publiques, publications, formations, distinctions et collaborations.
+Retrouvez ici l'ensemble de mes actualités : projet en cours, conférences, formations, publications etc.
 
 <table class="news-table">
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
