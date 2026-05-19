@@ -2,14 +2,13 @@
 layout: default
 permalink: /recherche/
 title: ""
-description: Travaux de recherche, projet doctoral Cap Nature et publications
+description: Recherche et Publications
 body_class: page-accordion
 ---
 
 <div class="cv-header">
   <div class="cv-header-text">
-    <h1>Recherche</h1>
-    <p style="color: var(--color-muted); margin: 0;">Projets de recherche et publications.</p>
+    <h1>Recherche et Publications</h1>
   </div>
 </div>
 
@@ -19,35 +18,84 @@ body_class: page-accordion
 
 <h3 style="margin-top: 0;">Cap Nature : des capteurs pour renouer avec le vivant</h3>
 
-<p><strong>Comment les 15-25 ans se relient-ils aujourd'hui au vivant</strong>, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question qui structure mon travail doctoral, à la <strong>croisée de la sociologie de l'environnement, de la psychologie environnementale et de l'écologie sensorielle</strong>.</p>
+<p class="lead">Comment les <strong>15-25 ans</strong> se relient-ils aujourd'hui au vivant, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout&nbsp;?</p>
 
-<p>Mon doctorat articule <strong>trois études complémentaires</strong>&nbsp;:</p>
+<p>Mon travail doctoral explore cette question à la <strong>croisée de la sociologie de l'environnement, de la psychologie environnementale et de l'écologie sensorielle</strong>.</p>
 
-<ul>
-  <li><strong>Étude 1</strong> — Enquête quantitative sur les facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</li>
-  <li><strong>Étude 2</strong> — Revue systématique (méthodologie PRISMA) des pédagogies de reconnexion à la nature inspirées des sciences participatives.</li>
-  <li><strong>Étude 3</strong> — Protocole expérimental mobilisant des capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec des lycéen·ne·s et étudiant·e·s.</li>
+<h4>Trois études complémentaires</h4>
+
+<div class="three-studies">
+  <div class="study">
+    <span class="study-num">01</span>
+    <h5>Enquête quantitative</h5>
+    <p>Facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</p>
+  </div>
+  <div class="study">
+    <span class="study-num">02</span>
+    <h5>Revue systématique</h5>
+    <p>Pédagogies de reconnexion à la nature inspirées des sciences participatives (méthodologie PRISMA).</p>
+  </div>
+  <div class="study">
+    <span class="study-num">03</span>
+    <h5>Protocole expérimental</h5>
+    <p>Capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec lycéen·ne·s et étudiant·e·s.</p>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<h4>Cycle d'ateliers · Automne 2025</h4>
+
+<p>À l'automne 2025, j'ai mené une <strong>série d'ateliers Cap Nature</strong> auprès de&nbsp;:</p>
+
+<ul class="audience-list">
+  <li><strong>Lycéen·ne·s</strong> du Lycée Lesven (Brest) et du Lycée Jeanne d'Arc (Rennes)</li>
+  <li><strong>Étudiant·e·s</strong> de l'Université de Rennes, de Rennes 2 et de l'INSA Rennes</li>
 </ul>
 
-<h3>Cycle d'ateliers d'automne 2025</h3>
+<p>Ces ateliers explorent l'<strong>écologie de l'écoute</strong> à travers trois dispositifs complémentaires&nbsp;:</p>
 
-<p>À l'automne 2025, j'ai mené une <strong>série d'ateliers Cap Nature</strong> auprès de lycéen·ne·s du <strong>Lycée Lesven</strong> (Brest) et du <strong>Lycée Jeanne d'Arc</strong> (Rennes), ainsi que d'étudiant·e·s de l'<strong>Université de Rennes</strong>, de <strong>Rennes 2</strong> et de l'<strong>INSA Rennes</strong>.</p>
+<div class="device-grid">
+  <div class="device">
+    <h5>Écoute amplifiée</h5>
+    <p>Paraboles omnidirectionnelles pour focaliser l'attention sur les sons du vivant.</p>
+  </div>
+  <div class="device">
+    <h5>Identification &amp; mesures</h5>
+    <p>Applications <em>Merlin Bird ID</em> (chants d'oiseaux) et <em>Fizziq</em> (niveaux sonores).</p>
+  </div>
+  <div class="device">
+    <h5>Cartographie sensible</h5>
+    <p>Représentation graphique des ambiances perçues sur le terrain.</p>
+  </div>
+</div>
 
-<p>Les ateliers ont exploré l'<strong>écologie de l'écoute</strong> à travers différents dispositifs&nbsp;:</p>
+<blockquote class="research-questions">
+  <p>Organisés en extérieur, ces ateliers invitent à sortir de la salle de cours, à mobiliser le corps et l'écoute, et à replacer les participant·e·s dans une expérience directe du milieu.</p>
+  <p><strong>Les questions explorées&nbsp;:</strong> l'écoute instrumentée favorise-t-elle l'attention au vivant&nbsp;? Comment la mesure des décibels révèle-t-elle les dynamiques liées aux activités humaines (trafic, proximité urbaine)&nbsp;?</p>
+</blockquote>
 
-<ul>
-  <li><strong>Écoute amplifiée</strong> avec des paraboles omnidirectionnelles</li>
-  <li><strong>Identification de chants d'oiseaux</strong> et <strong>mesures de niveaux sonores</strong> avec les applications <em>Merlin Bird ID</em> et <em>Fizziq</em></li>
-  <li><strong>Réalisation de cartographies sensibles</strong> des ambiances perçues sur le terrain</li>
-</ul>
+<!-- GALERIE D'IMAGES (à ajouter quand les photos sont uploadées) -->
+<div class="capnature-gallery">
+  <a href="{{ '/assets/img/capnature-1.jpg' | relative_url }}" class="capnature-gallery-item">
+    <img src="{{ '/assets/img/capnature-1.jpg' | relative_url }}" alt="Atelier Cap Nature — parabole acoustique" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/capnature-2.jpg' | relative_url }}" class="capnature-gallery-item">
+    <img src="{{ '/assets/img/capnature-2.jpg' | relative_url }}" alt="Atelier Cap Nature — identification de chants d'oiseaux" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/capnature-3.jpg' | relative_url }}" class="capnature-gallery-item">
+    <img src="{{ '/assets/img/capnature-3.jpg' | relative_url }}" alt="Schéma — écologie de l'écoute" loading="lazy">
+  </a>
+  <a href="{{ '/assets/img/capnature-4.jpg' | relative_url }}" class="capnature-gallery-item">
+    <img src="{{ '/assets/img/capnature-4.jpg' | relative_url }}" alt="Cartographie sensible d'un atelier" loading="lazy">
+  </a>
+</div>
 
-<p>Organisés en extérieur, ces ateliers invitent à <strong>sortir de la salle de cours</strong>, à mobiliser le corps, l'écoute et la curiosité, et à replacer les participant·e·s dans une expérience directe du milieu. Chaque session comporte aussi des temps de discussion et de mise en perspective&nbsp;: <em>est-ce que — et si oui, comment — l'écoute instrumentée favorise-t-elle l'attention au vivant&nbsp;? Comment la mesure des décibels révèle-t-elle des dynamiques liées aux activités humaines (trafic, proximité urbaine) dans un milieu&nbsp;?</em></p>
+<hr class="section-divider">
 
-<p>Cette approche combine <strong>immersion située</strong>, <strong>capteurs environnementaux</strong> et <strong>attention au vivant</strong>, afin d'interroger le potentiel des technologies participatives pour renouveler notre relation à la nature.</p>
+<h4>Ressources et partenariats</h4>
 
-<h3>Wiki des ateliers</h3>
-
-<p>En parallèle des ateliers, j'ai conçu un <strong>wiki</strong> rassemblant les ressources nécessaires pour répliquer ce type d'atelier. Il est destiné aux <strong>enseignant·e·s du secondaire et du supérieur, médiateur·rice·s scientifiques et éducateur·rice·s nature</strong> souhaitant accompagner des jeunes dans une expérience sensible et scientifique de leur environnement proche.</p>
+<p>Le projet s'appuie sur un <strong>wiki collaboratif</strong> destiné aux enseignant·e·s, médiateur·rice·s et éducateur·rice·s nature qui souhaiteraient répliquer ces ateliers, et bénéficie du <strong>soutien institutionnel</strong> de l'équipement national Terra Forma.</p>
 
 <div class="resource-links">
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
