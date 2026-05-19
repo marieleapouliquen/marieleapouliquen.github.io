@@ -14,13 +14,11 @@ description: Marie-Léa Pouliquen — doctorante
 <div class="home-hero home-hero-card">
 
   <div class="home-intro">
-    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590). J'explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature. </p>
+    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590). J'explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature. En parallèle, j'enseigne également la climatologie en licence. </p>
 
-    <p>Avant la thèse, j'ai étudié la physique de l'atmosphère et du climat (École des Mines de Douai, ENS Ulm), puis j'ai été <strong>enseignante à temps plein en sciences environnementales</strong> pendant trois ans à l'<a href="{{ '/enseignement/' | relative_url }}">École Américaine de Rennes</a>.</p>
+    <p>Avant cela, j'ai étudié l'ingénierie (École des Mines de Douai) et la physique de l'atmosphère et du climat (École Normale Supérieure de Paris - Ulm). Durant ces années d'étude, j'ai développé un projet de médiation scientifique autour des enjeux climatiques pour des établissements du supérieur. J'ai conçu un programme de formation pour l'Institut Supérieur de l'Environnement de Versailles, à l'automne 2020 puis j'ai exercé le métier d'ingénieure pédagogique et de formatrice en sciences environnementales à l'<a href="{{ '/enseignement/' | relative_url }}">École Américaine de Rennes</a>, pendant 3 ans.</p>
 
-    <p> A présent, j'enseigne également la climatologie en licence et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
-
-    <p>N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
+    <p> Je fais également des formations et conférences grand public autour du climat. N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
 
   <div class="home-photo-wrap">
