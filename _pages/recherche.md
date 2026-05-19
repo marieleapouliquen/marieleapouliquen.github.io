@@ -14,7 +14,7 @@ body_class: page-cv
     <li><a href="#cadre">Cadre institutionnel</a></li>
     <li><a href="#methodes">Approche méthodologique</a></li>
     <li><a href="#publications">Publications</a></li>
-    <li><a href="#anterieur">Recherches antérieures</a></li>
+    <li><a href="#anterieur">Rapports de stage</a></li>
   </ul>
 </aside>
 
@@ -92,7 +92,10 @@ body_class: page-cv
   <p><a href="https://doi.org/10.3390/rs14194945" class="external-link">DOI : 10.3390/rs14194945 ↗</a></p>
 </div>
 
-<h3>Mémoires</h3>
+</section>
+
+<section class="cv-section" id="anterieur">
+<h2>Recherches antérieures</h2>
 
 <div class="publication">
   <p class="pub-title">Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique</p>
@@ -114,20 +117,7 @@ body_class: page-cv
   <p class="pub-venue">Laboratoire de l'Atmosphère et des Cyclones, La Réunion — 2017</p>
   <p>Sous la direction du Dr. Valentin Duflot. Inversion lidar/satellite des aérosols troposphériques.</p>
 </div>
-</section>
 
-<section class="cv-section" id="anterieur">
-<h2>Recherches antérieures</h2>
-
-<p>Avant ma thèse, j'ai mené des recherches en <strong>physique de l'atmosphère et du climat</strong>&nbsp;:</p>
-
-<ul>
-  <li><strong>Stage de Master 2</strong> au Laboratoire de Météorologie Dynamique (Pr. B. Legras, ENS Ulm) — paramétrisation de la diffusivité verticale dans l'Anticyclone de Mousson Asiatique.</li>
-  <li><strong>Stage de Master 1</strong> au Max Planck Institut für Meteorologie de Hambourg (Pr. B. Stevens, Dr. J. Ruppert) — modélisation couplée océan-atmosphère.</li>
-  <li><strong>Stage d'ingénieur</strong> au Laboratoire de l'Atmosphère et des Cyclones de La Réunion (Dr. V. Duflot) — inversion lidar/satellite, publication dans <em>Remote Sensing</em> en 2022.</li>
-</ul>
-
-<p>Le détail complet des stages, missions et formations figure dans la <a href="{{ '/cv/' | relative_url }}">page CV</a>.</p>
 </section>
 
 </div>
