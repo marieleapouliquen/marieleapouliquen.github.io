@@ -35,20 +35,3 @@ Convaincue que les sciences du climat doivent sortir des laboratoires, je consac
   <p class="teaching-institution">Institut Supérieur de l'Environnement, Versailles</p>
   <p>Conférence de 2 heures destinée aux étudiant·e·s de Bachelor 2<sup>e</sup> année en Écologie et Gestion de l'Environnement, retraçant la construction historique des sciences du climat et de la prise de conscience environnementale.</p>
 </div>
-
-
-## Formation des enseignants
-
-<div class="teaching-entry">
-  <p class="teaching-period">11 juin 2025</p>
-  <h3 class="teaching-title">Reconnexion des jeunes à la nature avec des capteurs participatifs</h3>
-  <p class="teaching-institution">Maison pour la Science de Bretagne × Alpes-Dauphiné (à distance)</p>
-  <p>Présentation et atelier auprès d'enseignants dans le cadre des journées de formation <em>Terra Forma</em>.</p>
-</div>
-
-<div class="teaching-entry">
-  <p class="teaching-period">12 mars 2025</p>
-  <h3 class="teaching-title">Reconnexion des jeunes à la nature avec des capteurs participatifs</h3>
-  <p class="teaching-institution">Maison pour la Science de Bretagne, Rennes</p>
-  <p>Présentation dans le cadre de la formation enseignante « Allons faire des sciences dehors ».</p>
-</div>
