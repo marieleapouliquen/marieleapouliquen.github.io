@@ -31,12 +31,10 @@ En parallèle des ateliers, j'ai conçu un **wiki collaboratif et libre** rassem
 
 Il contient :
 
-- **Un protocole d'atelier complet** (75 minutes, adaptable de 15 à 35 participants)
+- **Un protocole d'atelier complet** (adaptable de 15 à 35 participants)
 - **Une liste de matériel détaillée** : parabole acoustique, application d'identification, sonomètre, fiches papier
-- **29 fiches espèces** illustrées (oiseaux des villes, des parcs et jardins, des lisières, des zones humides)
 - **Des fiches élèves imprimables**, prêtes à l'emploi
 - **Une grille d'évaluation** et des ressources bibliographiques
-- **Un espace de discussion** pour partager retours d'expérience et améliorations
 
 <p style="margin-top: 1.5rem;"><a href="https://marieleapouliquen.github.io/wiki-cap-nature/" class="btn-external">Consulter le wiki Cap Nature ↗</a></p>
 
