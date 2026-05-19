@@ -10,11 +10,11 @@ body_class: page-accordion
 
 <div class="about-narrative">
 
-<p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai complété ma formation par un cursus en sciences sociales de l'environnement au <strong>CERES</strong>.</p>
+<p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai complété ma formation par un cursus en sciences sociales de l'environnement au Centre de formation sur l'environnement et la société (CERES-ENS).
 
 <p>J'ai d'abord exercé dans l'éducation à la transition écologique : conception d'une formation pour l'<strong>Institut Supérieur de l'Environnement</strong>, puis trois ans comme <strong>enseignante à temps plein</strong> à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a> (School Year Abroad), où j'ai élaboré et mis en œuvre un curriculum complet en sciences environnementales.</p>
 
-<p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Le projet <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a> analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, par une méthodologie mixte (enquêtes, entretiens, ateliers mobilisant des instruments d'observation participatifs).</p>
+<p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Ce projet - <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>) - analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, par une méthodologie mixte (enquêtes, entretiens, ateliers mobilisant des instruments d'observation participatifs).</p>
 
 </div>
 
