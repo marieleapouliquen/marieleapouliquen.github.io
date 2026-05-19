@@ -3,20 +3,8 @@ layout: default
 permalink: /recherche/
 title: ""
 description: Travaux de recherche, projet doctoral Cap Nature et publications
-body_class: page-cv
+body_class: page-accordion
 ---
-
-<div class="cv-layout">
-
-<aside class="cv-toc">
-  <ul class="cv-toc-list">
-    <li><a href="#these">Projet doctoral</a></li>
-    <li><a href="#publications">Publications</a></li>
-    <li><a href="#anterieur">Travaux de master</a></li>
-  </ul>
-</aside>
-
-<div class="cv-main">
 
 <div class="cv-header">
   <div class="cv-header-text">
@@ -25,8 +13,9 @@ body_class: page-cv
   </div>
 </div>
 
-<section class="cv-section" id="these">
-<h2>Projet doctoral · 2024 — auj.</h2>
+<details class="accordion-section" open>
+<summary>Projet doctoral · 2024 — auj.</summary>
+<div class="accordion-content">
 
 <h3 style="margin-top: 0;">Cap Nature : des capteurs pour renouer avec le vivant</h3>
 
@@ -74,10 +63,12 @@ body_class: page-cv
   </a>
 </div>
 
-</section>
+</div>
+</details>
 
-<section class="cv-section" id="publications">
-<h2>Publications</h2>
+<details class="accordion-section">
+<summary>Publications</summary>
+<div class="accordion-content">
 
 <div class="publication">
   <p class="pub-title">Aerosols on the Tropical Island of La Réunion : Assessment of Climatology, Origin of Variability and Trend</p>
@@ -86,62 +77,30 @@ body_class: page-cv
   <p><a href="https://doi.org/10.3390/rs14194945" class="external-link">DOI : 10.3390/rs14194945 ↗</a></p>
 </div>
 
-</section>
+</div>
+</details>
 
-<section class="cv-section" id="anterieur">
-<h2>Travaux de master</h2>
+<details class="accordion-section">
+<summary>Travaux de master</summary>
+<div class="accordion-content">
 
 <div class="publication">
   <p class="pub-title">Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique</p>
-  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 2 Recherche)</p>
-  <p class="pub-venue">Laboratoire de Météorologie Dynamique, ENS Ulm — 2019</p>
-  <p>Sous la direction du Pr. Bernard Legras.</p>
+    <p>Stage de Master 2 Recherche - Sous la direction du Pr. Bernard Legras.</p>
+  <p class="pub-venue">Laboratoire de Météorologie Dynamique, ENS Ulm — Mars à Juin 2019</p>
 </div>
 
 <div class="publication">
   <p class="pub-title">Coupling Sea Surface Temperature with Atmospheric Convection in the Tropical Atlantic</p>
-  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 1)</p>
-  <p class="pub-venue">Max Planck Institut für Meteorologie, Hambourg — 2018</p>
-  <p>Sous la direction du Pr. Björn Stevens et du Dr. James Ruppert.</p>
+    <p>Stage de Master 1 Recherche - Sous la direction du Pr. Björn Stevens et du Dr. James Ruppert.</p>
+  <p class="pub-venue">Max Planck Institut für Meteorologie, Hambourg — Mars à Juillet 2018</p>
 </div>
 
 <div class="publication">
   <p class="pub-title">Climatologie des propriétés optiques des aérosols troposphériques mesurés à La Réunion</p>
-  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire d'ingénieur)</p>
-  <p class="pub-venue">Laboratoire de l'Atmosphère et des Cyclones, La Réunion — 2017</p>
-  <p>Sous la direction du Dr. Valentin Duflot.</p>
+  <p>Projet de Fin d'Etudes en Ingénierie - Sous la direction du Dr. Valentin Duflot.</p>
+  <p class="pub-venue">Laboratoire de l'Atmosphère et des Cyclones, La Réunion — Mars à Août 2017</p>
 </div>
 
-</section>
-
 </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const sections = document.querySelectorAll('.cv-section');
-  const tocLinks = document.querySelectorAll('.cv-toc-list a');
-
-  function setActive() {
-    let current = '';
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      if (rect.top <= 100) current = section.id;
-    });
-    tocLinks.forEach(link => {
-      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
-    });
-  }
-
-  window.addEventListener('scroll', setActive);
-  setActive();
-
-  tocLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-});
-</script>
+</details>
