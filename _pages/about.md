@@ -12,20 +12,19 @@ body_class: page-accordion
 
   <div class="about-narrative">
 
-    <p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai complété ma formation par un cursus en sciences sociales de l'environnement au Centre de formation sur l'environnement et la société (CERES-ENS).
+    <p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai complété ma formation par un cursus en sciences sociales de l'environnement au Centre de formation sur l'environnement et la société (<strong>CERES-ENS</strong>).</p>
 
-<p>J'ai d'abord exercé dans l'éducation à la transition écologique : conception d'une formation pour l'<strong>Institut Supérieur de l'Environnement</strong>, puis trois ans comme <strong>enseignante à temps plein</strong> à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a> (School Year Abroad), où j'ai élaboré et mis en œuvre un curriculum complet en sciences environnementales.</p>
+    <p>J'ai d'abord exercé dans l'éducation à la transition écologique : conception d'une formation pour l'<strong>Institut Supérieur de l'Environnement</strong>, puis trois ans comme <strong>enseignante à temps plein</strong> à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a> (School Year Abroad), où j'ai élaboré et mis en œuvre un curriculum complet en sciences environnementales.</p>
 
-<p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Ce projet - <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>) - analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, par une méthodologie mixte (enquêtes, entretiens, ateliers mobilisant des instruments d'observation participatifs).</p>
+    <p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Le projet <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a> analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, par une méthodologie mixte (enquêtes, entretiens, ateliers mobilisant des instruments d'observation participatifs).</p>
 
-</div>
+  </div>
 
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="about-photo">
 
 </div>
 
-
-## Mon parcours 
+## Mon parcours
 
 <div class="job-list">
 
@@ -35,18 +34,13 @@ body_class: page-accordion
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>Octobre 2023</em></p>
-  <h4>Certified AMS Teacher #85 · American Meteorological Society</h4>
-  <p>Reconnaissance professionnelle décernée aux enseignant·e·s actif·ve·s dans la diffusion de la culture scientifique en sciences de l'océan, de l'atmosphère et du climat. Obtenue dans le cadre de mon enseignement à <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a>.</p>
-</div>
-
-<div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
   <h4>Ingénieure pédagogique et formatrice en Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
   <ul>
     <li>Conception et enseignement du programme pédagogique de sciences environnementales (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
     <li>Co-organisation des sorties pédagogiques hebdomadaires, des événements culturels et coordination du club de sciences</li>
+    <li>Distinction <em>Certified AMS Teacher #85</em> de l'American Meteorological Society obtenue en octobre 2023</li>
   </ul>
 </div>
 
