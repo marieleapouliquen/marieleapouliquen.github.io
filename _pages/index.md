@@ -11,6 +11,8 @@ description: Marie-Léa Pouliquen — doctorante
 
 <p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales</p>
 
+<div class="home-banner" role="img" aria-label="Paysage forestier"></div>
+
 ## Explorer mon travail
 
 <div class="home-cards">
