@@ -25,7 +25,7 @@ body_class: page-accordion
 </div>
 
 
-## Formation
+## Mon parcours 
 
 <div class="job-list">
 
@@ -35,35 +35,10 @@ body_class: page-accordion
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>2017 — 2020</em></p>
-  <h4>MSc Sciences de la Terre, de l'Océan et de l'Atmosphère · École Normale Supérieure (Ulm), Paris</h4>
-</div>
-
-<div class="job-entry">
-  <p class="job-period"><em>2014 — 2017</em></p>
-  <h4>Diplôme d'ingénieure généraliste · Institut Mines-Télécom Nord Europe</h4>
-</div>
-
-</div>
-
-## Prix et distinctions
-
-<div class="job-list">
-
-<div class="job-entry">
   <p class="job-period"><em>Octobre 2023</em></p>
   <h4>Certified AMS Teacher #85 · American Meteorological Society</h4>
   <p>Reconnaissance professionnelle décernée aux enseignant·e·s actif·ve·s dans la diffusion de la culture scientifique en sciences de l'océan, de l'atmosphère et du climat. Obtenue dans le cadre de mon enseignement à <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a>.</p>
 </div>
-
-</div>
-
-
-## Expérience professionnelle
-
-### Postes
-
-<div class="job-list">
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
@@ -76,9 +51,18 @@ body_class: page-accordion
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Formatrice aux Enjeux Climatiques · <a href="{{ '/sya/' | relative_url }}">Institut Supérieur de l'Environnement, Versailles</a></h4>
+  <p class="job-period"><em>Septembre 2020 — Mars 2021</em></p>
+  <h4>Formatrice aux Enjeux Climatiques · Institut Supérieur de l'Environnement, Versailles</h4>
+</div>
+
+<div class="job-entry">
+  <p class="job-period"><em>2017 — 2020</em></p>
+  <h4>Diplôme de l'École Normale Supérieure (Ulm), Paris · MSc Sciences de la Terre, de l'Océan et de l'Atmosphère</h4>
+</div>
+
+<div class="job-entry">
+  <p class="job-period"><em>2014 — 2017</em></p>
+  <h4>Diplôme d'ingénieure généraliste · Institut Mines-Télécom Nord Europe</h4>
 </div>
 
 </div>
-
