@@ -42,6 +42,29 @@ description: Marie-Léa Pouliquen — doctorante
 
 </div>
 
+## Explorer mon travail
+
+<div class="home-cards">
+  <a href="{{ '/recherche/' | relative_url }}" class="home-card">
+    <h3>Recherche</h3>
+    <p>Ma thèse <em>Cap Nature</em>, mes axes méthodologiques et mes publications en sciences sociales et sciences du climat.</p>
+    <span class="home-card-meta">→ Voir mes travaux</span>
+  </a>
+
+  <a href="{{ '/enseignement/' | relative_url }}" class="home-card">
+    <h3>Enseignement</h3>
+    <p>Cours universitaires à Rennes, trois ans à l'École Américaine, et ressources pédagogiques en libre accès.</p>
+    <span class="home-card-meta">→ Voir ma pratique</span>
+  </a>
+
+  <a href="{{ '/diffusion/' | relative_url }}" class="home-card">
+    <h3>Diffusion</h3>
+    <p>Conférences grand public, interventions médiatiques, médiation scientifique avec des collectifs et institutions partenaires.</p>
+    <span class="home-card-meta">→ Voir mes interventions</span>
+  </a>
+  
+</div>
+
 ## Actualités récentes
 
 <table class="news-table">
