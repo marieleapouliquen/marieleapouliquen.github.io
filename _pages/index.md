@@ -27,7 +27,7 @@ description: Marie-Léa Pouliquen — doctorante
     <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
 
     <div class="home-contact-block">
-      <p class="contact-email"><strong>Email</strong><br><a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a></p>
+      <p class="contact-email"><strong>Pour me contacter</strong><br><a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a></p>
 
       <div class="home-contact">
         <a href="https://www.linkedin.com/in/marieleapouliquen/" class="contact-icon" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
