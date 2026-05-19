@@ -1,4 +1,4 @@
 ---
 date: 2023-02-13
 ---
-**Semaine d'échange dans les écoles partenaires de SYA** — visite professionnelle de **Choate Rosemary Hall** (incluant le **Koehler Environmental Center**) et de **The Hotchkiss School** (et sa ferme pédagogique de Fairfield Farm) dans le Connecticut. Observation pédagogique, échanges sur le curriculum environnemental, et interventions en cours d'écologie et de français.
+**Professeure invitée aux Etats-Unis** — Visite des lycées américains **Choate Rosemary Hall** et **Hotchkiss** dans le Connecticut. Observation pédagogique, échanges sur le programme d'enseignement de sciences environnementales. Visite du **Koehler Environmental Center** et de la ferme pédagogique de **Fairfield**. Interventions en cours d'écologie et de français.
