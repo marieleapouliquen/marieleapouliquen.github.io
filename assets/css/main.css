@@ -1092,3 +1092,47 @@ body.page-cv .container { max-width: 1280px; }
     border-left: 1px solid var(--color-border);
   }
 }
+
+
+/* ---------- BLOC CONTACT SOUS LA PHOTO ---------- */
+.home-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-photo-wrap .home-photo {
+  margin-bottom: 1rem;
+}
+
+.home-contact {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: var(--color-bg);
+}
+
+.contact-icon:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-color: var(--color-text);
+  transform: translateY(-2px);
+}
+
+.contact-icon svg {
+  display: block;
+}
