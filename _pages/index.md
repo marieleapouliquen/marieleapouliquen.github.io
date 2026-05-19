@@ -7,8 +7,9 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
 
 <div class="home-hero">
   <div class="home-intro">
-    <p>Comment les 15-25 ans se relient-ils aujourd'hui au vivant, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question que j'explore à la croisée de la <strong>sociologie</strong>, de la <strong>psychologie environnementale</strong> et de l'<strong>écologie sensorielle</strong>.</p>
-    <p>Ma recherche doctorale, <strong>Cap Nature</strong>, articule enquêtes quantitatives, revue systématique et ateliers expérimentaux mobilisant des capteurs participatifs (bioacoustique, applications d'identification d'espèces). L'hypothèse centrale : bien scénarisés, ces outils ne substituent pas la nature à un écran — ils en deviennent un <strong>seuil</strong>.</p>
+    <p>Bonjour ! Je suis <strong>Marie-Léa Pouliquen</strong>, doctorante en sociologie de l'environnement et sciences du climat à l'<strong>Université de Rennes</strong>.</p>
+    <p>Mon travail explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, des sciences naturelles et de la pédagogie. J'ai aussi enseigné trois ans en lycée, et je conçois des ressources pédagogiques en libre accès.</p>
+    <p>Bonne visite — n'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
 </div>
