@@ -37,14 +37,34 @@ body_class: page-cv
       <li><strong>Étude 2</strong> — Revue systématique (méthodologie PRISMA) des pédagogies de reconnexion à la nature inspirées des sciences participatives.</li>
       <li><strong>Étude 3</strong> — Protocole expérimental mobilisant des capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec des lycéen·ne·s et étudiant·e·s.</li>
     </ul>
-    <p style="margin-top: 1rem;"><a href="{{ '/cap-nature/' | relative_url }}" class="external-link">→ Voir le projet et le wiki des ateliers</a></p>
+
+<h3 style="margin-top: 0;">Cycle d'ateliers d'automne 2025</h3>
+
+<p>À l'automne 2025, j'ai mené une <strong>série d'ateliers Cap Nature</strong> auprès de lycéen·ne·s du <strong>Lycée Lesven</strong> (Brest) et du <strong>Lycée Jeanne d'Arc</strong> (Rennes), ainsi que d'étudiant·e·s de l'<strong>Université de Rennes</strong>, de <strong>Rennes 2</strong> et de l'<strong>INSA Rennes</strong>.</p>
+
+<p>Les ateliers ont exploré l'<strong>écologie de l'écoute</strong> à travers différents dispositifs&nbsp;:</p>
+
+<ul>
+  <li><strong>Écoute amplifiée</strong> avec des paraboles omnidirectionnelles</li>
+  <li><strong>Identification de chants d'oiseaux</strong> et <strong>mesures de niveaux sonores</strong> avec les applications <em>Merlin Bird ID</em> et <em>Fizziq</em></li>
+  <li><strong>Réalisation de cartographies sensibles</strong> des ambiances perçues sur le terrain</li>
+</ul>
+
+<p>Organisés en extérieur, ces ateliers invitent à <strong>sortir de la salle de cours</strong>, à mobiliser le corps, l'écoute et la curiosité, et à replacer les participant·e·s dans une expérience directe du milieu. Chaque session comporte aussi des temps de discussion et de mise en perspective&nbsp;: <em>est-ce que — et si oui, comment — l'écoute instrumentée favorise-t-elle l'attention au vivant&nbsp;? Comment la mesure des décibels révèle-t-elle des dynamiques liées aux activités humaines (trafic, proximité urbaine) dans un milieu&nbsp;?</em></p>
+
+<p>Cette approche combine <strong>immersion située</strong>, <strong>capteurs environnementaux</strong> et <strong>attention au vivant</strong>, afin d'interroger le potentiel des technologies participatives pour renouveler notre relation à la nature.</p>
+
+  <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-label">Partenariat institutionnel</span>
+    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
+    <span class="resource-link-desc">Présentation du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
+  </a>
+
+<h3 style="margin-top: 0;">Wiki des ateliers</h3>
+
+<p>En parallèle des ateliers, j'ai conçu un <strong>wiki</strong> rassemblant les ressources nécessaires pour répliquer ce type d'atelier. Il est destiné aux <strong>enseignant·e·s du secondaire et du supérieur, médiateur·rice·s scientifiques et éducateur·rice·s nature</strong> souhaitant accompagner des jeunes dans une expérience sensible et scientifique de leur environnement proche.</p>
 
 <div class="resource-links">
-  <a href="{{ '/cap-nature/' | relative_url }}" class="resource-link">
-    <span class="resource-link-label">Présentation</span>
-    <span class="resource-link-title">Page projet Cap Nature</span>
-    <span class="resource-link-desc">Démarche scientifique, partenariats, contexte de la thèse.</span>
-  </a>
 
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
     <span class="resource-link-label">Ressource pédagogique</span>
@@ -52,11 +72,6 @@ body_class: page-cv
     <span class="resource-link-desc">Protocole, fiches espèces et matériel pour répliquer les ateliers (CC BY-SA 4.0).</span>
   </a>
 
-  <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-label">Partenariat institutionnel</span>
-    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
-    <span class="resource-link-desc">Présentation officielle du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
-  </a>
 </div>
 
 </section>
