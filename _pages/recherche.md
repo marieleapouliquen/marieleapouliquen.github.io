@@ -8,7 +8,7 @@ body_class: page-accordion
 
 <div class="cv-header">
   <div class="cv-header-text">
-    <h1>Recherche et Publications</h1>
+    <h1>Recherche et publications</h1>
   </div>
 </div>
 
