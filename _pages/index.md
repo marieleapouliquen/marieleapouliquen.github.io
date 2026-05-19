@@ -9,55 +9,23 @@ description: Marie-Léa Pouliquen — doctorante
   <h1><strong>Marie-Léa</strong> Pouliquen</h1>
 </header>
 
-<p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales à l'Université de Rennes 2.</p>
-
-<div class="home-hero home-hero-card">
-
-  <div class="home-intro">
-    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590). J'explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature. En parallèle, j'enseigne également la climatologie en licence. </p>
-
-    <p>Avant cela, j'ai étudié l'ingénierie (École des Mines de Douai) et la physique de l'atmosphère et du climat (École Normale Supérieure de Paris - Ulm). Durant ces années d'étude, j'ai développé un projet de médiation scientifique autour des enjeux climatiques pour des établissements du supérieur. J'ai conçu un programme de formation pour l'Institut Supérieur de l'Environnement de Versailles, à l'automne 2020 puis j'ai exercé le métier d'ingénieure pédagogique et de formatrice en sciences environnementales à l'<a href="{{ '/enseignement/' | relative_url }}">École Américaine de Rennes</a>, pendant 3 ans.</p>
-
-    <p> Je fais également des formations et conférences grand public autour du climat. N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
-  </div>
-
-  <div class="home-photo-wrap">
-    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
-
-    <div class="home-contact-block">
-      <p class="contact-email"><strong>Pour me contacter</strong><br><a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a></p>
-
-      <div class="home-contact">
-        <a href="https://www.linkedin.com/in/marieleapouliquen/" class="contact-icon" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
-        </a>
-        <a href="https://orcid.org/0000-0002-6147-3683" class="contact-icon" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947 0 .525-.422.947-.947.947-.525 0-.946-.422-.946-.947 0-.516.421-.947.946-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
-        </a>
-      </div>
-    </div>
-  </div>
-
-</div>
+<p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales</p>
 
 ## Explorer mon travail
 
 <div class="home-cards">
   <a href="{{ '/recherche/' | relative_url }}" class="home-card">
     <h3>Recherche</h3>
-    <p>Ma thèse <em>Cap Nature</em>, mes axes méthodologiques et mes publications en sciences sociales et sciences du climat.</p>
     <span class="home-card-meta">→ Voir mes travaux</span>
   </a>
 
   <a href="{{ '/enseignement/' | relative_url }}" class="home-card">
     <h3>Enseignement</h3>
-    <p>Cours universitaires à Rennes, trois ans à l'École Américaine, et ressources pédagogiques en libre accès.</p>
     <span class="home-card-meta">→ Voir ma pratique</span>
   </a>
 
   <a href="{{ '/diffusion/' | relative_url }}" class="home-card">
     <h3>Diffusion</h3>
-    <p>Conférences grand public, interventions médiatiques, médiation scientifique avec des collectifs et institutions partenaires.</p>
     <span class="home-card-meta">→ Voir mes interventions</span>
   </a>
   
