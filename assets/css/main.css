@@ -635,28 +635,24 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
 }
 .about-bio p:last-child { margin-bottom: 0; }
 
-/* ---------- Bloc identité (Labos / Disciplines / Compétences / Langues) ---------- */
-.about-identity {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 0.6rem 1.5rem;
+/* ---------- Bloc identité ---------- */
+.about-meta {
   margin: 0 0 3rem 0;
-  padding: 1.2rem 1.5rem;
-  background: var(--color-bg);
+  padding: 1rem 0;
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   font-size: 0.95rem;
 }
-.about-identity dt {
+
+.about-meta p {
+  margin: 0.4rem 0;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.about-meta p strong {
   font-family: var(--font-serif);
   font-weight: 600;
-  color: var(--color-text);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-.about-identity dd {
-  margin: 0;
   color: var(--color-text);
 }
 
