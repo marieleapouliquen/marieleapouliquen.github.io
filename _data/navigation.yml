@@ -7,29 +7,14 @@
 - title: À propos
   url: /about/
 
-- title: CV
-  url: /cv/
+- title: Recherche
+  url: /recherche/
 
-- title: Actualités
-  url: /actualites/
+- title: Enseignement
+  url: /enseignement/
 
 - title: Publications
   url: /publications/
 
-- title: Diffusion
-  url: /diffusion/
-  
-- title: Enseignement
-  url: /enseignement/
-
-- title: Cap Nature
-  url: /cap-nature/
-
-- title: SYA
-  url: /sya/
-
-- title: Terra Klima
-  url: /terra-klima/
-  
-- title: English
-  url: /en/
+- title: CV
+  url: /cv/
