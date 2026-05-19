@@ -1364,3 +1364,170 @@ body.page-accordion .cv-header h1 {
     padding: 1.2rem 1.4rem 1.5rem 1.4rem;
   }
 }
+
+
+/* ===========================================================================
+   STRUCTURE INTERNE DE LA SECTION CAP NATURE (page Recherche)
+   =========================================================================== */
+
+/* Phrase d'accroche en haut */
+.accordion-content .lead {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  margin-bottom: 1.2rem;
+}
+
+/* Intertitres h4 et h5 dans les accordéons */
+.accordion-content h4 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: var(--color-text);
+}
+
+.accordion-content h5 {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+}
+
+/* Séparateur entre sous-sections */
+.section-divider {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+/* Grille des 3 études doctorales */
+.three-studies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.study {
+  padding: 1.2rem;
+  background: var(--color-bg-alt);
+  border-radius: 4px;
+  border-left: 3px solid var(--color-text);
+}
+
+.study .study-num {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.study p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--color-text);
+}
+
+/* Liste des publics (ateliers d'automne 2025) */
+.audience-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.audience-list li {
+  padding: 0.6rem 0 0.6rem 1.5rem;
+  position: relative;
+  border-left: 2px solid var(--color-border);
+  padding-left: 1rem;
+  margin-left: 0.3rem;
+}
+
+.audience-list li + li {
+  margin-top: 0.3rem;
+}
+
+/* Grille des 3 dispositifs (écoute amplifiée, etc.) */
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.device {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.device p {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--color-muted);
+}
+
+/* Bloc questions de recherche en citation */
+.research-questions {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.5rem;
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-muted);
+  border-radius: 0 4px 4px 0;
+}
+
+.research-questions p {
+  margin: 0 0 0.6rem 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
+.research-questions p:last-child {
+  margin-bottom: 0;
+}
+
+/* Galerie d'images Cap Nature */
+.capnature-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 2rem 0;
+}
+
+.capnature-gallery-item {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: var(--color-bg-alt);
+  border-radius: 2px;
+  cursor: zoom-in;
+}
+
+.capnature-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.capnature-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .three-studies,
+  .device-grid {
+    grid-template-columns: 1fr;
+  }
+  .capnature-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
