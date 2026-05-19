@@ -18,7 +18,7 @@ description: Marie-Léa Pouliquen — doctorante
 
     <p>Avant la thèse, j'ai étudié la physique de l'atmosphère et du climat (École des Mines de Douai, ENS Ulm), puis j'ai été <strong>enseignante à temps plein en sciences environnementales</strong> pendant trois ans à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a>.</p>
 
-    <p> A présent, j'enseigne également la climatologie en licence à l'Université de Rennes, et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
+    <p> A présent, j'enseigne également la climatologie en licence et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
 
     <p>N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
