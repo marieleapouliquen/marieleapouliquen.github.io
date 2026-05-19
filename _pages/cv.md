@@ -88,12 +88,12 @@ body_class: page-cv
 <div class="cv-entry">
   <span class="cv-entry-date">2026, hiver</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Dynamique des Enveloppes Fluides (Géophysique)</span>
-    <span class="cv-entry-place">Université de Rennes — Licence Physique, Chimie, Sciences de la Terre · 30h</span>
+    <span class="cv-entry-title"><a href="{{ '/cours-climat-rennes/' | relative_url }}">Climat et Dynamique des Enveloppes Fluides</a></span>
+    <span class="cv-entry-place">Université de Rennes — L2 STE / L3 SVT / CPES · 9h CM + 2 × 8h TD · 3 ECTS</span>
     <ul>
-      <li>Cours magistraux (lois fondamentales de la dynamique atmosphérique et océanique)</li>
-      <li>Travaux dirigés en demi-groupes (équations primitives, ondes, instabilités)</li>
-      <li>Module rattaché à la licence STE/SVT/CPES (3 ECTS indicatifs)</li>
+      <li>Cours magistraux et travaux dirigés en physique du climat</li>
+      <li>Introduction à la climatologie physique : bilan radiatif, dynamique atmosphérique et océanique</li>
+      <li>Encadrement de 2 groupes de TD (effectif total : ~50 étudiant·e·s)</li>
     </ul>
   </div>
 </div>
