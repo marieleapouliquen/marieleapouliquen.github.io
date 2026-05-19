@@ -49,5 +49,4 @@ description: Cours et ressources pédagogiques
   </div> 
 </div>
 
-</div>
 
