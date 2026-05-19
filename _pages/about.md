@@ -14,7 +14,7 @@ body_class: page-accordion
 
     <p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai d'abord exercé dans l'éducation à la transition écologique : conception d'une formation pour l'<strong>Institut Supérieur de l'Environnement</strong>, puis trois ans comme <strong>enseignante à temps plein</strong> à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a> (School Year Abroad), où j'ai élaboré et mis en œuvre un curriculum complet en sciences environnementales.</p>
 
-    <p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Le projet <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a> analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, par une méthodologie mixte (enquêtes, entretiens, ateliers mobilisant des instruments d'observation participatifs).</p>
+    <p>Je prépare désormais un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (ESO, UMR 6590). Le projet <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a> analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, à l'heure de l'urbanisation croissante et de la numérisation des loisirs.</p>
 
   </div>
 
@@ -35,6 +35,26 @@ body_class: page-accordion
     </div>
   </div>
 
+</div>
+
+<h4>Axes de recherche</h4>
+
+<div class="three-studies">
+  <div class="study">
+    <span class="study-num">01</span>
+    <h5>Enquête quantitative</h5>
+    <p>Facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</p>
+  </div>
+  <div class="study">
+    <span class="study-num">02</span>
+    <h5>Revue systématique</h5>
+    <p>Pédagogies de reconnexion à la nature inspirées des sciences participatives (méthodologie PRISMA).</p>
+  </div>
+  <div class="study">
+    <span class="study-num">03</span>
+    <h5>Recherche-Action</h5>
+    <p>Expérimentation d'ateliers avec des capteurs environnementaux participatifs en lycées et établissements du supérieur.</p>
+  </div>
 </div>
 
 ## Mon parcours
