@@ -39,7 +39,6 @@ description: Cours et ressources pédagogiques
     <span class="teaching-card-date">Plateforme</span>
     <h3>Terra Klima</h3>
     <p>Simulateurs interactifs pour l'enseignement de la climatologie : équilibre radiatif planétaire, projection des trajectoires d'émissions, dynamique d'une colonne atmosphérique. Pour le lycée et l'université.</p>
-    <span class="teaching-card-meta">3 modèles · Plotly · libre accès</span>
   </a>
 
 </div>
