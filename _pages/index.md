@@ -14,7 +14,7 @@ description: Marie-Léa Pouliquen — doctorante
 <div class="home-hero home-hero-card">
 
   <div class="home-intro">
-    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590), sous la direction de <strong>Véronique Van Tilbeurgh</strong> et <strong>Laurent Longuevergne</strong>, avec le co-encadrement de <strong>Gladys Barragan-Jason</strong>.</p>
+    <p>Bonjour ! Je suis doctorante au laboratoire <strong>Géosciences Rennes</strong> (UMR 6118) et au laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590).</p>
 
     <p>Avant la thèse, j'ai étudié l'ingénierie (Mines Douai), la physique de l'atmosphère et du climat (École Normale Supérieure de Paris - Ulm), puis j'ai été <strong>enseignante à temps plein en sciences environnementales</strong> pendant trois ans à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a>.</p>
 
