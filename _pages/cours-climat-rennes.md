@@ -83,6 +83,32 @@ Le cours emphasise la **compréhension mécaniste** et le **raisonnement quantit
 
 Ce cours constitue un **socle fondamental de la climatologie**. Il prépare aux enseignements de climatologie avancée, météorologie et/ou océanographie physique.
 
+## Slides du cours
+
+Les slides présentés en cours magistral sont disponibles en libre consultation ci-dessous.
+
+<div class="course-downloads">
+  <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 1</span>
+    <span class="download-title">Énergie du système climatique</span>
+    <span class="download-meta">PDF · 6,7 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-2-atmosphere.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 2</span>
+    <span class="download-title">Dynamique de l'atmosphère</span>
+    <span class="download-meta">PDF · 6,5 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-3-ocean.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 3</span>
+    <span class="download-title">Dynamique de l'océan</span>
+    <span class="download-meta">PDF · 14 Mo</span>
+  </a>
+</div>
+
+<p style="font-size: 0.85rem; color: var(--color-muted); margin-top: 1rem; font-style: italic;">
+© Marie-Léa Pouliquen, 2026. Tous droits réservés. Ces supports sont mis à disposition pour consultation. Toute reproduction, modification ou redistribution requiert mon accord explicite.
+</p>
+
 ---
 
 *Pour toute question sur le cours, le matériel pédagogique ou les modalités d'évaluation : [marie-lea.pouliquen@univ-rennes.fr](mailto:marie-lea.pouliquen@univ-rennes.fr).*
