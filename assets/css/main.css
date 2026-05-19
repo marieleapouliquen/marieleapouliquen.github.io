@@ -1,26 +1,58 @@
-/* ===========================================================================
-   STYLE ACADÉMIQUE ÉPURÉ 
-   =========================================================================== */
+/* ============================================================================
+ *
+ *   marieleapouliquen.github.io — feuille de style
+ *
+ *   Sommaire :
+ *     1. Variables (couleurs, polices, dimensions)
+ *     2. Base (reset, html/body, titres, paragraphes, liens)
+ *     3. Layout (container, header, nav, footer, main)
+ *     4. Composants génériques
+ *        4.1 Tableau d'actualités
+ *        4.2 Publications
+ *        4.3 Liens externes
+ *        4.4 Vidéos intégrées
+ *        4.5 Cartes ressources (Wiki, Terra Forma…)
+ *        4.6 Boutons
+ *     5. Accordéons (pages À propos & Recherche)
+ *     6. Page d'accueil (nom, tagline, hero, contact, cartes nav)
+ *     7. Page À propos (bio, identité, formations, expériences)
+ *     8. Page Recherche (sections internes Cap Nature)
+ *     9. Page Enseignement (cartes)
+ *    10. Page SYA (galerie, bulles syllabus, programme, capstones)
+ *    11. Page Cours Climat Rennes (téléchargements)
+ *    12. Responsive global
+ *
+ * ============================================================================ */
+
+
+/* ============================================================================
+   1. VARIABLES
+   ============================================================================ */
 
 :root {
-  --color-text: #111111;
-  --color-muted: #666666;
-  --color-light: #999999;
-  --color-bg: #ffffff;
-  --color-bg-alt: #fafafa;
-  --color-border: #e5e5e5;
-  --color-link: #000000;
-  --color-link-hover: #666666;
-  --color-accent: #2c7da0;
+  --color-text:        #111111;
+  --color-muted:       #666666;
+  --color-light:       #999999;
+  --color-bg:          #ffffff;
+  --color-bg-alt:      #fafafa;
+  --color-border:      #e5e5e5;
+  --color-link:        #000000;
+  --color-link-hover:  #666666;
+  --color-accent:      #2c7da0;
 
   --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'JetBrains Mono', Consolas, Monaco, monospace;
+  --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:  'JetBrains Mono', Consolas, Monaco, monospace;
 
-  --max-width: 1150px;
-  --text-base: 14px;
+  --max-width:   1150px;
+  --text-base:   14px;
   --line-height: 1.4;
 }
+
+
+/* ============================================================================
+   2. BASE
+   ============================================================================ */
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -61,11 +93,10 @@ a {
   text-underline-offset: 3px;
   transition: color 0.15s ease;
 }
-
 a:hover { color: var(--color-link-hover); }
 
 strong { font-weight: 600; }
-em { font-style: italic; }
+em     { font-style: italic; }
 
 blockquote {
   margin: 1.5em 0;
@@ -81,13 +112,29 @@ hr {
   margin: 3em 0;
 }
 
+img { max-width: 100%; height: auto; }
+
+figure { margin: 2rem 0; }
+figcaption {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+
+/* ============================================================================
+   3. LAYOUT
+   ============================================================================ */
+
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* ---------- HEADER ---------- */
+/* ---------- Header ---------- */
 .site-header {
   border-bottom: 1px solid var(--color-border);
   padding: 1.5rem 0;
@@ -110,8 +157,14 @@ hr {
   color: var(--color-text);
   letter-spacing: -0.01em;
 }
-
 .site-brand:hover { color: var(--color-muted); }
+
+/* Masque visuellement le nom sur l'accueil (mais garde la place) */
+.site-brand-hidden { visibility: hidden; }
+.site-brand-hidden::before {
+  content: "Marie-Léa Pouliquen";
+  visibility: hidden;
+}
 
 .site-nav {
   display: flex;
@@ -128,13 +181,10 @@ hr {
 }
 
 .site-nav a:hover,
-.site-nav a.active {
-  color: var(--color-text);
-}
-
+.site-nav a.active { color: var(--color-text); }
 .site-nav a.active { font-weight: 500; }
 
-/* ---------- MAIN ---------- */
+/* ---------- Main ---------- */
 .site-main {
   padding: 3rem 0 5rem 0;
   min-height: 60vh;
@@ -145,42 +195,38 @@ hr {
   margin: 0 auto;
 }
 
-.page-header { margin-bottom: 2.5rem; }
-
-.page-title {
-  font-size: 2.6rem;
-  margin: 0 0 0.3rem 0;
-  letter-spacing: -0.02em;
-}
-
-.page-subtitle {
-  font-size: 1.1rem;
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  font-size: 0.85rem;
   color: var(--color-muted);
-  font-family: var(--font-sans);
-  margin: 0;
+  text-align: center;
 }
+.site-footer a { color: var(--color-muted); text-decoration: none; }
+.site-footer a:hover { color: var(--color-text); text-decoration: underline; }
 
-/* ---------- CARTES (3 axes) ---------- */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
 }
+.footer-nav a { font-size: 0.9rem; }
+.footer-nav a:hover { text-decoration: underline; }
 
-.card {
-  border: 1px solid var(--color-border);
-  padding: 1.5rem;
-  background: var(--color-bg);
-  transition: border-color 0.15s ease;
-}
+.footer-credit { margin: 0; }
 
-.card:hover { border-color: var(--color-text); }
-.card h3 { margin: 0 0 0.5rem 0; font-size: 1.15rem; }
-.card p { margin: 0; font-size: 0.9rem; color: var(--color-muted); }
-.card a { text-decoration: none; color: var(--color-text); }
 
-/* ---------- TABLE NEWS ---------- */
+/* ============================================================================
+   4. COMPOSANTS GÉNÉRIQUES
+   ============================================================================ */
+
+/* ---------- 4.1 Tableau d'actualités (accueil) ---------- */
 .news-table {
   width: 100%;
   border-collapse: collapse;
@@ -201,267 +247,30 @@ hr {
   padding-right: 1rem;
 }
 
-/* ---------- PUBLICATIONS / ENSEIGNEMENT ---------- */
-.publication, .teaching-entry {
+/* ---------- 4.2 Publications ---------- */
+.publication {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-border);
 }
+.publication:last-child { border-bottom: none; }
 
-.publication:last-child, .teaching-entry:last-child { border-bottom: none; }
-
-.publication .pub-title { font-weight: 600; margin: 0 0 0.3rem 0; font-size: 1.05rem; }
+.publication .pub-title   { font-weight: 600; margin: 0 0 0.3rem 0; font-size: 1.05rem; }
 .publication .pub-authors { color: var(--color-muted); margin: 0 0 0.3rem 0; font-size: 0.95rem; }
-.publication .pub-venue { font-style: italic; margin: 0 0 0.5rem 0; font-size: 0.95rem; }
-.publication .pub-abstract { font-size: 0.9rem; color: var(--color-muted); margin-top: 0.8rem; }
+.publication .pub-venue   { font-style: italic; margin: 0 0 0.5rem 0; font-size: 0.95rem; }
 
-.teaching-entry .teaching-period {
-  color: var(--color-muted);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 0 0 0.3rem 0;
-}
-
-.teaching-entry .teaching-title { font-weight: 600; margin: 0 0 0.3rem 0; font-size: 1.05rem; }
-.teaching-entry .teaching-institution { color: var(--color-muted); margin: 0 0 0.5rem 0; font-size: 0.95rem; }
-
-/* ---------- IMAGES ---------- */
-img { max-width: 100%; height: auto; }
-
-figure { margin: 2rem 0; }
-figcaption {
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  margin-top: 0.5rem;
-  font-style: italic;
-  text-align: center;
-}
-
-/* ---------- FOOTER ---------- */
-.site-footer {
-  border-top: 1px solid var(--color-border);
-  padding: 2rem 0;
-  margin-top: 4rem;
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  text-align: center;
-}
-
-.site-footer a { color: var(--color-muted); text-decoration: none; }
-.site-footer a:hover { color: var(--color-text); text-decoration: underline; }
-
-/* ===========================================================================
-   PAGE CV — sommaire latéral sticky + cartes
-   =========================================================================== */
-
-.cv-layout {
-  display: grid;
-  grid-template-columns: 170px 1fr;
-  gap: 2.5rem;
-  max-width: 1280px;
-  margin: 0 auto;
-  align-items: start;
-}
-
-.cv-toc {
-  position: sticky;
-  top: 2rem;
-  font-size: 0.9rem;
-}
-
-.cv-toc-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border-left: 1px solid var(--color-border);
-}
-
-.cv-toc-list li { margin: 0; }
-
-.cv-toc-list a {
-  display: block;
-  padding: 0.4rem 0.8rem;
-  color: var(--color-muted);
+/* ---------- 4.3 Liens externes ---------- */
+.external-link {
+  display: inline-block;
+  padding: 0.4rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-text);
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.85rem;
-  line-height: 1.3;
-  border-left: 2px solid transparent;
-  margin-left: -1px;
-  transition: all 0.15s ease;
+  transition: opacity 0.15s ease;
 }
+.external-link:hover { opacity: 0.6; }
 
-.cv-toc-list a:hover { color: var(--color-text); }
-
-.cv-toc-list a.active {
-  color: var(--color-text);
-  border-left-color: var(--color-text);
-}
-
-.cv-main { min-width: 0; }
-
-.cv-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.cv-header-text { flex: 1; min-width: 200px; }
-
-.cv-header h1 { margin: 0 0 0.5rem 0; }
-
-.cv-pdf-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  color: var(--color-text);
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.15s ease;
-}
-
-.cv-pdf-button:hover {
-  border-color: var(--color-text);
-  background: var(--color-bg-alt);
-}
-
-.cv-section {
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  padding: 2rem;
-  margin-bottom: 1.5rem;
-  background: var(--color-bg);
-}
-
-.cv-section h2 {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  margin: 0 0 1.5rem 0;
-  font-weight: 500;
-}
-
-.cv-info-grid {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 0.8rem 1.5rem;
-}
-
-.cv-info-grid dt {
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-.cv-info-grid dd {
-  margin: 0;
-  color: var(--color-muted);
-}
-
-.cv-entry {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 1.5rem;
-  margin-bottom: 1.8rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.cv-entry:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
-
-.cv-entry-date {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  background: var(--color-bg-alt);
-  color: var(--color-text);
-  padding: 0.3rem 0.6rem;
-  border-radius: 3px;
-  height: fit-content;
-  white-space: nowrap;
-  text-align: center;
-  font-variant-numeric: tabular-nums;
-}
-
-.cv-entry-content .cv-entry-title {
-  font-weight: 600;
-  font-size: 1.05rem;
-  margin: 0 0 0.3rem 0;
-  display: block;
-}
-
-.cv-entry-content .cv-entry-place {
-  color: var(--color-muted);
-  margin: 0 0 0.5rem 0;
-  display: block;
-}
-
-.cv-entry-content ul {
-  margin: 0.5rem 0 0 0;
-  padding-left: 1.2rem;
-  font-size: 0.95rem;
-}
-
-.cv-entry-content ul li { margin-bottom: 0.3rem; color: var(--color-muted); }
-
-/* CV page = full width, désactiver le max-width par défaut */
-body.page-cv .page-content {
-  max-width: none;
-}
-
-body.page-cv .container { max-width: 1280px; }
-
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 900px) {
-  .cv-layout {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  .cv-toc {
-    position: static;
-    border-left: none;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--color-border);
-    margin-bottom: 1rem;
-  }
-  .cv-toc-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    border-left: none;
-  }
-  .cv-toc-list a {
-    border-left: none;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    padding: 0.3rem 0.7rem;
-    font-size: 0.85rem;
-  }
-  .cv-toc-list a.active { background: var(--color-text); color: white; border-color: var(--color-text); }
-}
-
-@media (max-width: 700px) {
-  .cv-entry, .cv-info-grid {
-    grid-template-columns: 1fr;
-    gap: 0.3rem;
-  }
-  .cv-entry-date { justify-self: start; }
-}
-
-@media (max-width: 600px) {
-  :root { --text-base: 16px; }
-  .container { padding: 0 1.2rem; }
-  .site-nav { gap: 1rem; font-size: 0.85rem; }
-  h1, .page-title { font-size: 2rem; }
-}
-
-/* ---------- VIDÉOS INTÉGRÉES (YouTube, Vimeo…) ---------- */
+/* ---------- 4.4 Vidéos intégrées (YouTube, Vimeo…) ---------- */
 .video-embed {
   position: relative;
   padding-bottom: 56.25%; /* ratio 16:9 */
@@ -471,730 +280,14 @@ body.page-cv .container { max-width: 1280px; }
   border-radius: 4px;
   background: var(--color-bg-alt);
 }
-
 .video-embed iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
   border: 0;
 }
 
-/* ---------- HERO PAGE D'ACCUEIL avec photo ---------- */
-.home-name {
-  text-align: left;
-  margin-bottom: 2.5rem;
-}
-
-.home-name h1 {
-  font-family: var(--font-serif);
-  font-size: 3.2rem;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  margin: 0;
-  line-height: 1.1;
-}
-
-.home-name h1 strong {
-  font-weight: 600;
-}
-
-.home-hero {
-  display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 2.5rem;
-  align-items: start;
-  margin-bottom: 3rem;
-}
-
-.home-photo {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  display: block;
-}
-
-.home-intro p {
-  margin-bottom: 1rem;
-}
-
-.home-intro p:last-child {
-  margin-bottom: 0;
-}
-
-@media (max-width: 700px) {
-  .home-name h1 {
-    font-size: 2.4rem;
-  }
-
-  .home-hero {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .home-photo {
-    max-width: 220px;
-    margin: 0 auto;
-    order: -1;
-  }
-}
-
-
-/* Cacher le nom dans le header sur la page d'accueil */
-.site-brand-hidden {
-  visibility: hidden;
-  /* Garde la même largeur que le texte visible "Marie-Léa Pouliquen" */
-}
-
-.site-brand-hidden::before {
-  content: "Marie-Léa Pouliquen";
-  visibility: hidden;
-}
-
-
-/* ---------- CARTES CAPSTONE (page SYA) ---------- */
-.capstone {
-  border-left: 3px solid var(--color-border);
-  padding: 0.5rem 0 0.5rem 1.2rem;
-  margin: 1.5rem 0;
-}
-
-.capstone h4 {
-  margin: 0 0 0.2rem 0;
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: var(--color-text);
-}
-
-.capstone p {
-  margin: 0.2rem 0;
-  font-size: 0.95rem;
-}
-
-.capstone p:first-of-type {
-  color: var(--color-muted);
-  font-style: italic;
-}
-
-/* ---------- BOUTON EXTERNE (YouTube, etc.) ---------- */
-.btn-external {
-  display: inline-block;
-  padding: 0.7rem 1.2rem;
-  border: 1px solid var(--color-text);
-  color: var(--color-text);
-  text-decoration: none;
-  font-weight: 500;
-  border-radius: 4px;
-  transition: all 0.15s ease;
-}
-
-.btn-external:hover {
-  background: var(--color-text);
-  color: var(--color-bg);
-}
-
-
-/* ---------- DIAGRAMME À BULLES (Syllabus SYA) ---------- */
-.syllabus-bubbles {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin: 2rem 0;
-  max-width: 700px;
-}
-
-.bubble {
-  border-radius: 50%;
-  aspect-ratio: 1 / 1;
-  padding: 2rem 1.8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.bubble:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-.bubble h4 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 1.05rem;
-  margin: 0 0 0.6rem 0;
-  color: white;
-  line-height: 1.25;
-}
-
-.bubble p {
-  font-size: 0.82rem;
-  margin: 0;
-  color: rgba(255, 255, 255, 0.95);
-  line-height: 1.4;
-}
-
-/* Couleurs inspirées de l'original */
-.bubble-eco { background: #3a7a52; }       /* Vert forêt */
-.bubble-geo { background: #6dab87; }       /* Vert clair */
-.bubble-clim { background: #4a7fa0; }      /* Bleu océan */
-.bubble-res { background: #7fc3d6; }       /* Bleu clair */
-
-/* Légère imbrication visuelle façon original */
-.bubble-eco { transform: translate(20px, 20px); }
-.bubble-geo { transform: translate(-10px, -10px); }
-.bubble-clim { transform: translate(10px, -20px); }
-.bubble-res { transform: translate(-15px, 10px); }
-
-.bubble-eco:hover { transform: translate(20px, 17px); }
-.bubble-geo:hover { transform: translate(-10px, -13px); }
-.bubble-clim:hover { transform: translate(10px, -23px); }
-.bubble-res:hover { transform: translate(-15px, 7px); }
-
-@media (max-width: 600px) {
-  .syllabus-bubbles {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .bubble {
-    aspect-ratio: 1.4 / 1;
-    border-radius: 16px;
-    padding: 1.2rem;
-    transform: none !important;
-  }
-}
-
-/* ---------- PROGRAMME PAR SEMESTRE (SYA) ---------- */
-.syllabus-program {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.semester h4 {
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin: 0 0 1rem 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-text);
-  color: var(--color-text);
-}
-
-.program-item {
-  margin-bottom: 1.2rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--color-border);
-  font-size: 0.95rem;
-  line-height: 1.55;
-}
-
-.program-item strong {
-  display: block;
-  margin-bottom: 0.3rem;
-  font-weight: 600;
-}
-
-.program-item em {
-  display: block;
-  margin-top: 0.4rem;
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  font-style: italic;
-}
-
-@media (max-width: 700px) {
-  .syllabus-program {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
-
-
-/* ---------- GALERIE MOSAÏQUE SYA ---------- */
-.sya-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-  margin: 2rem 0 2.5rem 0;
-}
-
-.sya-gallery-item {
-  display: block;
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  background: var(--color-bg-alt);
-  border-radius: 2px;
-  cursor: zoom-in;
-}
-
-.sya-gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease, opacity 0.2s ease;
-}
-
-.sya-gallery-item:hover img {
-  transform: scale(1.05);
-  opacity: 0.92;
-}
-
-@media (max-width: 700px) {
-  .sya-gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4px;
-  }
-}
-
-
-/* ---------- LIEN EXTERNE DISCRET (Terra Forma, articles partenaires) ---------- */
-.external-link {
-  display: inline-block;
-  padding: 0.4rem 0;
-  font-weight: 500;
-  border-bottom: 1px solid var(--color-text);
-  text-decoration: none;
-  transition: opacity 0.15s ease;
-}
-
-.external-link:hover {
-  opacity: 0.6;
-}
-
-
-
-/* ---------- CARTES DE TÉLÉCHARGEMENT (slides cours) ---------- */
-.course-downloads {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 2rem 0 1rem 0;
-}
-
-.download-card {
-  display: flex;
-  flex-direction: column;
-  padding: 1.2rem;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  background: var(--color-bg);
-  text-decoration: none;
-  color: var(--color-text);
-  transition: all 0.15s ease;
-}
-
-.download-card:hover {
-  border-color: var(--color-text);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.download-card .download-num {
-  font-family: var(--font-serif);
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  margin-bottom: 0.3rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.download-card .download-title {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-  line-height: 1.3;
-}
-
-.download-card .download-meta {
-  font-size: 0.8rem;
-  color: var(--color-muted);
-  margin-top: auto;
-}
-
-.download-card::after {
-  content: "↓";
-  font-size: 1.2rem;
-  margin-top: 0.6rem;
-  color: var(--color-muted);
-  align-self: flex-end;
-}
-
-.download-card:hover::after {
-  color: var(--color-text);
-}
-
-@media (max-width: 700px) {
-  .course-downloads {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ---------- CARTES ENSEIGNEMENT (page Enseignement) ---------- */
-.teaching-cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.teaching-cards:has(> a:nth-child(2)) {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.teaching-card {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  background: var(--color-bg);
-  text-decoration: none;
-  color: var(--color-text);
-  transition: all 0.15s ease;
-}
-
-.teaching-card:hover {
-  border-color: var(--color-text);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-}
-
-.teaching-card .teaching-card-date {
-  font-family: var(--font-serif);
-  font-size: 0.8rem;
-  color: var(--color-muted);
-  margin-bottom: 0.4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.teaching-card h3 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 1.15rem;
-  margin: 0 0 0.6rem 0;
-  line-height: 1.3;
-  color: var(--color-text);
-}
-
-.teaching-card p {
-  margin: 0 0 0.8rem 0;
-  font-size: 0.93rem;
-  line-height: 1.55;
-  color: var(--color-text);
-}
-
-.teaching-card .teaching-card-meta {
-  font-size: 0.82rem;
-  color: var(--color-muted);
-  margin-top: auto;
-  padding-top: 0.4rem;
-  border-top: 1px solid var(--color-border);
-  font-style: italic;
-}
-
-@media (max-width: 700px) {
-  .teaching-cards:has(> a:nth-child(2)) {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ---------- CARTE VEDETTE (page Recherche) ---------- */
-.research-feature {
-  border: 1px solid var(--color-border);
-  border-left: 4px solid var(--color-text);
-  border-radius: 4px;
-  padding: 1.8rem 2rem;
-  margin: 2rem 0;
-  background: var(--color-bg-alt);
-}
-
-.research-feature h3 {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  margin: 0 0 1rem 0;
-  font-weight: 600;
-}
-
-.research-feature .research-feature-meta {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-muted);
-  margin: 0 0 0.4rem 0;
-  font-weight: 500;
-}
-
-.research-feature ul {
-  margin-top: 0.8rem;
-}
-
-
-/* ---------- CARTES PROJETS PHARES (accueil) ---------- */
-.home-projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin: 1.5rem 0 3rem 0;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  overflow: hidden;
-  text-decoration: none;
-  color: var(--color-text);
-  transition: all 0.25s ease;
-}
-
-.project-card:hover {
-  border-color: var(--color-text);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-.project-card-image {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  background-size: cover;
-  background-position: center;
-  background-color: var(--color-bg-alt);
-  transition: transform 0.4s ease;
-}
-
-.project-card:hover .project-card-image {
-  transform: scale(1.03);
-}
-
-.project-card-content {
-  padding: 1.3rem 1.4rem 1.5rem 1.4rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.project-card .project-card-tag {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-muted);
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-.project-card h3 {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  margin: 0 0 0.6rem 0;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.project-card p {
-  margin: 0 0 1rem 0;
-  font-size: 0.92rem;
-  line-height: 1.5;
-  color: var(--color-text);
-  flex: 1;
-}
-
-.project-card .project-card-link {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--color-text);
-  margin-top: auto;
-  display: inline-block;
-}
-
-.project-card:hover .project-card-link {
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) {
-  .home-projects {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-  }
-
-  .project-card {
-    flex-direction: row;
-    align-items: stretch;
-  }
-
-  .project-card-image {
-    width: 35%;
-    aspect-ratio: auto;
-    flex-shrink: 0;
-  }
-
-  .project-card-content {
-    width: 65%;
-    padding: 1.2rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .project-card {
-    flex-direction: column;
-  }
-
-  .project-card-image {
-    width: 100%;
-    aspect-ratio: 16 / 10;
-  }
-
-  .project-card-content {
-    width: 100%;
-  }
-}
-
-
-
-/* ---------- CARTE BIO ACCUEIL ---------- */
-.home-hero-card {
-  border: 1px solid var(--color-border);
-  border-left: 4px solid var(--color-text);
-  border-radius: 4px;
-  padding: 2rem 2.2rem;
-  background: var(--color-bg-alt);
-  margin: 1.5rem 0 3rem 0;
-}
-
-.home-hero-card .home-intro p:first-child {
-  margin-top: 0;
-}
-
-.home-hero-card .home-intro p:last-child {
-  margin-bottom: 0;
-}
-
-/* Sur mobile, on enlève la bordure gauche colorée car peu visible */
-@media (max-width: 700px) {
-  .home-hero-card {
-    padding: 1.5rem;
-    border-left: 1px solid var(--color-border);
-  }
-}
-
-
-/* ---------- BLOC CONTACT SOUS LA PHOTO ---------- */
-.home-photo-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.home-photo-wrap .home-photo {
-  margin-bottom: 1rem;
-}
-
-.home-contact {
-  display: flex;
-  gap: 0.6rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.contact-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border: 1px solid var(--color-border);
-  border-radius: 50%;
-  color: var(--color-text);
-  text-decoration: none;
-  transition: all 0.2s ease;
-  background: var(--color-bg);
-}
-
-.contact-icon:hover {
-  background: var(--color-text);
-  color: var(--color-bg);
-  border-color: var(--color-text);
-  transform: translateY(-2px);
-}
-
-.contact-icon svg {
-  display: block;
-}
-
-
-
-
-/* ---------- CARTES NAVIGATION SUR L'ACCUEIL ---------- */
-.home-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-  margin: 1.5rem 0 3rem 0;
-}
-
-.home-card {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  background: var(--color-bg);
-  text-decoration: none;
-  color: var(--color-text);
-  transition: all 0.15s ease;
-}
-
-.home-card:hover {
-  border-color: var(--color-text);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-}
-
-.home-card h3 {
-  font-family: var(--font-serif);
-  font-size: 1.3rem;
-  margin: 0 0 0.6rem 0;
-  font-weight: 600;
-}
-
-.home-card p {
-  margin: 0 0 1rem 0;
-  font-size: 0.93rem;
-  line-height: 1.5;
-  color: var(--color-text);
-}
-
-.home-card .home-card-meta {
-  font-size: 0.85rem;
-  color: var(--color-muted);
-  margin-top: auto;
-  font-style: italic;
-}
-
-@media (max-width: 800px) {
-  .home-cards {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* ---------- CARTES DE RESSOURCES (page Recherche) ---------- */
+/* ---------- 4.5 Cartes ressources (Wiki, Terra Forma, etc.) ---------- */
 .resource-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1244,27 +337,32 @@ body.page-cv .container { max-width: 1280px; }
   line-height: 1.5;
 }
 
-@media (max-width: 800px) {
-  .resource-links {
-    grid-template-columns: 1fr;
-  }
+/* ---------- 4.6 Boutons ---------- */
+.btn-external {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+.btn-external:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
 }
 
 
-/* ===========================================================================
-   ACCORDÉONS HTML5 (<details>) — pages Recherche & CV
-   =========================================================================== */
+/* ============================================================================
+   5. ACCORDÉONS HTML5 (pages À propos & Recherche)
+   ============================================================================ */
 
-/* Reset largeur des pages en accordéon : pleine largeur, pas de sidebar */
-body.page-accordion .page-content {
-  max-width: none;
-}
+/* Pleine largeur (pas de sidebar) */
+body.page-accordion .page-content { max-width: none; }
+body.page-accordion .container    { max-width: var(--max-width); }
 
-body.page-accordion .container {
-  max-width: var(--max-width);
-}
-
-/* Header de page */
+/* Header de la page */
 body.page-accordion .cv-header {
   display: flex;
   justify-content: space-between;
@@ -1273,17 +371,32 @@ body.page-accordion .cv-header {
   gap: 2rem;
   flex-wrap: wrap;
 }
-
 body.page-accordion .cv-header-text {
   flex: 1;
   min-width: 200px;
 }
+body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
 
-body.page-accordion .cv-header h1 {
-  margin: 0 0 0.5rem 0;
+/* Bouton "Me contacter" en haut à droite */
+.cv-pdf-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+.cv-pdf-button:hover {
+  border-color: var(--color-text);
+  background: var(--color-bg-alt);
 }
 
-/* Style de chaque accordéon */
+/* Section accordéon (<details>) */
 .accordion-section {
   border: 1px solid var(--color-border);
   border-radius: 6px;
@@ -1307,21 +420,13 @@ body.page-accordion .cv-header h1 {
   user-select: none;
   transition: background 0.15s ease;
 }
+.accordion-section > summary:hover { background: var(--color-bg-alt); }
 
-.accordion-section > summary:hover {
-  background: var(--color-bg-alt);
-}
+/* Masque la flèche par défaut (Safari, Firefox) */
+.accordion-section > summary::-webkit-details-marker { display: none; }
+.accordion-section > summary::marker { display: none; }
 
-/* Cache la flèche par défaut (Safari, Firefox) */
-.accordion-section > summary::-webkit-details-marker {
-  display: none;
-}
-
-.accordion-section > summary::marker {
-  display: none;
-}
-
-/* Ajoute notre propre indicateur */
+/* Indicateur +/− personnalisé */
 .accordion-section > summary::after {
   content: "+";
   font-family: var(--font-sans);
@@ -1332,11 +437,7 @@ body.page-accordion .cv-header h1 {
   margin-left: 1rem;
   flex-shrink: 0;
 }
-
-.accordion-section[open] > summary::after {
-  content: "−";
-}
-
+.accordion-section[open] > summary::after { content: "−"; }
 .accordion-section[open] > summary {
   border-bottom: 1px solid var(--color-border);
 }
@@ -1345,194 +446,341 @@ body.page-accordion .cv-header h1 {
 .accordion-content {
   padding: 1.5rem 2rem 2rem 2rem;
 }
+.accordion-content > *:first-child { margin-top: 0; }
+.accordion-content > *:last-child  { margin-bottom: 0; }
 
-.accordion-content > *:first-child {
-  margin-top: 0;
+
+/* ============================================================================
+   6. PAGE D'ACCUEIL
+   ============================================================================ */
+
+/* ---------- Nom et tagline ---------- */
+.home-name {
+  text-align: left;
+  margin-bottom: 0.5rem;
 }
 
-.accordion-content > *:last-child {
-  margin-bottom: 0;
+.home-name h1 {
+  font-family: var(--font-serif);
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.1;
 }
+.home-name h1 strong { font-weight: 600; }
 
-/* Sur mobile : police plus petite pour les titres */
-@media (max-width: 700px) {
-  .accordion-section > summary {
-    font-size: 1.2rem;
-    padding: 1rem 1.2rem;
-  }
-  .accordion-content {
-    padding: 1.2rem 1.4rem 1.5rem 1.4rem;
-  }
-}
-
-
-/* ===========================================================================
-   STRUCTURE INTERNE DE LA SECTION CAP NATURE (page Recherche)
-   =========================================================================== */
-
-/* Phrase d'accroche en haut */
-.accordion-content .lead {
+.home-tagline {
   font-size: 1.1rem;
+  color: var(--color-muted);
+  margin: 0 0 2rem 0;
+  font-family: var(--font-sans);
+}
+.home-tagline a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.home-tagline a:hover { color: var(--color-text); }
+
+/* ---------- Hero : intro à gauche, photo à droite ---------- */
+.home-hero {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.home-intro p { margin-bottom: 1rem; }
+.home-intro p:last-child { margin-bottom: 0; }
+
+.home-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Bloc photo + contact dessous */
+.home-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-photo-wrap .home-photo { margin-bottom: 2rem; }
+
+.home-contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.contact-email {
+  margin: 0;
+  font-size: 0.9rem;
+  text-align: center;
   line-height: 1.5;
-  color: var(--color-text);
-  margin-bottom: 1.2rem;
 }
-
-/* Intertitres h4 et h5 dans les accordéons */
-.accordion-content h4 {
+.contact-email strong {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
   font-weight: 600;
-  margin: 2rem 0 1rem 0;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.contact-email a {
   color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  transition: border-color 0.15s ease;
+  word-break: break-all;
+}
+.contact-email a:hover { border-bottom-color: var(--color-text); }
+
+.home-contact {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.accordion-content h5 {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0 0 0.4rem 0;
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: var(--color-bg);
 }
-
-/* Séparateur entre sous-sections */
-.section-divider {
-  border: 0;
-  border-top: 1px solid var(--color-border);
-  margin: 2.5rem 0 1.5rem 0;
+.contact-icon:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-color: var(--color-text);
+  transform: translateY(-2px);
 }
+.contact-icon svg { display: block; }
 
-/* Grille des 3 études doctorales */
-.three-studies {
+/* ---------- Cartes de navigation (3 colonnes) ---------- */
+.home-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 1rem 0 2rem 0;
+  gap: 1.2rem;
+  margin: 1.5rem 0 3rem 0;
 }
 
-.study {
-  padding: 1.2rem;
-  background: var(--color-bg-alt);
+.home-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
-  border-left: 3px solid var(--color-text);
+  background: var(--color-bg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.15s ease;
+}
+.home-card:hover {
+  border-color: var(--color-text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
-.study .study-num {
+.home-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  margin: 0 0 0.6rem 0;
+  font-weight: 600;
+}
+.home-card p {
+  margin: 0 0 1rem 0;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+.home-card .home-card-meta {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: auto;
+  font-style: italic;
+}
+
+
+/* ============================================================================
+   7. PAGE À PROPOS
+   ============================================================================ */
+
+/* ---------- Bio narrative encadrée ---------- */
+.about-bio {
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-text);
+  border-radius: 4px;
+  padding: 1.8rem 2rem;
+  margin: 0 0 2rem 0;
+}
+.about-bio p {
+  margin: 0 0 1rem 0;
+  line-height: 1.65;
+}
+.about-bio p:last-child { margin-bottom: 0; }
+
+/* ---------- Bloc identité (Labos / Disciplines / Compétences / Langues) ---------- */
+.about-identity {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 0.6rem 1.5rem;
+  margin: 0 0 3rem 0;
+  padding: 1.2rem 1.5rem;
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem;
+}
+.about-identity dt {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.about-identity dd {
+  margin: 0;
+  color: var(--color-text);
+}
+
+/* ---------- Formation initiale (cartes ENS + Mines) ---------- */
+.formation-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.formation {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1.5rem 1.8rem;
+  background: var(--color-bg);
+}
+
+.formation-head {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.formation-head .formation-date {
   font-family: var(--font-serif);
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-muted);
-  display: block;
-  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-.study p {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin: 0;
+.formation-head h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0.3rem 0 0.5rem 0;
+  line-height: 1.3;
+}
+
+.formation-head .formation-school {
   color: var(--color-text);
+  font-weight: 500;
+  margin: 0 0 0.4rem 0;
 }
 
-/* Liste des publics (ateliers d'automne 2025) */
-.audience-list {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
+.formation-head .formation-degree {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+.formation-head .formation-degree .muted {
+  font-size: 0.85rem;
+  font-style: italic;
 }
 
-.audience-list li {
-  padding: 0.6rem 0 0.6rem 1.5rem;
-  position: relative;
-  border-left: 2px solid var(--color-border);
-  padding-left: 1rem;
-  margin-left: 0.3rem;
+/* Sous-titre "Stages et projets" */
+.formation-experiences h4 {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 1rem 0;
 }
 
-.audience-list li + li {
-  margin-top: 0.3rem;
-}
-
-/* Grille des 3 dispositifs (écoute amplifiée, etc.) */
-.device-grid {
+/* Grille des cartes stage */
+.experience-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 1rem 0 1.5rem 0;
+  gap: 0.8rem;
 }
 
-.device {
-  padding: 1rem 1.2rem;
-  border: 1px solid var(--color-border);
+.experience-card {
+  padding: 1rem 1.1rem;
+  background: var(--color-bg-alt);
   border-radius: 4px;
+  border-left: 3px solid var(--color-border);
 }
 
-.device p {
-  font-size: 0.88rem;
-  line-height: 1.5;
+.experience-card .exp-date {
+  font-family: var(--font-serif);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.experience-card h5 {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+  line-height: 1.3;
+}
+
+.experience-card p {
   margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.45;
   color: var(--color-muted);
 }
 
-/* Bloc questions de recherche en citation */
-.research-questions {
-  margin: 1.5rem 0;
-  padding: 1.2rem 1.5rem;
-  background: var(--color-bg-alt);
-  border-left: 3px solid var(--color-muted);
-  border-radius: 0 4px 4px 0;
-}
-
-.research-questions p {
-  margin: 0 0 0.6rem 0;
-  font-size: 0.93rem;
-  line-height: 1.55;
+.experience-card .exp-summary {
+  margin-top: 0.4rem;
   color: var(--color-text);
+  font-size: 0.85rem;
 }
 
-.research-questions p:last-child {
-  margin-bottom: 0;
+/* Carte stage "highlight" (Terra Klima) */
+.experience-card-highlight {
+  background: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-left: 3px solid var(--color-text);
 }
+.experience-card-highlight h5 { color: var(--color-text); }
 
-/* Galerie d'images Cap Nature */
-.capnature-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6px;
-  margin: 2rem 0;
-}
-
-.capnature-gallery-item {
-  display: block;
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
-  background: var(--color-bg-alt);
-  border-radius: 2px;
-  cursor: zoom-in;
-}
-
-.capnature-gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.capnature-gallery-item:hover img {
-  transform: scale(1.05);
-}
-
-/* Responsive */
-@media (max-width: 800px) {
-  .three-studies,
-  .device-grid {
-    grid-template-columns: 1fr;
-  }
-  .capnature-gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ---------- LISTE EXPÉRIENCES PRO (page À propos) ---------- */
+/* ---------- Expérience professionnelle (entrées linéaires) ---------- */
 .job-list {
   display: flex;
   flex-direction: column;
@@ -1571,13 +819,12 @@ body.page-accordion .cv-header h1 {
   padding-left: 1.2rem;
   font-size: 0.92rem;
 }
-
 .job-entry ul li {
   margin-bottom: 0.3rem;
   color: var(--color-text);
 }
 
-/* Titres de sous-sections h3 (Postes / Missions d'enseignement / etc.) */
+/* Titres de sous-sections (Postes / Missions d'enseignement / etc.) */
 .page-accordion h3 {
   font-family: var(--font-serif);
   font-size: 1.25rem;
@@ -1585,4 +832,547 @@ body.page-accordion .cv-header h1 {
   margin: 2rem 0 1rem 0;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--color-border);
+}
+
+
+/* ============================================================================
+   8. PAGE RECHERCHE (sections internes Cap Nature)
+   ============================================================================ */
+
+/* ---------- Carte vedette (Cap Nature) ---------- */
+.research-feature {
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-text);
+  border-radius: 4px;
+  padding: 1.8rem 2rem;
+  margin: 2rem 0;
+  background: var(--color-bg-alt);
+}
+.research-feature h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+.research-feature .research-feature-meta {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  margin: 0 0 0.4rem 0;
+  font-weight: 500;
+}
+.research-feature ul { margin-top: 0.8rem; }
+
+/* ---------- Phrase d'accroche (lead) ---------- */
+.accordion-content .lead {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  margin-bottom: 1.2rem;
+}
+
+/* ---------- Intertitres h4 et h5 ---------- */
+.accordion-content h4 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: var(--color-text);
+}
+.accordion-content h5 {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+}
+
+/* Séparateur entre sous-sections */
+.section-divider {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+/* ---------- Grille des 3 études doctorales ---------- */
+.three-studies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.study {
+  padding: 1.2rem;
+  background: var(--color-bg-alt);
+  border-radius: 4px;
+  border-left: 3px solid var(--color-text);
+}
+.study .study-num {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.study p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--color-text);
+}
+
+/* ---------- Liste des publics (lycées + universités) ---------- */
+.audience-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.audience-list li {
+  padding: 0.6rem 0 0.6rem 1rem;
+  border-left: 2px solid var(--color-border);
+  margin-left: 0.3rem;
+}
+.audience-list li + li { margin-top: 0.3rem; }
+
+/* ---------- Grille des 3 dispositifs (écoute amplifiée…) ---------- */
+.device-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+.device {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+.device p {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--color-muted);
+}
+
+/* ---------- Bloc questions de recherche ---------- */
+.research-questions {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.5rem;
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-muted);
+  border-radius: 0 4px 4px 0;
+}
+.research-questions p {
+  margin: 0 0 0.6rem 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+.research-questions p:last-child { margin-bottom: 0; }
+
+/* ---------- Galerie d'images Cap Nature ---------- */
+.capnature-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 2rem 0;
+}
+.capnature-gallery-item {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: var(--color-bg-alt);
+  border-radius: 2px;
+  cursor: zoom-in;
+}
+.capnature-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.capnature-gallery-item:hover img { transform: scale(1.05); }
+
+
+/* ============================================================================
+   9. PAGE ENSEIGNEMENT
+   ============================================================================ */
+
+.teaching-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.teaching-cards:has(> a:nth-child(2)) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.teaching-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.15s ease;
+}
+.teaching-card:hover {
+  border-color: var(--color-text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.teaching-card .teaching-card-date {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.teaching-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0 0 0.6rem 0;
+  line-height: 1.3;
+  color: var(--color-text);
+}
+
+.teaching-card p {
+  margin: 0 0 0.8rem 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
+.teaching-card .teaching-card-meta {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin-top: auto;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--color-border);
+  font-style: italic;
+}
+
+
+/* ============================================================================
+   10. PAGE SYA
+   ============================================================================ */
+
+/* ---------- Galerie mosaïque ---------- */
+.sya-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: 2rem 0 2.5rem 0;
+}
+
+.sya-gallery-item {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--color-bg-alt);
+  border-radius: 2px;
+  cursor: zoom-in;
+}
+
+.sya-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.sya-gallery-item:hover img {
+  transform: scale(1.05);
+  opacity: 0.92;
+}
+
+/* ---------- Diagramme à bulles (Syllabus 4 thèmes) ---------- */
+.syllabus-bubbles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  max-width: 700px;
+}
+
+.bubble {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  padding: 2rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bubble:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.bubble h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 0.6rem 0;
+  color: white;
+  line-height: 1.25;
+}
+
+.bubble p {
+  font-size: 0.82rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.4;
+}
+
+/* Couleurs des 4 thèmes */
+.bubble-eco  { background: #3a7a52; }  /* Vert forêt */
+.bubble-geo  { background: #6dab87; }  /* Vert clair */
+.bubble-clim { background: #4a7fa0; }  /* Bleu océan */
+.bubble-res  { background: #7fc3d6; }  /* Bleu clair */
+
+/* Imbrication visuelle façon mosaïque */
+.bubble-eco  { transform: translate( 20px,  20px); }
+.bubble-geo  { transform: translate(-10px, -10px); }
+.bubble-clim { transform: translate( 10px, -20px); }
+.bubble-res  { transform: translate(-15px,  10px); }
+
+.bubble-eco:hover  { transform: translate( 20px,  17px); }
+.bubble-geo:hover  { transform: translate(-10px, -13px); }
+.bubble-clim:hover { transform: translate( 10px, -23px); }
+.bubble-res:hover  { transform: translate(-15px,   7px); }
+
+/* ---------- Programme par semestre ---------- */
+.syllabus-program {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.semester h4 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-text);
+  color: var(--color-text);
+}
+
+.program-item {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-border);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.program-item strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+.program-item em {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* ---------- Cartes Capstone ---------- */
+.capstone {
+  border-left: 3px solid var(--color-border);
+  padding: 0.5rem 0 0.5rem 1.2rem;
+  margin: 1.5rem 0;
+}
+.capstone h4 {
+  margin: 0 0 0.2rem 0;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--color-text);
+}
+.capstone p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+.capstone p:first-of-type {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+
+/* ============================================================================
+   11. PAGE COURS CLIMAT RENNES (cartes téléchargement PDF)
+   ============================================================================ */
+
+.course-downloads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.download-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.15s ease;
+}
+.download-card:hover {
+  border-color: var(--color-text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.download-card .download-num {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.download-card .download-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.download-card .download-meta {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-top: auto;
+}
+
+.download-card::after {
+  content: "↓";
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+  color: var(--color-muted);
+  align-self: flex-end;
+}
+.download-card:hover::after { color: var(--color-text); }
+
+
+/* ============================================================================
+   12. RESPONSIVE GLOBAL
+   ============================================================================ */
+
+/* ---------- Tablet (< 900 px) ---------- */
+@media (max-width: 900px) {
+  .home-cards,
+  .home-projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Tablet petit (< 800 px) ---------- */
+@media (max-width: 800px) {
+  .three-studies,
+  .device-grid,
+  .experience-cards,
+  .resource-links {
+    grid-template-columns: 1fr;
+  }
+  .capnature-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------- Mobile (< 700 px) ---------- */
+@media (max-width: 700px) {
+  .home-name h1 { font-size: 2.4rem; }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-photo {
+    max-width: 220px;
+    margin: 0 auto;
+    order: -1;
+  }
+
+  .about-bio,
+  .home-hero-card {
+    padding: 1.5rem;
+    border-left: 1px solid var(--color-border);
+  }
+
+  .about-identity {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+  .about-identity dt { margin-top: 0.6rem; }
+  .about-identity dt:first-child { margin-top: 0; }
+
+  .accordion-section > summary {
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+  .accordion-content {
+    padding: 1.2rem 1.4rem 1.5rem 1.4rem;
+  }
+
+  .sya-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+  }
+
+  .syllabus-program,
+  .course-downloads {
+    grid-template-columns: 1fr;
+  }
+
+  .teaching-cards:has(> a:nth-child(2)) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Mobile petit (< 600 px) ---------- */
+@media (max-width: 600px) {
+  :root { --text-base: 16px; }
+  .container { padding: 0 1.2rem; }
+  .site-nav { gap: 1rem; font-size: 0.85rem; }
+  h1, .page-title { font-size: 2rem; }
+
+  .syllabus-bubbles {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bubble {
+    aspect-ratio: 1.4 / 1;
+    border-radius: 16px;
+    padding: 1.2rem;
+    transform: none !important;
+  }
 }
