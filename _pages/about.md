@@ -15,30 +15,24 @@ body_class: page-accordion
 
 ## Formation
 
-<div class="formation-list">
+<div class="job-list">
 
-<div class="formation-line">
-  <span class="formation-line-date">2024 — auj.</span>
-  <div class="formation-line-content">
-    <h3>Doctorante en Sociologie et Sciences de l'Environnement</h3>
-    <p>École Doctorale Espaces, Sociétés, Civilisations — Université de Rennes 2</p>
-  </div>
+<div class="job-entry">
+  <p class="job-period"><em>2024 — auj.</em></p>
+  <h4>Doctorante en Sociologie et Sciences de l'Environnement</h4>
+  <p>École Doctorale Espaces, Sociétés, Civilisations — Université de Rennes × Université Rennes 2</p>
 </div>
 
-<div class="formation-line">
-  <span class="formation-line-date">2017 — 2020</span>
-  <div class="formation-line-content">
-    <h3>Normalienne en Géosciences et Environnement · MSc Sciences de l'Océan, de l'Atmosphère et du Climat</h3>
-    <p>École Normale Supérieure (Ulm), Paris</p>
-  </div>
+<div class="job-entry">
+  <p class="job-period"><em>2017 — 2020</em></p>
+  <h4>Normalienne en Géosciences et Environnement · MSc Sciences de l'Océan, de l'Atmosphère et du Climat</h4>
+  <p>École Normale Supérieure (Ulm), Paris</p>
 </div>
 
-<div class="formation-line">
-  <span class="formation-line-date">2014 — 2017</span>
-  <div class="formation-line-content">
-    <h3>Ingénieure généraliste · MSc Ingénierie, majeure Génie de l'Environnement</h3>
-    <p>Institut Mines-Télécom Nord Europe</p>
-  </div>
+<div class="job-entry">
+  <p class="job-period"><em>2014 — 2017</em></p>
+  <h4>Ingénieure généraliste · MSc Ingénierie, majeure Génie de l'Environnement</h4>
+  <p>Institut Mines-Télécom Nord Europe</p>
 </div>
 
 </div>
