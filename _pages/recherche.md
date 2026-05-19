@@ -38,6 +38,27 @@ body_class: page-cv
       <li><strong>Étude 3</strong> — Protocole expérimental mobilisant des capteurs environnementaux participatifs (bioacoustique, identification d'espèces) avec des lycéen·ne·s et étudiant·e·s.</li>
     </ul>
     <p style="margin-top: 1rem;"><a href="{{ '/cap-nature/' | relative_url }}" class="external-link">→ Voir le projet et le wiki des ateliers</a></p>
+
+<div class="resource-links">
+  <a href="{{ '/cap-nature/' | relative_url }}" class="resource-link">
+    <span class="resource-link-label">Présentation</span>
+    <span class="resource-link-title">Page projet Cap Nature</span>
+    <span class="resource-link-desc">Démarche scientifique, partenariats, contexte de la thèse.</span>
+  </a>
+
+  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-label">Ressource pédagogique</span>
+    <span class="resource-link-title">Wiki des ateliers ↗</span>
+    <span class="resource-link-desc">Protocole, fiches espèces et matériel pour répliquer les ateliers (CC BY-SA 4.0).</span>
+  </a>
+
+  <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-label">Partenariat institutionnel</span>
+    <span class="resource-link-title">Cycle Terra Forma 2025 ↗</span>
+    <span class="resource-link-desc">Présentation officielle du cycle d'ateliers de l'automne 2025 sur le site de Terra Forma.</span>
+  </a>
+</div>
+
 </section>
 
 <section class="cv-section" id="publications">
