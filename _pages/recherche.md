@@ -5,6 +5,10 @@ title: ""
 description: Recherche
 ---
 
+**Comment les 15-25 ans se relient-ils aujourd’hui au vivant, à l’heure où les expériences directes de nature se raréfient et où le numérique s’invite partout ?** 
+
+Ma thèse explore cette question à la croisée de la sociologie, de la psychologie environnementale et de l’écologie sensorielle.
+
 ## Axes de recherche de mon projet doctoral
 
 <div class="three-studies">
