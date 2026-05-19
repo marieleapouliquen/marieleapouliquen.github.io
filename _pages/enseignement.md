@@ -60,5 +60,5 @@ Trois principes structurent mon approche :
 ---
 
 <p style="font-size: 0.95rem; color: var(--color-muted);">
-Pour la liste exhaustive de mes enseignements et formations suivies, voir la <a href="{{ '/cv/' | relative_url }}">page CV</a>. Pour toute demande de collaboration pédagogique ou intervention : <a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a>.
+Pour toute demande de collaboration pédagogique ou intervention : <a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a>.
 </p>
