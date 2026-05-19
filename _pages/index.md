@@ -28,6 +28,42 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
   </div>
 </div>
 
+## Projets en cours (2024-)
+
+<div class="home-projects">
+  <a href="{{ '/cap-nature/' | relative_url }}" class="project-card">
+    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}');"></div>
+    <div class="project-card-content">
+      <span class="project-card-tag">Recherche · Ateliers</span>
+      <h3>Cap Nature</h3>
+      <p>Des capteurs participatifs pour renouer la relation au vivant des jeunes générations. Ma thèse en cours et un wiki collaboratif pour les enseignants.</p>
+      <span class="project-card-link">Découvrir →</span>
+    </div>
+  </a>
+
+## Projets passés
+
+  <a href="{{ '/sya/' | relative_url }}" class="project-card">
+    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-sya.jpg' | relative_url }}');"></div>
+    <div class="project-card-content">
+      <span class="project-card-tag">Enseignement secondaire</span>
+      <h3>School Year Abroad</h3>
+      <p>Trois années comme enseignante de sciences environnementales à l'École Américaine de Rennes. Curriculum AP, fieldworks hebdomadaires, encadrement de Capstones.</p>
+      <span class="project-card-link">Voir l'expérience →</span>
+    </div>
+  </a>
+  </div>
+
+  <a href="{{ '/terra-klima/' | relative_url }}" class="project-card">
+    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-terra-klima.jpg' | relative_url }}');"></div>
+    <div class="project-card-content">
+      <span class="project-card-tag">Pédagogie · Climat</span>
+      <h3>Terra Klima</h3>
+      <p>Plateforme de simulateurs interactifs pour enseigner la climatologie : équilibre radiatif, trajectoires d'émissions, dynamique atmosphérique. En libre accès.</p>
+      <span class="project-card-link">Explorer →</span>
+    </div>
+  </a>
+
 ## Actualités
 
 <table class="news-table">
