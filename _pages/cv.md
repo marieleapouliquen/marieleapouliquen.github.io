@@ -193,12 +193,14 @@ body_class: page-cv
 </div>
 
 <div class="cv-entry">
-  <span class="cv-entry-date">Mars 2023</span>
+  <span class="cv-entry-date">13-17 février 2023</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Professeure invitée</span>
-    <span class="cv-entry-place">Choate Rosemary Hall — Connecticut, USA</span>
+    <span class="cv-entry-title">Professeure invitée dans les écoles partenaires de SYA</span>
+    <span class="cv-entry-place">Choate Rosemary Hall et The Hotchkiss School — Connecticut, États-Unis</span>
     <ul>
-      <li>Cours et ateliers en sciences environnementales</li>
+      <li>Visite du <strong>Koehler Environmental Center</strong> (Choate) et de la ferme pédagogique <strong>Fairfield Farm</strong> (Hotchkiss)</li>
+      <li>Observation pédagogique et échanges sur les curricula environnementaux des deux établissements</li>
+      <li>Interventions actives en cours d'écologie (en anglais) et de français langue étrangère</li>
     </ul>
   </div>
 </div>
