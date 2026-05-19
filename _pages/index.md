@@ -37,3 +37,8 @@ description: Marie-Léa Pouliquen — doctorante en sociologie de l'environnemen
 </table>
 
 <p style="text-align: right; margin-top: 1rem;"><a href="{{ '/actualites/' | relative_url }}">Voir toutes les actualités →</a></p>
+
+## Au-delà de la recherche
+
+Au-delà de mes activités académiques, j'aime peindre et photographier ce qui m'entoure. Ces pratiques nourrissent ma sensibilité au vivant et alimentent en retour ma manière d'aborder la médiation scientifique. Mon site artistique : <a href="http://mlykscorner.fr">MLYK's Corner</a>.
+
