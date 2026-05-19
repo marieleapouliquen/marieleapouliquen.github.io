@@ -61,7 +61,7 @@ body_class: page-accordion
     <span class="resource-link-title">Accéder au Wiki du projet</span>
   </a>
 
-<img src="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
+<img src="{{ '/assets/img/projet-cap-nature-banner.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
 
 ## Mon parcours
 
