@@ -57,8 +57,3 @@ Trois principes structurent mon approche :
   </a>
 </div>
 
----
-
-<p style="font-size: 0.95rem; color: var(--color-muted);">
-Pour toute demande de collaboration pédagogique ou intervention : <a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a>.
-</p>
