@@ -28,10 +28,6 @@ Trois principes structurent mon approche :
   </a>
 </div>
 
-<p style="font-size: 0.95rem; color: var(--color-muted); margin-top: 1rem;">
-Voir aussi mes interventions plus anciennes (Challenge Transition Énergétique 2025, Géographie environnementale Rennes 2 en 2023, Processus du Système Climatique à l'ISE Versailles en 2020) sur la <a href="{{ '/cv/' | relative_url }}#enseignement-sup">page CV</a>.
-</p>
-
 ## Enseignement dans le secondaire
 
 <div class="teaching-cards">
