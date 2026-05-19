@@ -11,7 +11,7 @@ description: Cours et ressources pédagogiques
 <p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
 
 
-## Supports de cours
+### Supports de cours
 
 <div class="course-downloads">
   <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
@@ -36,7 +36,7 @@ description: Cours et ressources pédagogiques
 
 **Terra Klima** est une plateforme de **ressources pédagogiques interactives** destinées à l'enseignement des sciences du climat et de l'environnement. Chaque module propose un **simulateur en accès libre** permettant aux élèves et aux enseignant·e·s d'explorer un mécanisme fondamental du système climatique, en jouant directement avec les paramètres physiques. L'objectif : passer de la formule au phénomène, et du phénomène à l'intuition. L'idée centrale : un·e élève apprend mieux quand il ou elle peut **agir sur les paramètres** et observer **comment le système répond**.
 
-## Modules disponibles
+### Modules disponibles
 
 <div class="cards">
   <div class="card">
