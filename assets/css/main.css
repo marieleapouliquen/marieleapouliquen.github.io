@@ -454,6 +454,25 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
    6. PAGE D'ACCUEIL
    ============================================================================ */
 
+/* ---------- Bloc identité cliquable (nom + tagline → À propos) ---------- */
+.home-identity {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.home-identity:hover {
+  opacity: 0.65;
+  color: inherit;
+}
+
+.home-identity:hover .home-name h1,
+.home-identity:hover .home-tagline {
+  color: inherit;
+}
+
 /* ---------- Nom et tagline ---------- */
 .home-name {
   text-align: left;
