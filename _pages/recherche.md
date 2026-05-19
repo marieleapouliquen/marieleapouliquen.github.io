@@ -1,20 +1,43 @@
 ---
 layout: default
 permalink: /recherche/
-title: Recherche
-description: Travaux doctoraux et projets de recherche
+title: ""
+description: Travaux de recherche, projet doctoral Cap Nature et publications
+body_class: page-cv
 ---
 
-Ma recherche se situe à la **croisée des sciences sociales et environnementales**. Elle interroge la **relation que les jeunes générations entretiennent au vivant** à l'heure où les expériences directes de nature se raréfient et où les technologies numériques deviennent omniprésentes.
+<div class="cv-layout">
 
-## Projet doctoral en cours · Cap Nature
+<aside class="cv-toc">
+  <ul class="cv-toc-list">
+    <li><a href="#these">Thèse en cours</a></li>
+    <li><a href="#cadre">Cadre institutionnel</a></li>
+    <li><a href="#methodes">Approche méthodologique</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#anterieur">Recherches antérieures</a></li>
+  </ul>
+</aside>
+
+<div class="cv-main">
+
+<div class="cv-header">
+  <div class="cv-header-text">
+    <h1>Recherche</h1>
+    <p style="color: var(--color-muted); margin: 0;">Travaux doctoraux, publications et projets de recherche.</p>
+  </div>
+</div>
+
+<p><strong>Comment les 15-25 ans se relient-ils aujourd'hui au vivant</strong>, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question qui structure mon travail doctoral, à la <strong>croisée de la sociologie de l'environnement, de la psychologie environnementale et de l'écologie sensorielle</strong>.</p>
+
+<section class="cv-section" id="these">
+<h2>Thèse en cours · Cap Nature</h2>
 
 <div class="research-feature">
   <div class="research-feature-content">
     <p class="research-feature-meta">Doctorat en cours · 2024 — 2027</p>
     <h3>Cap Nature : des capteurs pour renouer avec le vivant</h3>
-    <p>Comment les technologies participatives (capteurs environnementaux, applications d'identification d'espèces) peuvent-elles servir de <strong>seuil</strong> vers une expérience sensible du vivant chez les 15-25 ans, plutôt que de s'y substituer ?</p>
-    <p>Mon doctorat articule <strong>trois études complémentaires</strong> :</p>
+    <p>Comment les technologies participatives (capteurs environnementaux, applications d'identification d'espèces) peuvent-elles servir de <strong>seuil</strong> vers une expérience sensible du vivant chez les 15-25 ans, plutôt que de s'y substituer&nbsp;?</p>
+    <p>Mon doctorat articule <strong>trois études complémentaires</strong>&nbsp;:</p>
     <ul>
       <li><strong>Étude 1</strong> — Enquête quantitative sur les facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</li>
       <li><strong>Étude 2</strong> — Revue systématique (méthodologie PRISMA) des pédagogies de reconnexion à la nature inspirées des sciences participatives.</li>
@@ -23,32 +46,120 @@ Ma recherche se situe à la **croisée des sciences sociales et environnementale
     <p style="margin-top: 1rem;"><a href="{{ '/cap-nature/' | relative_url }}" class="external-link">→ Voir le projet et le wiki des ateliers</a></p>
   </div>
 </div>
+</section>
 
-## Cadre institutionnel
+<section class="cv-section" id="cadre">
+<h2>Cadre institutionnel</h2>
 
-Cette thèse est conduite en **cotutelle** entre :
+<p>Cette thèse est conduite en <strong>cotutelle</strong> entre&nbsp;:</p>
 
-- **Université de Rennes** — laboratoire **Géosciences Rennes** (UMR 6118)
-- **Université Rennes 2** — laboratoire **ESO** (Espaces et Sociétés, UMR 6590)
+<ul>
+  <li><strong>Université de Rennes</strong> — laboratoire <strong>Géosciences Rennes</strong> (UMR 6118)</li>
+  <li><strong>Université Rennes 2</strong> — laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590)</li>
+</ul>
 
-École Doctorale **Espaces, Sociétés, Civilisations**.
+<p>École Doctorale <strong>Espaces, Sociétés, Civilisations</strong>.</p>
 
-**Direction de thèse** : Véronique Van Tilbeurgh (ESO, Univ. Rennes 2) · Laurent Longuevergne (Géosciences Rennes, Univ. Rennes)
+<dl class="cv-info-grid">
+  <dt>Direction</dt>
+  <dd>Véronique Van Tilbeurgh (ESO, Univ. Rennes 2)<br>Laurent Longuevergne (Géosciences Rennes, Univ. Rennes)</dd>
+  <dt>Co-encadrement</dt>
+  <dd>Gladys Barragan-Jason (CEFE, CNRS)</dd>
+</dl>
+</section>
 
-**Co-encadrement** : Gladys Barragan-Jason (CEFE, CNRS)
+<section class="cv-section" id="methodes">
+<h2>Approche méthodologique</h2>
 
-## Approche méthodologique
+<p>Mes travaux mobilisent une <strong>méthodologie mixte</strong> combinant&nbsp;:</p>
 
-Mes travaux mobilisent une **méthodologie mixte** combinant :
+<ul>
+  <li><strong>Approches quantitatives</strong> issues des sciences sociales (questionnaires, analyses statistiques) et des sciences du climat (capteurs environnementaux, mesures de niveaux sonores, identification automatisée d'espèces).</li>
+  <li><strong>Approches qualitatives</strong> (entretiens, ateliers, observation participante) ancrées dans la sociologie de l'environnement et la psychologie environnementale.</li>
+  <li>Une démarche résolument <strong>interdisciplinaire</strong>, inscrite dans la communauté émergente des <strong>humanités environnementales</strong> et des <strong>sciences participatives</strong>.</li>
+</ul>
+</section>
 
-- **Approches quantitatives** issues des sciences sociales (questionnaires, analyses statistiques) et des sciences du climat (capteurs environnementaux, mesures de niveaux sonores, identification automatisée d'espèces).
-- **Approches qualitatives** (entretiens, ateliers, observation participante) ancrées dans la sociologie de l'environnement et la psychologie environnementale.
-- **Une démarche résolument interdisciplinaire**, inscrite dans la communauté émergente des **humanités environnementales** et des **sciences participatives**.
+<section class="cv-section" id="publications">
+<h2>Publications</h2>
 
-## Recherche antérieure
+<h3 style="margin-top: 0;">Articles publiés</h3>
 
-Avant ma thèse, j'ai mené des recherches en **physique de l'atmosphère et du climat** :
+<div class="publication">
+  <p class="pub-title">Aerosols on the Tropical Island of La Réunion : Assessment of Climatology, Origin of Variability and Trend</p>
+  <p class="pub-authors">Duflot, V., Bègue, N., <strong>Pouliquen, M.-L.</strong>, Goloub, P., &amp; Metzger, J.-M.</p>
+  <p class="pub-venue"><em>Remote Sensing</em>, 14(19), 4945 — 2022</p>
+  <p><a href="https://doi.org/10.3390/rs14194945" class="external-link">DOI : 10.3390/rs14194945 ↗</a></p>
+</div>
 
-- **Mémoire de master** sur les aérosols troposphériques à La Réunion (LACy, Pr. V. Duflot), publié dans *Remote Sensing* en 2022 — voir [Publications]({{ '/publications/' | relative_url }}).
-- **Stages de recherche** au Laboratoire de Météorologie Dynamique (Pr. B. Legras, ENS Ulm) et au Max Planck Institut für Meteorologie (Pr. B. Stevens, Hambourg).
+<h3>Mémoires</h3>
 
+<div class="publication">
+  <p class="pub-title">Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique</p>
+  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 2 Recherche)</p>
+  <p class="pub-venue">Laboratoire de Météorologie Dynamique, ENS Ulm — 2019</p>
+  <p>Sous la direction du Pr. Bernard Legras. Modélisation lagrangienne (Traczilla-Flexpart).</p>
+</div>
+
+<div class="publication">
+  <p class="pub-title">Coupling Sea Surface Temperature with Atmospheric Convection in the Tropical Atlantic</p>
+  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire de Master 1)</p>
+  <p class="pub-venue">Max Planck Institut für Meteorologie, Hambourg — 2018</p>
+  <p>Sous la direction du Pr. Björn Stevens et du Dr. James Ruppert. Modélisation couplée océan-atmosphère (PyOM, ICON).</p>
+</div>
+
+<div class="publication">
+  <p class="pub-title">Climatologie des propriétés optiques des aérosols troposphériques mesurés à La Réunion</p>
+  <p class="pub-authors"><strong>Pouliquen, M.-L.</strong> (mémoire d'ingénieur)</p>
+  <p class="pub-venue">Laboratoire de l'Atmosphère et des Cyclones, La Réunion — 2017</p>
+  <p>Sous la direction du Dr. Valentin Duflot. Inversion lidar/satellite des aérosols troposphériques.</p>
+</div>
+</section>
+
+<section class="cv-section" id="anterieur">
+<h2>Recherches antérieures</h2>
+
+<p>Avant ma thèse, j'ai mené des recherches en <strong>physique de l'atmosphère et du climat</strong>&nbsp;:</p>
+
+<ul>
+  <li><strong>Stage de Master 2</strong> au Laboratoire de Météorologie Dynamique (Pr. B. Legras, ENS Ulm) — paramétrisation de la diffusivité verticale dans l'Anticyclone de Mousson Asiatique.</li>
+  <li><strong>Stage de Master 1</strong> au Max Planck Institut für Meteorologie de Hambourg (Pr. B. Stevens, Dr. J. Ruppert) — modélisation couplée océan-atmosphère.</li>
+  <li><strong>Stage d'ingénieur</strong> au Laboratoire de l'Atmosphère et des Cyclones de La Réunion (Dr. V. Duflot) — inversion lidar/satellite, publication dans <em>Remote Sensing</em> en 2022.</li>
+</ul>
+
+<p>Le détail complet des stages, missions et formations figure dans la <a href="{{ '/cv/' | relative_url }}">page CV</a>.</p>
+</section>
+
+</div>
+</div>
+
+<script>
+// Sommaire qui surligne la section active au scroll
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = document.querySelectorAll('.cv-section');
+  const tocLinks = document.querySelectorAll('.cv-toc-list a');
+
+  function setActive() {
+    let current = '';
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 100) current = section.id;
+    });
+    tocLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+    });
+  }
+
+  window.addEventListener('scroll', setActive);
+  setActive();
+
+  // Smooth scroll
+  tocLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+});
+</script>
