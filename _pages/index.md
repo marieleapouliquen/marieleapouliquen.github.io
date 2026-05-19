@@ -1,61 +1,30 @@
 ---
 layout: default
 permalink: /
-title: Marie-Léa Pouliquen
-description: Marie-Léa Pouliquen — Doctorante en sciences et humanités environnementales, Université de Rennes
+title: ""
+description: Marie-Léa Pouliquen — doctorante en sociologie de l'environnement et sciences du climat à l'Université de Rennes
 ---
+
+<header class="home-name">
+  <h1><strong>Marie-Léa</strong> Pouliquen</h1>
+</header>
+
+<p class="home-tagline">Doctorante en sociologie de l'environnement et sciences du climat à l'<a href="https://www.univ-rennes.fr/">Université de Rennes</a>.</p>
 
 <div class="home-hero">
   <div class="home-intro">
-    <p>Bonjour ! Je suis <strong>Marie-Léa Pouliquen</strong>, doctorante en sciences et sociologie de l'environnement à l'<strong>Université de Rennes</strong>.</p>
-    <p>Mon travail explore la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, des sciences naturelles et de la pédagogie. J'ai aussi enseigné trois ans en lycée, et je conçois des ressources pédagogiques en libre accès.</p>
-    <p>Bonne visite — n'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
+    <p>Bonjour ! Je suis doctorante au laboratoire <a href="https://geosciences.univ-rennes.fr/">Géosciences Rennes</a> (UMR 6118) et au laboratoire <a href="https://eso.cnrs.fr/">ESO</a> (Espaces et Sociétés, UMR 6590), sous la direction de <strong>Véronique Van Tilbeurgh</strong> et <strong>Laurent Longuevergne</strong>, avec le co-encadrement de <strong>Gladys Barragan-Jason</strong>.</p>
+
+    <p>Mes travaux explorent la <strong>relation que les jeunes générations entretiennent au vivant</strong>, à la croisée des sciences sociales, de la psychologie environnementale et de l'écologie sensorielle. À travers ma thèse <a href="{{ '/cap-nature/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir un <strong>médiateurs</strong> d'une expérience sensible de la nature</p>
+
+    <p>Avant la thèse, j'ai étudié la physique de l'atmosphère et du climat</strong> (École des Mines de Douai, ENS Ulm), puis <strong>enseignante à temps plein en sciences environnementales</strong> pendant trois ans à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a>. J'enseigne aujourd'hui la climatologie en licence à l'Université de Rennes, et je conçois des <strong>ressources pédagogiques en libre accès</strong> (<a href="{{ '/terra-klima/' | relative_url }}">Terra Klima</a>, <a href="https://marieleapouliquen.github.io/wiki-cap-nature/">Wiki Cap Nature</a>).</p>
+
+    <p>N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
 </div>
 
-<div class="cards">
-  <div class="card">
-    <h3><a href="{{ '/recherche/' | relative_url }}">Recherche</a></h3>
-    <p>Thèse <em>Cap Nature</em> et publications en sciences du climat et de l'atmosphère.</p>
-  </div>
-  <div class="card">
-    <h3><a href="{{ '/enseignement/' | relative_url }}">Enseignement</a></h3>
-    <p>Cours universitaires en géosciences, géographie environnementale et sciences de l'environnement.</p>
-  </div>
-  <div class="card">
-    <h3><a href="{{ '/diffusion/' | relative_url }}">Diffusion</a></h3>
-    <p>Conférences grand public, ressources pédagogiques, médiation scientifique.</p>
-  </div>
-</div>
-
-## Projets
-
-<div class="home-projects">
-
-  <a href="{{ '/cap-nature/' | relative_url }}" class="project-card">
-    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}');"></div>
-    <div class="project-card-content">
-      <span class="project-card-tag">Recherche · Ateliers</span>
-      <h3>Cap Nature</h3>
-      <p>Des capteurs participatifs pour renouer la relation au vivant des jeunes générations. Ma thèse en cours et un wiki collaboratif pour les enseignants.</p>
-      <span class="project-card-link">Découvrir →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/terra-klima/' | relative_url }}" class="project-card">
-    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-terra-klima.jpg' | relative_url }}');"></div>
-    <div class="project-card-content">
-      <span class="project-card-tag">Pédagogie · Climat</span>
-      <h3>Terra Klima</h3>
-      <p>Plateforme de simulateurs interactifs pour enseigner la climatologie : équilibre radiatif, trajectoires d'émissions, dynamique atmosphérique. En libre accès.</p>
-      <span class="project-card-link">Explorer →</span>
-    </div>
-  </a>
-
-</div>
-
-## Actualités
+## Actualités récentes
 
 <table class="news-table">
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
