@@ -2,99 +2,42 @@
 layout: default
 permalink: /about/
 title: ""
-description: Biographie
+description: Parcours
 body_class: page-accordion
 ---
 
 <div class="cv-header">
   <div class="cv-header-text">
-    <h1>À propos</h1>
-    <p style="color: var(--color-muted); margin: 0;">Parcours et curriculum vitae.</p>
+    <h1>Parcours</h1>
+    <p style="color: var(--color-muted); margin: 0;">Parcours</p>
   </div>
 </div>
 
-<div class="about-bio">
-  <p><strong>Doctorante-ingénieure à l'Université de Rennes 2</strong>, mes travaux de recherche se situent à la croisée de l'écologie et des sciences sociales. À travers ma thèse <a href="{{ '/recherche/' | relative_url }}"><strong>Cap Nature</strong></a>, j'étudie comment les capteurs environnementaux participatifs peuvent devenir <strong>médiateurs</strong> d'une expérience sensible de la nature.</p>
-</div>
+## Formation
 
-<dl class="about-identity">
-  <dt>Laboratoires</dt>
-  <dd>CNRS · <strong>Géosciences Rennes</strong> (UMR 6118) × <strong>Espaces et Sociétés</strong> (UMR 6590)</dd>
+<div class="formation-list">
 
-  <dt>Disciplines</dt>
-  <dd>Sociologie quantitative · Psychologie de l'environnement · Physique de l'océan, de l'atmosphère et du climat</dd>
-
-  <dt>Compétences informatiques</dt>
-  <dd>Python · R · Matlab · GitHub · LaTeX</dd>
-
-  <dt>Langues</dt>
-  <dd>Français (langue maternelle) · Anglais (courant)</dd>
-</dl>
-
-## Formation initiale
-
-<div class="formation-block">
-
-<div class="formation">
-  <div class="formation-head">
-    <span class="formation-date">2017 — 2020</span>
-    <h3>Normalienne en Géosciences</h3>
-    <p class="formation-school">École Normale Supérieure (Ulm), Paris</p>
-    <p class="formation-degree">MSc Sciences de l'Océan, de l'Atmosphère et du Climat<br><span class="muted">Mineure Environnement et Société — CERES</span></p>
-  </div>
-
-  <div class="formation-experiences">
-    <h4>Stages et projets</h4>
-    <div class="experience-cards">
-      <div class="experience-card">
-        <span class="exp-date">2019 · 4 mois</span>
-        <h5>Laboratoire de Météorologie Dynamique</h5>
-        <p>ENS-Ulm, Paris · Encadrement : Pr. Bernard Legras</p>
-        <p class="exp-summary">Paramétrisation de la diffusivité verticale dans l'Anticyclone de Mousson Asiatique.</p>
-      </div>
-
-      <div class="experience-card">
-        <span class="exp-date">2018 · 5 mois</span>
-        <h5>Max Planck Institut für Meteorologie</h5>
-        <p>Hambourg · Encadrement : Pr. Björn Stevens, Dr. James Ruppert</p>
-        <p class="exp-summary">Modélisation du couplage thermodynamique océan-atmosphère.</p>
-      </div>
-
-      <div class="experience-card experience-card-highlight">
-        <span class="exp-date">2020 · 8 mois</span>
-        <h5>Projet de médiation scientifique sur les enjeux climatiques</h5>
-        <p>ENS-Ulm, Paris · Encadrement : Dr. Nicolas Coltice</p>
-        <p class="exp-summary">Conception de ressources pédagogiques interactives pour l'enseignement de la climatologie : <a href="{{ '/terra-klima/' | relative_url }}"><strong>Terra Klima</strong></a>. Interventions dans l'enseignement supérieur.</p>
-      </div>
-    </div>
+<div class="formation-line">
+  <span class="formation-line-date">2024 — auj.</span>
+  <div class="formation-line-content">
+    <h3>Doctorante en Sociologie et Sciences de l'Environnement</h3>
+    <p>École Doctorale Espaces, Sociétés, Civilisations — Université de Rennes 2</p>
   </div>
 </div>
 
-<div class="formation">
-  <div class="formation-head">
-    <span class="formation-date">2014 — 2017</span>
-    <h3>Ingénieure généraliste</h3>
-    <p class="formation-school">Institut Mines-Télécom Nord Europe (ex-École des Mines de Douai)</p>
-    <p class="formation-degree">MSc Ingénierie, majeure Génie de l'Environnement</p>
+<div class="formation-line">
+  <span class="formation-line-date">2017 — 2020</span>
+  <div class="formation-line-content">
+    <h3>Normalienne en Géosciences et Environnement · MSc Sciences de l'Océan, de l'Atmosphère et du Climat</h3>
+    <p>École Normale Supérieure (Ulm), Paris</p>
   </div>
+</div>
 
-  <div class="formation-experiences">
-    <h4>Stages et projets</h4>
-    <div class="experience-cards">
-      <div class="experience-card">
-        <span class="exp-date">2017 · 6 mois</span>
-        <h5>Laboratoire de l'Atmosphère et des Cyclones</h5>
-        <p>La Réunion · Encadrement : Dr. Valentin Duflot</p>
-        <p class="exp-summary">Inversion de mesures lidar / satellite pour la caractérisation des aérosols troposphériques. <a href="{{ '/recherche/#publications' | relative_url }}">Publication 2022</a>.</p>
-      </div>
-
-      <div class="experience-card">
-        <span class="exp-date">2016 · 4 mois</span>
-        <h5>Délégation Générale de l'Armement</h5>
-        <p>Maîtrise de l'Information, Bruz</p>
-        <p class="exp-summary">Traitement et intercomparaison de relevés lidar / radiosondages / satellites avec NRL-MSISE00.</p>
-      </div>
-    </div>
+<div class="formation-line">
+  <span class="formation-line-date">2014 — 2017</span>
+  <div class="formation-line-content">
+    <h3>Ingénieure généraliste · MSc Ingénierie, majeure Génie de l'Environnement</h3>
+    <p>Institut Mines-Télécom Nord Europe</p>
   </div>
 </div>
 
@@ -108,14 +51,12 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2024 — auj.</em></p>
-  <h4>Doctorante-ingénieure</h4>
-  <p>CNRS · <a href="{{ '/recherche/' | relative_url }}">Projet Cap Nature</a></p>
+  <h4>Doctorante-ingénieure · CNRS · Géosciences Rennes (UMR 6118) × Espaces et Sociétés (UMR 6590)</h4>
 </div>
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Ingénieure pédagogique et formatrice en Sciences Environnementales</h4>
-  <p><a href="{{ '/sya/' | relative_url }}">School Year Abroad</a> — École Américaine de Rennes</p>
+  <h4>Ingénieure pédagogique et formatrice en Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
   <ul>
     <li>Conception et enseignement du programme pédagogique de sciences environnementales (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
@@ -161,9 +102,8 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Octobre 2023</em></p>
-  <h4>Certified AMS Teacher</h4>
-  <p>American Meteorological Society — Certification d'enseignement obtenue sur dossier (projet pédagogique sur la qualité de l'air).</p>
+  <h4>Certified AMS Teacher #85 · American Meteorological Society</h4>
+  <p>Reconnaissance professionnelle décernée aux enseignant·e·s actif·ve·s dans la diffusion de la culture scientifique en sciences de l'océan, de l'atmosphère et du climat. Obtenue dans le cadre de mon enseignement à <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a>.</p>
 </div>
 
 </div>
-
