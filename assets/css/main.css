@@ -654,6 +654,24 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
   top: 2rem;
 }
 
+.about-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 2rem;
+}
+
+.about-sidebar .about-photo {
+  position: static;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.about-sidebar .home-contact-block {
+  width: 100%;
+}
+
 .cv-download-note {
   max-width: 720px;
   font-size: 0.95rem;
@@ -668,6 +686,13 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
   .about-layout {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .about-sidebar {
+    position: static;
+    max-width: 280px;
+    margin: 0 auto;
+    order: -1;
   }
 
   .about-photo {
