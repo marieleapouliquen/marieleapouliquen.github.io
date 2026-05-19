@@ -34,12 +34,20 @@ description: Cours et ressources pédagogiques
 
 ## Ressources pédagogiques en libre accès
 
-<div class="teaching-cards">
-  <a href="{{ '/terra-klima/' | relative_url }}" class="teaching-card">
-    <span class="teaching-card-date">Plateforme</span>
-    <h3>Terra Klima</h3>
-    <p>Simulateurs interactifs pour l'enseignement de la climatologie : équilibre radiatif planétaire, projection des trajectoires d'émissions, dynamique d'une colonne atmosphérique. Pour le lycée et l'université.</p>
-  </a>
+**Terra Klima** est une plateforme de **ressources pédagogiques interactives** destinées à l'enseignement des sciences du climat et de l'environnement. Chaque module propose un **simulateur en accès libre** permettant aux élèves et aux enseignant·e·s d'explorer un mécanisme fondamental du système climatique, en jouant directement avec les paramètres physiques. L'objectif : passer de la formule au phénomène, et du phénomène à l'intuition. L'idée centrale : un·e élève apprend mieux quand il ou elle peut **agir sur les paramètres** et observer **comment le système répond**.
+
+## Modules disponibles
+
+<div class="cards">
+  <div class="card">
+    <h3><a href="{{ '/terra-klima/planetes-boucle-dor/' | relative_url }}">Modèle 1 — Les planètes Boucle d'Or</a></h3>
+    <p>Pourquoi la Terre est-elle « juste à la bonne température » ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
+  </div>
+  <div class="card">
+    <h3><a href="{{ '/terra-klima/co2-rechauffement/' | relative_url }}">Modèle 2 — Émissions de CO₂ et réchauffement</a></h3>
+    <p>Projection des trajectoires climatiques à l'horizon 2100 selon différents scénarios d'émissions et différentes dates de zéro émissions nettes.</p>
+  </div> 
+</div>
 
 </div>
 
