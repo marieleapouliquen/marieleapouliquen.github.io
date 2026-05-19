@@ -4,6 +4,9 @@
 - title: Accueil
   url: /
 
+- title: A propos
+  url: /about/
+
 - title: Recherche
   url: /recherche/
 
@@ -12,6 +15,3 @@
 
 - title: Conférences
   url: /diffusion/
-
-- title: CV
-  url: /cv/
