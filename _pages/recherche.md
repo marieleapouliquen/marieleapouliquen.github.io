@@ -49,7 +49,7 @@ body_class: page-accordion
 <div class="resource-links">
   <a href="https://terra-forma-web.osug.fr/Les-ateliers-Cap-Nature-Presentation-du-cycle-d-automne-2025" target="_blank" rel="noopener" class="resource-link">
     <span class="resource-link-title">Cycle d'ateliers Cap Nature</span>
-    <span class="resource-link-desc">Présentation d'ateliers réalisés à l'automne 2025 sur le site de Terra Forma.</span>
+    <span class="resource-link-desc">Présentation d'ateliers réalisés à l'automne 2025 sur le site de Terra Forma Equipex+.</span>
   </a>
   
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
