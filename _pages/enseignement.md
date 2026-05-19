@@ -11,9 +11,9 @@ J'enseigne les **sciences environnementales** et la **climatologie physique** de
 
 Trois principes structurent mon approche :
 
-**Ancrer les concepts dans le sensible.** Les sciences du climat et de l'environnement sont souvent enseignées de manière abstraite (équations, modèles, courbes). Je cherche au contraire à **donner à éprouver** ces phénomènes : sortir de la salle de cours, écouter un paysage, manipuler des capteurs, mesurer un albédo. Le concept devient alors un outil pour mieux comprendre une expérience vécue, et non l'inverse.
+**Ancrer les concepts dans le sensible.** Les sciences du climat et de l'environnement sont souvent enseignées de manière abstraite (équations, modèles, courbes). Je cherche au contraire à **donner à éprouver** ces phénomènes : sortir de la salle de cours, écouter un paysage, manipuler des capteurs. Le concept devient alors un outil pour mieux comprendre une expérience vécue, et non l'inverse.
 
-**Faire dialoguer sciences dures et sciences humaines.** La crise environnementale ne se laisse pas réduire à une discipline. Mes cours articulent systématiquement physique, écologie, sociologie et histoire — non par éclectisme, mais parce que c'est dans ces croisements que se construit la pensée environnementale contemporaine. Cette interdisciplinarité s'enracine dans mon propre parcours, entre Géosciences à l'ENS Ulm et le CERES.
+**Faire dialoguer sciences dures et sciences humaines.** La crise environnementale ne se laisse pas réduire à une discipline. Mes cours articulent systématiquement physique, écologie et dimensions sociale — non par éclectisme, mais parce que c'est dans ces croisements que se construit la pensée environnementale contemporaine. Cette interdisciplinarité s'enracine dans mon propre parcours, entre Géosciences à l'ENS Ulm et le CERES.
 
 **Donner aux élèves les outils de leur autonomie scientifique.** Que ce soit à travers les *Capstones* à SYA ou les projets expérimentaux à l'université, j'essaie de construire des dispositifs où les apprenant·e·s **formulent leurs propres questions de recherche**, choisissent leur méthode et restituent leurs résultats. La compétence visée n'est pas de connaître des contenus, mais d'apprendre à **chercher**.
 
