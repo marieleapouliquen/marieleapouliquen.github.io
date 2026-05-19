@@ -5,11 +5,13 @@ title: ""
 description: Marie-Léa Pouliquen — doctorante
 ---
 
-<header class="home-name">
-  <h1><strong>Marie-Léa</strong> Pouliquen</h1>
-</header>
+<a href="{{ '/about/' | relative_url }}" class="home-identity" title="À propos" aria-label="Aller à la page À propos">
+  <header class="home-name">
+    <h1>Marie-Léa Pouliquen</h1>
+  </header>
 
-<p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales</p>
+  <p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales à l'Université de Rennes 2.</p>
+</a>
 
 <div class="home-banner" role="img" aria-label="Paysage forestier"></div>
 
