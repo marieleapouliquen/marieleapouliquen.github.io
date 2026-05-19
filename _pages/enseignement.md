@@ -2,22 +2,10 @@
 layout: default
 permalink: /enseignement/
 title: Enseignement
-description: Cours universitaires, enseignement secondaire et ressources pédagogiques en sciences environnementales
+description: Cours et ressources pédagogiques
 ---
 
-J'enseigne les **sciences environnementales** et la **climatologie physique** depuis 2020, au lycée et à l'université. Cette activité d'enseignement nourrit ma recherche autant qu'elle s'en nourrit : c'est dans la rencontre avec des élèves de tous niveaux que j'éprouve la pertinence pédagogique des concepts scientifiques — et c'est dans la salle de classe ou sur le terrain que se posent les questions qui orientent mes projets de recherche.
-
-## Ma démarche pédagogique
-
-Trois principes structurent mon approche :
-
-**Ancrer les concepts dans le sensible.** Les sciences du climat et de l'environnement sont souvent enseignées de manière abstraite (équations, modèles, courbes). Je cherche au contraire à **donner à éprouver** ces phénomènes : sortir de la salle de cours, écouter un paysage, manipuler des capteurs. Le concept devient alors un outil pour mieux comprendre une expérience vécue, et non l'inverse.
-
-**Faire dialoguer sciences dures et sciences humaines.** La crise environnementale ne se laisse pas réduire à une discipline. Mes cours articulent systématiquement physique, écologie et dimensions sociale — non par éclectisme, mais parce que c'est dans ces croisements que se construit la pensée environnementale contemporaine. Cette interdisciplinarité s'enracine dans mon propre parcours, entre Géosciences à l'ENS Ulm et le CERES.
-
-**Donner aux élèves les outils de leur autonomie scientifique.** Que ce soit à travers les *Capstones* à SYA ou les projets expérimentaux à l'université, j'essaie de construire des dispositifs où les apprenant·e·s **formulent leurs propres questions de recherche**, choisissent leur méthode et restituent leurs résultats. La compétence visée n'est pas de connaître des contenus, mais d'apprendre à **chercher**.
-
-## Enseignement dans le supérieur
+# Climatologie
 
 <div class="teaching-cards">
   <a href="{{ '/cours-climat-rennes/' | relative_url }}" class="teaching-card">
@@ -28,16 +16,26 @@ Trois principes structurent mon approche :
   </a>
 </div>
 
-## Enseignement dans le secondaire
+## Supports de cours
 
-<div class="teaching-cards">
-  <a href="{{ '/sya/' | relative_url }}" class="teaching-card">
-    <span class="teaching-card-date">2021 — 2024</span>
-    <h3>Sciences Environnementales · School Year Abroad</h3>
-    <p>Trois années comme professeure à temps plein à l'<strong>École Américaine de Rennes</strong>. Conception du curriculum AP Environmental Science, fieldworks hebdomadaires, encadrement de projets de recherche d'élèves (<em>Capstones</em>), conception de la chaîne EnviroSYA.</p>
-    <span class="teaching-card-meta">3 ans · CDI temps complet · ~40 élèves/an</span>
+<div class="course-downloads">
+  <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 1</span>
+    <span class="download-title">Énergie du système climatique</span>
+    <span class="download-meta">PDF · 6,7 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-2-atmosphere.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 2</span>
+    <span class="download-title">Dynamique de l'atmosphère</span>
+    <span class="download-meta">PDF · 6,5 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-3-ocean.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 3</span>
+    <span class="download-title">Dynamique de l'océan</span>
+    <span class="download-meta">PDF · 14 Mo</span>
   </a>
 </div>
+
 
 ## Ressources pédagogiques en libre accès
 
@@ -49,11 +47,5 @@ Trois principes structurent mon approche :
     <span class="teaching-card-meta">3 modèles · Plotly · libre accès</span>
   </a>
 
-  <a href="{{ '/cap-nature/' | relative_url }}" class="teaching-card">
-    <span class="teaching-card-date">Wiki</span>
-    <h3>Cap Nature</h3>
-    <p>Wiki collaboratif et libre rassemblant les ressources pour animer des ateliers d'écoute du vivant avec des capteurs participatifs. Pour enseignant·e·s du secondaire et du supérieur, médiateur·rice·s scientifiques et éducateur·rice·s nature.</p>
-    <span class="teaching-card-meta">Wiki · CC BY-SA 4.0 · libre accès</span>
-  </a>
 </div>
 
