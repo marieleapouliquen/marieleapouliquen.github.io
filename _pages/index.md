@@ -22,11 +22,12 @@ description: Marie-Léa Pouliquen — doctorante
     <p>N'hésitez pas à me contacter pour toute question, collaboration ou intervention.</p>
   </div>
 <div class="home-photo-wrap">
-    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marie-Léa Pouliquen" class="home-photo">
+
+  <div class="home-contact-block">
+    <p class="contact-email"><strong>Email</strong><br><a href="mailto:marie-lea.pouliquen@gmail.com">marie-lea.pouliquen@gmail.com</a></p>
+
     <div class="home-contact">
-      <a href="mailto:marie-lea.pouliquen@univ-rennes.fr" class="contact-icon" aria-label="Email" title="Email">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      </a>
       <a href="https://www.linkedin.com/in/marieleapouliquen/" class="contact-icon" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
       </a>
@@ -34,7 +35,7 @@ description: Marie-Léa Pouliquen — doctorante
         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947 0 .525-.422.947-.947.947-.525 0-.946-.422-.946-.947 0-.516.421-.947.946-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
       </a>
     </div>
-</div>
+  </div>
 </div>
 
 ## Actualités récentes
