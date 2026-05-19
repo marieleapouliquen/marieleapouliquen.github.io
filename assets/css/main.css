@@ -621,215 +621,62 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
    7. PAGE À PROPOS
    ============================================================================ */
 
-/* ---------- Bio narrative encadrée ---------- */
-.about-bio {
-  background: var(--color-bg-alt);
-  border-left: 4px solid var(--color-text);
-  border-radius: 4px;
-  padding: 1.8rem 2rem;
-  margin: 0 0 2rem 0;
-}
-.about-bio p {
-  margin: 0 0 1rem 0;
-  line-height: 1.65;
-}
-.about-bio p:last-child { margin-bottom: 0; }
+/* ============================================================================
+   7. PAGE À PROPOS (bio narrative + photo)
+   ============================================================================ */
 
-/* ---------- Bloc identité ---------- */
-.about-meta {
-  margin: 0 0 3rem 0;
-  padding: 1rem 0;
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-  font-size: 0.95rem;
-}
-
-.about-meta p {
-  margin: 0.4rem 0;
-  line-height: 1.5;
-  color: var(--color-text);
-}
-
-.about-meta p strong {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-/* ---------- Formation initiale (cartes ENS + Mines) ---------- */
-.formation-block {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin: 1.5rem 0 3rem 0;
-}
-
-.formation {
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  padding: 1.5rem 1.8rem;
-  background: var(--color-bg);
-}
-
-.formation-head {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.2rem;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.formation-head .formation-date {
-  font-family: var(--font-serif);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.formation-head h3 {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 0.3rem 0 0.5rem 0;
-  line-height: 1.3;
-}
-
-.formation-head .formation-school {
-  color: var(--color-text);
-  font-weight: 500;
-  margin: 0 0 0.4rem 0;
-}
-
-.formation-head .formation-degree {
-  margin: 0;
-  color: var(--color-muted);
-  font-size: 0.93rem;
-  line-height: 1.5;
-}
-.formation-head .formation-degree .muted {
-  font-size: 0.85rem;
-  font-style: italic;
-}
-
-/* Sous-titre "Stages et projets" */
-.formation-experiences h4 {
-  font-family: var(--font-serif);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 0 0 1rem 0;
-}
-
-/* Grille des cartes stage */
-.experience-cards {
+.about-layout {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.8rem;
+  grid-template-columns: 1fr 240px;
+  gap: 2.5rem;
+  align-items: start;
+  margin: 2rem 0 3rem 0;
+  max-width: 960px;
 }
 
-.experience-card {
-  padding: 1rem 1.1rem;
-  background: var(--color-bg-alt);
+.about-narrative p {
+  margin: 0 0 1.4rem 0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: var(--color-text);
+}
+
+.about-narrative p:last-child {
+  margin-bottom: 0;
+}
+
+.about-photo {
+  width: 100%;
+  height: auto;
   border-radius: 4px;
-  border-left: 3px solid var(--color-border);
-}
-
-.experience-card .exp-date {
-  font-family: var(--font-serif);
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   display: block;
-  margin-bottom: 0.4rem;
+  position: sticky;
+  top: 2rem;
 }
 
-.experience-card h5 {
-  font-family: var(--font-serif);
+.cv-download-note {
+  max-width: 720px;
   font-size: 0.95rem;
-  font-weight: 600;
-  margin: 0 0 0.3rem 0;
-  line-height: 1.3;
-}
-
-.experience-card p {
-  margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.45;
   color: var(--color-muted);
+  font-style: italic;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
 }
 
-.experience-card .exp-summary {
-  margin-top: 0.4rem;
-  color: var(--color-text);
-  font-size: 0.85rem;
-}
+/* Mobile : photo au-dessus du texte */
+@media (max-width: 700px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 
-/* Carte stage "highlight" (Terra Klima) */
-.experience-card-highlight {
-  background: var(--color-bg);
-  border: 1px solid var(--color-text);
-  border-left: 3px solid var(--color-text);
+  .about-photo {
+    max-width: 220px;
+    margin: 0 auto;
+    order: -1;
+    position: static;
+  }
 }
-.experience-card-highlight h5 { color: var(--color-text); }
-
-/* ---------- Expérience professionnelle (entrées linéaires) ---------- */
-.job-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin: 1.5rem 0 2.5rem 0;
-}
-
-.job-entry {
-  padding: 1rem 1.2rem;
-  border-left: 2px solid var(--color-border);
-  padding-left: 1.2rem;
-}
-
-.job-entry .job-period {
-  margin: 0 0 0.2rem 0;
-  font-size: 0.85rem;
-  color: var(--color-muted);
-}
-
-.job-entry h4 {
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.3rem 0;
-  line-height: 1.3;
-}
-
-.job-entry > p {
-  margin: 0 0 0.5rem 0;
-  font-size: 0.93rem;
-  color: var(--color-muted);
-}
-
-.job-entry ul {
-  margin: 0.5rem 0 0 0;
-  padding-left: 1.2rem;
-  font-size: 0.92rem;
-}
-.job-entry ul li {
-  margin-bottom: 0.3rem;
-  color: var(--color-text);
-}
-
-/* Titres de sous-sections (Postes / Missions d'enseignement / etc.) */
-.page-accordion h3 {
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin: 2rem 0 1rem 0;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--color-border);
-}
-
 
 /* ============================================================================
    8. PAGE RECHERCHE (sections internes Cap Nature)
