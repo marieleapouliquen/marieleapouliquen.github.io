@@ -2,91 +2,93 @@
 layout: default
 permalink: /cv/
 title: ""
-description: Curriculum vitae
-body_class: page-cv
+description: Curriculum vitae de Marie-Léa Pouliquen
+body_class: page-accordion
 ---
 
-<div class="cv-layout">
+<div class="cv-header">
+  <div class="cv-header-text">
+    <h1>CV</h1>
+  </div>
+</div>
 
-<aside class="cv-toc">
-  <ul class="cv-toc-list">
-    <li><a href="#general">Informations générales</a></li>
-    <li><a href="#position">Position actuelle</a></li>
-    <li><a href="#formation">Formation</a></li>
-    <li><a href="#distinctions">Prix et distinctions</a></li>
-    <li><a href="#enseignement-sup">Enseignement universitaire</a></li>
-    <li><a href="#enseignement-sec">Enseignement secondaire</a></li>
-  </ul>
-</aside>
+<details class="accordion-section" open>
+<summary>Informations générales</summary>
+<div class="accordion-content">
 
-<div class="cv-main">
-
-<section class="cv-section" id="general">
-<h2>Informations générales</h2>
 <dl class="cv-info-grid">
   <dt>Nom</dt><dd>Marie-Léa Pouliquen</dd>
-  <dt>Disciplines</dt><dd>Sociologie de l'environnement · Sciences du climat et de l'atmosphère · Éducation aux enjeux climatiques</dd>
-  <dt>Langues</dt><dd>Français (langue maternelle), Anglais (courant)</dd>
-  <dt>Informatique</dt><dd>Python · R · GitHub · LaTeX · Canvas LMS · WordPress</dd>
+  <dt>Disciplines</dt><dd>Sociologie de l'environnement · Sciences du climat et de l'atmosphère · Éducation aux enjeux écologiques</dd>
+  <dt>Langues</dt><dd>Français (langue maternelle), Anglais (avancé), Allemand (intermédiaire)</dd>
+  <dt>Informatique</dt><dd>Python · R · GitHub · LaTeX · Canvas LMS</dd>
 </dl>
-</section>
 
-<section class="cv-section" id="position">
-<h2>Position actuelle</h2>
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Position actuelle</summary>
+<div class="accordion-content">
+
 <div class="cv-entry">
   <span class="cv-entry-date">2024 — auj.</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Doctorante-ingénieure en Sociologie de l'Environnement et Géosciences</span>
     <span class="cv-entry-place">CNRS · Géosciences Rennes (UMR 6118) × Espaces et Sociétés (UMR 6590) · Université Rennes 2</span>
+    <ul>
+      <li>École Doctorale Espaces, Sociétés, Civilisations</li>
+      <li>Co-encadrement : V. Van Tilbeurgh, L. Longuevergne, G. Barragan-Jason</li>
+    </ul>
   </div>
 </div>
-</section>
 
-<section class="cv-section" id="formation">
-<h2>Formation</h2>
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Formation</summary>
+<div class="accordion-content">
+
 <div class="cv-entry">
   <span class="cv-entry-date">2017 — 2020</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Normalienne en Géosciences et Environnement</span>
-    <span class="cv-entry-place">École Normale Supérieure de Paris (Ulm)</span>
+    <span class="cv-entry-place">École Normale Supérieure (Ulm), Paris</span>
     <ul>
-      <li>Majeure Géosciences (Master Recherche Sciences de l'Océan, de l'Atmosphère et du Climat)</li>
-      <li>Mineure Environnement et Société</li>
+      <li>Majeure Géosciences — Master Recherche Sciences de l'Océan, de l'Atmosphère et du Climat</li>
+      <li>Mineure Environnement et Société — CERES</li>
     </ul>
   </div>
 </div>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2014 — 2017</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Ingénieure généraliste</span>
     <span class="cv-entry-place">École des Mines de Douai</span>
+    <ul>
+      <li>Spécialité Génie de l'Environnement et des Risques Industriels</li>
+    </ul>
   </div>
 </div>
+
 <div class="cv-entry">
   <span class="cv-entry-date">2012 — 2014</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Classes Préparatoires Maths-Physique (MPSI/MP)</span>
+    <span class="cv-entry-title">CPGE Mathématiques-Physique (MPSI/MP)</span>
     <span class="cv-entry-place">Lycée Lakanal, Sceaux</span>
   </div>
 </div>
-</section>
 
-<section class="cv-section" id="distinctions">
-<h2>Prix et distinctions</h2>
-<div class="cv-entry">
-  <span class="cv-entry-date">2023</span>
-  <div class="cv-entry-content">
-    <span class="cv-entry-title">Certified AMS Teacher #85</span>
-    <span class="cv-entry-place">American Meteorological Society</span>
-  </div>
 </div>
-</section>
+</details>
 
-<section class="cv-section" id="enseignement-sup">
-<h2>Enseignement universitaire</h2>
+<details class="accordion-section">
+<summary>Enseignement universitaire</summary>
+<div class="accordion-content">
 
 <div class="cv-entry">
-  <span class="cv-entry-date">2026, hiver</span>
+  <span class="cv-entry-date">Janvier 2026</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title"><a href="{{ '/cours-climat-rennes/' | relative_url }}">Climat et Dynamique des Enveloppes Fluides</a></span>
     <span class="cv-entry-place">Université de Rennes — L2 STE / L3 SVT / CPES · 9h CM + 2 × 8h TD · 3 ECTS</span>
@@ -105,7 +107,6 @@ body_class: page-cv
     <span class="cv-entry-place">Université de Rennes — Licence Physique, Chimie, Sciences de la Terre · 20h</span>
     <ul>
       <li>Encadrement (tutorat) de 4 groupes d'étudiant·e·s sur un projet expérimental au Géo Fablab</li>
-      <li>Accompagnement à la formulation d'une problématique, à la conception du protocole et à la restitution</li>
     </ul>
   </div>
 </div>
@@ -114,11 +115,9 @@ body_class: page-cv
   <span class="cv-entry-date">2023, automne</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Milieux et Environnement (Géographie Physique et Sociale)</span>
-    <span class="cv-entry-place">Université Rennes 2 — Licence 1 Géographie · 12h (cours + séminaires)</span>
+    <span class="cv-entry-place">Université Rennes 2 — Licence 1 Géographie · 12h</span>
     <ul>
       <li>Cours magistraux et séminaires pour étudiant·e·s de licence (30 étudiants)</li>
-      <li>Approche centrée sur les environnements et enjeux environnementaux contemporains</li>
-      <li>Études de cas et projet municipal final (analyse territoriale)</li>
     </ul>
   </div>
 </div>
@@ -127,67 +126,64 @@ body_class: page-cv
   <span class="cv-entry-date">2020, automne</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Processus du Système Climatique</span>
-    <span class="cv-entry-place">Institut Supérieur de l'Environnement, Versailles — Bachelor 2 Écologie et Gestion de l'Environnement · 20h</span>
+    <span class="cv-entry-place">Institut Supérieur de l'Environnement, Versailles — Bachelor 2 · 20h</span>
     <ul>
-      <li>Conception complète de l'UE (objectifs, séquences, supports, évaluation)</li>
-      <li>Cours magistraux : bilan radiatif, dynamique atmosphérique, cycle de l'eau, forçages climatiques</li>
-      <li>Articulation avec les enjeux contemporains (GIEC, scénarios de transition)</li>
+      <li>Conception complète de l'UE et dispense de cours magistraux</li>
     </ul>
   </div>
 </div>
 
-</section>
+</div>
+</details>
 
-<section class="cv-section" id="enseignement-sec">
-<h2>Enseignement secondaire</h2>
+<details class="accordion-section">
+<summary>Enseignement secondaire</summary>
+<div class="accordion-content">
 
 <div class="cv-entry">
   <span class="cv-entry-date">2021 — 2024<br>3 ans</span>
   <div class="cv-entry-content">
     <span class="cv-entry-title">Professeure de Sciences Environnementales — CDI temps complet</span>
-    <span class="cv-entry-place">School Year Abroad (SYA France) — American School of Rennes</span>
+    <span class="cv-entry-place"><a href="{{ '/sya/' | relative_url }}">School Year Abroad (SYA France)</a> — American School of Rennes</span>
 
-    <p style="margin: 0.6rem 0 0.4rem 0; color: var(--color-muted);"><em>SYA est un réseau international d'écoles américaines accueillant des lycéens américains pour une année d'immersion linguistique et culturelle (France, Italie, Espagne).</em></p>
-
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Responsabilité du cursus de Sciences Environnementales</strong></p>
     <ul>
-      <li>Conception du syllabus complet conforme au programme américain <em>AP Environmental Science</em> (écosystèmes, cycles biogéochimiques, biodiversité, énergie, climat)</li>
-      <li>Planification annuelle, mise à jour des ressources pédagogiques, évaluation des apprentissages</li>
-      <li>Adaptation au contexte géographique et culturel français (études de cas, sorties locales)</li>
+      <li>Conception du syllabus complet conforme au programme américain <em>AP Environmental Science</em></li>
+      <li>Enseignement de 3 sections (9 h/semaine, ~40 élèves)</li>
+      <li><strong>Fieldworks &amp; field-trips</strong> hebdomadaires (~30 par an) couplés à 2 h de cours</li>
+      <li><strong>Encadrement des Capstones</strong> (2 h/semaine, 15-20 élèves) — projets de recherche interdisciplinaires</li>
+      <li>Coordination du Club de Sciences (5-6 élèves)</li>
+      <li>Conseil pédagogique : tutorat personnalisé de 8 élèves, lettres de recommandation</li>
+      <li>Voyages scolaires (3 semaines/an), réunions de faculté, encadrement d'examens standardisés (SAT, AP)</li>
+      <li>Collaboration interdisciplinaire avec les enseignants d'histoire, littérature et arts</li>
+      <li><strong>Certified AMS Teacher</strong> (American Meteorological Society, 2023)</li>
     </ul>
+  </div>
+</div>
 
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Enseignement (9 h/semaine, ~40 élèves)</strong></p>
-    <ul>
-      <li>3 sections de cours de Sciences Environnementales, couvrant l'ensemble du programme AP</li>
-      <li>Utilisation des outils pédagogiques numériques (Canvas LMS, Slack) pour le suivi, la communication et l'évaluation continue</li>
-    </ul>
+<div class="cv-entry">
+  <span class="cv-entry-date">2015 — 2016</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Tutorat en Mathématiques, Physique et Chimie</span>
+    <span class="cv-entry-place">Lycée Edgar Morin, Douai</span>
+  </div>
+</div>
 
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Activités pédagogiques complémentaires</strong></p>
-    <ul>
-      <li><strong>Fieldworks &amp; field-trips</strong> — sorties pédagogiques hebdomadaires (~30 par an) couplées à 2 h de cours : apprentissage expérientiel sur le terrain</li>
-      <li><strong>Encadrement des Capstones</strong> (2 h/semaine, 15-20 élèves) — projets de recherche interdisciplinaires des élèves de terminale</li>
-      <li><strong>Club de Sciences</strong> (5-6 élèves) — animations et expérimentations</li>
-      <li>Sorties spécifiques : échanges avec le lycée public Jean Macé, World Cleanup Day, projections-débats</li>
-    </ul>
+</div>
+</details>
 
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Suivi individualisé</strong></p>
-    <ul>
-      <li>Conseil pédagogique : tutorat personnalisé de 8 élèves (accompagnement scolaire et personnel)</li>
-      <li>Lettres d'évaluation semestrielles et lettres de recommandation</li>
-      <li>Rédaction de rapports quadrimestriels aux familles</li>
-    </ul>
+<details class="accordion-section">
+<summary>Expériences internationales</summary>
+<div class="accordion-content">
 
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Vie de l'établissement</strong></p>
+<div class="cv-entry">
+  <span class="cv-entry-date">23-27 juillet 2023</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title"><em>Summer Educator's Retreat</em></span>
+    <span class="cv-entry-place">Cornell Lab of Ornithology — Pyramid Life Center, Paradox (Adirondacks, NY, États-Unis)</span>
     <ul>
-      <li>Participation aux réunions de faculté et au conseil pédagogique</li>
-      <li>Encadrement de voyages scolaires (3 semaines par an, France et Europe)</li>
-      <li>Accompagnement d'examens standardisés (SAT, AP)</li>
-      <li>Collaboration interdisciplinaire avec les enseignants d'histoire, littérature et arts (projets conjoints)</li>
-    </ul>
-
-    <p style="margin: 0.8rem 0 0.3rem 0;"><strong>Certification</strong></p>
-    <ul>
-      <li>Obtention du <strong>certificat d'enseignement de l'American Meteorological Society</strong> (CAT 85, 2023), sur présentation d'un dossier pédagogique relatif à la qualité de l'air auprès du jury de l'AMS</li>
+      <li>Formation continue intensive (5 jours) destinée aux enseignant·e·s K-12</li>
+      <li>Innovation pédagogique, évaluation formative, immersion naturaliste dans les Adirondacks</li>
+      <li>Utilisation des outils Cornell : <em>eBird</em> (science participative), <em>Merlin Bird ID</em> (identification d'espèces)</li>
     </ul>
   </div>
 </div>
@@ -195,7 +191,7 @@ body_class: page-cv
 <div class="cv-entry">
   <span class="cv-entry-date">13-17 février 2023</span>
   <div class="cv-entry-content">
-    <span class="cv-entry-title">Professeure invitée dans les écoles partenaires de SYA</span>
+    <span class="cv-entry-title">Semaine d'échange dans les écoles partenaires de SYA</span>
     <span class="cv-entry-place">Choate Rosemary Hall et The Hotchkiss School — Connecticut, États-Unis</span>
     <ul>
       <li>Visite du <strong>Koehler Environmental Center</strong> (Choate) et de la ferme pédagogique <strong>Fairfield Farm</strong> (Hotchkiss)</li>
@@ -205,39 +201,76 @@ body_class: page-cv
   </div>
 </div>
 
-</section>
+</div>
+</details>
+
+<details class="accordion-section">
+<summary>Stages de formation initiale</summary>
+<div class="accordion-content">
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2019, 4 mois</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Stage de Master — Laboratoire de Météorologie Dynamique</span>
+    <span class="cv-entry-place">ENS-Ulm, Paris · Pr. Bernard Legras</span>
+    <ul>
+      <li>Paramétrisation de la diffusivité verticale turbulente dans l'Anticyclone de Mousson Asiatique (Traczilla-Flexpart)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2018, 5 mois</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Stage de Master — Max Planck Institute für Meteorologie</span>
+    <span class="cv-entry-place">Hambourg · Pr. Björn Stevens et Dr. James Ruppert</span>
+    <ul>
+      <li>Modélisation du couplage thermodynamique océan-atmosphère (PyOM, ICON)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2017, 6 mois</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Stage d'ingénieur — Laboratoire de l'Atmosphère et des Cyclones</span>
+    <span class="cv-entry-place">La Réunion · Dr. Valentin Duflot</span>
+    <ul>
+      <li>Inversion lidar/satellite pour la caractérisation des aérosols troposphériques</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2016, 4 mois</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Stage d'ingénieur — Délégation Générale de l'Armement</span>
+    <span class="cv-entry-place">Maîtrise de l'Information, Bruz</span>
+    <ul>
+      <li>Traitement et intercomparaison de relevés lidar/radiosondages/satellites avec NRL-MSISE00</li>
+    </ul>
+  </div>
+</div>
 
 </div>
+</details>
+
+<details class="accordion-section">
+<summary>Prix et distinctions</summary>
+<div class="accordion-content">
+
+<div class="cv-entry">
+  <span class="cv-entry-date">2023</span>
+  <div class="cv-entry-content">
+    <span class="cv-entry-title">Certified AMS Teacher</span>
+    <span class="cv-entry-place">American Meteorological Society</span>
+    <ul>
+      <li>Certification d'enseignement obtenue sur dossier (projet pédagogique sur la qualité de l'air)</li>
+    </ul>
+  </div>
 </div>
 
+</div>
+</details>
 
-<script>
-// Sommaire qui surligne la section active au scroll
-document.addEventListener('DOMContentLoaded', function() {
-  const sections = document.querySelectorAll('.cv-section');
-  const tocLinks = document.querySelectorAll('.cv-toc-list a');
-
-  function setActive() {
-    let current = '';
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      if (rect.top <= 100) current = section.id;
-    });
-    tocLinks.forEach(link => {
-      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
-    });
-  }
-
-  window.addEventListener('scroll', setActive);
-  setActive();
-
-  // Smooth scroll
-  tocLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-});
-</script>
+<p style="margin-top: 2rem;">Voir aussi : <a href="{{ '/recherche/#publications' | relative_url }}">Publications</a> · <a href="{{ '/diffusion/' | relative_url }}">Diffusion et médiation</a></p>
