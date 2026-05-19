@@ -48,38 +48,6 @@ body_class: page-cv
 </div>
 </section>
 
-<section class="cv-section" id="cadre">
-<h2>Cadre institutionnel</h2>
-
-<p>Cette thèse est conduite en <strong>cotutelle</strong> entre&nbsp;:</p>
-
-<ul>
-  <li><strong>Université de Rennes</strong> — laboratoire <strong>Géosciences Rennes</strong> (UMR 6118)</li>
-  <li><strong>Université Rennes 2</strong> — laboratoire <strong>ESO</strong> (Espaces et Sociétés, UMR 6590)</li>
-</ul>
-
-<p>École Doctorale <strong>Espaces, Sociétés, Civilisations</strong>.</p>
-
-<dl class="cv-info-grid">
-  <dt>Direction</dt>
-  <dd>Véronique Van Tilbeurgh (ESO, Univ. Rennes 2)<br>Laurent Longuevergne (Géosciences Rennes, Univ. Rennes)</dd>
-  <dt>Co-encadrement</dt>
-  <dd>Gladys Barragan-Jason (CEFE, CNRS)</dd>
-</dl>
-</section>
-
-<section class="cv-section" id="methodes">
-<h2>Approche méthodologique</h2>
-
-<p>Mes travaux mobilisent une <strong>méthodologie mixte</strong> combinant&nbsp;:</p>
-
-<ul>
-  <li><strong>Approches quantitatives</strong> issues des sciences sociales (questionnaires, analyses statistiques) et des sciences du climat (capteurs environnementaux, mesures de niveaux sonores, identification automatisée d'espèces).</li>
-  <li><strong>Approches qualitatives</strong> (entretiens, ateliers, observation participante) ancrées dans la sociologie de l'environnement et la psychologie environnementale.</li>
-  <li>Une démarche résolument <strong>interdisciplinaire</strong>, inscrite dans la communauté émergente des <strong>humanités environnementales</strong> et des <strong>sciences participatives</strong>.</li>
-</ul>
-</section>
-
 <section class="cv-section" id="publications">
 <h2>Publications</h2>
 
