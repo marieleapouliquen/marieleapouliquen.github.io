@@ -5,7 +5,7 @@ title: ""
 description: "Projection du climat jusqu'en 2100 selon différents scénarios — Terra Klima"
 ---
 
-<p style="margin-bottom: 1.5rem;"><a href="{{ '/terra-klima/' | relative_url }}">← Retour à Terra Klima</a></p>
+<p style="margin-bottom: 1.5rem;"><a href="{{ '/enseignement/' | relative_url }}">← Retour à la page Enseignement</a></p>
 
 <!-- ============ TERRA KLIMA · MODÈLE 2 · CO₂ ET RÉCHAUFFEMENT ============ -->
 <style>
