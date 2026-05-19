@@ -17,10 +17,11 @@ Convaincue que les sciences du climat doivent sortir des laboratoires, je consac
 </div>
 
 <div class="teaching-entry">
-  <p class="teaching-period">5 décembre 2024</p>
+  <p class="teaching-period">5 décembre 2024 · 18h30</p>
   <h3 class="teaching-title">Le changement climatique aux États-Unis à la lumière du <em>Fifth U.S. National Climate Assessment</em></h3>
-  <p class="teaching-institution">Institut Franco-Américain, Rennes</p>
-  <p>Conférence publique exposant les principaux processus physiques du changement climatique, puis analysant ses conséquences écologiques et sociétales aux États-Unis (méga-feux, vagues de chaleur, sécheresses, ouragans), à partir des travaux du GIEC et du Fifth U.S. National Climate Assessment.</p>
+  <p class="teaching-institution">Auditorium de l'Institut Franco-Américain, Rennes — Avec le soutien de l'Ambassade des États-Unis d'Amérique</p>
+  <p>Conférence publique exposant les principaux processus physiques du changement climatique, puis analysant ses conséquences écologiques et sociétales aux États-Unis (méga-feux, vagues de chaleur, sécheresses, ouragans), à partir des travaux du GIEC et du <em>Fifth U.S. National Climate Assessment</em>.</p>
+  <p style="margin-top: 0.8rem;"><a href="https://ifa-rennes.org/le-changement-climatique-aux-etats-unis-a-la-lumiere-du-fifth-u-s-national-climate-assessment/" class="external-link">→ Voir la présentation officielle sur le site de l'IFA ↗</a></p>
   <div class="video-embed">
     <iframe src="https://www.youtube-nocookie.com/embed/pF_oddlfVEs" title="Le changement climatique aux États-Unis — Conférence IFA Rennes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
   </div>
