@@ -27,7 +27,7 @@ body_class: page-cv
 
 <section class="cv-section" id="these">
 <h2>Projet doctoral · 2024 — auj.</h2>
-<h3>Cap Nature : des capteurs pour renouer avec le vivant</h3>
+<h3 style="margin-top: 0;">Cap Nature : des capteurs pour renouer avec le vivant</h3>
 
 <p><strong>Comment les 15-25 ans se relient-ils aujourd'hui au vivant</strong>, à l'heure où les expériences directes de nature se raréfient et où le numérique s'invite partout ? C'est la question qui structure mon travail doctoral, à la <strong>croisée de la sociologie de l'environnement, de la psychologie environnementale et de l'écologie sensorielle</strong>.</p>
 
@@ -42,8 +42,6 @@ body_class: page-cv
 
 <section class="cv-section" id="publications">
 <h2>Publications</h2>
-
-<h3 style="margin-top: 0;">Articles publiés</h3>
 
 <div class="publication">
   <p class="pub-title">Aerosols on the Tropical Island of La Réunion : Assessment of Climatology, Origin of Variability and Trend</p>
