@@ -41,17 +41,6 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
     </div>
   </a>
 
-  <a href="{{ '/sya/' | relative_url }}" class="project-card">
-    <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-sya.jpg' | relative_url }}');"></div>
-    <div class="project-card-content">
-      <span class="project-card-tag">Enseignement secondaire</span>
-      <h3>School Year Abroad</h3>
-      <p>Trois années comme enseignante de sciences environnementales à l'École Américaine de Rennes. Curriculum AP, fieldworks hebdomadaires, encadrement de Capstones.</p>
-      <span class="project-card-link">Voir l'expérience →</span>
-    </div>
-  </a>
-  </div>
-
   <a href="{{ '/terra-klima/' | relative_url }}" class="project-card">
     <div class="project-card-image" style="background-image: url('{{ '/assets/img/projet-terra-klima.jpg' | relative_url }}');"></div>
     <div class="project-card-content">
