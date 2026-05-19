@@ -42,19 +42,35 @@ body_class: page-accordion
 <div class="three-studies">
   <div class="study">
     <span class="study-num">01</span>
-    <h5>Enquête quantitative</h5>
+    <h4>Enquête quantitative</h4>
     <p>Facteurs sociaux, culturels et expérientiels qui façonnent le rapport au vivant des 15-25 ans.</p>
   </div>
   <div class="study">
     <span class="study-num">02</span>
-    <h5>Revue systématique</h5>
+    <h4>Revue systématique</h4>
     <p>Pédagogies de reconnexion à la nature inspirées des sciences participatives (méthodologie PRISMA).</p>
   </div>
   <div class="study">
     <span class="study-num">03</span>
-    <h5>Recherche-Action</h5>
+    <h4>Recherche-Action</h4>
     <p>Expérimentation d'ateliers avec des capteurs environnementaux participatifs en lycées et établissements du supérieur.</p>
   </div>
+</div>
+
+<h3>Accéder au Wiki du projet</h3>
+
+<div class="resource-links">
+  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-title">Wiki Cap Nature</span>
+    <span class="resource-link-desc">Guide pédagogique pour répliquer les ateliers, destiné aux enseignant·e·s, médiateur·rice·s et éducateur·rice·s nature (CC BY-SA 4.0).</span>
+  </a>
+</div>
+
+<!-- GALERIE D'IMAGES -->
+<div class="capnature-gallery">
+  <a href="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" class="capnature-gallery-item">
+    <img src="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
+  </a>
 </div>
 
 ## Mon parcours
