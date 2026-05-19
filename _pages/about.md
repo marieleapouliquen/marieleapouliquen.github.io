@@ -47,8 +47,8 @@ body_class: page-accordion
   </div>
   <div class="study">
     <span class="study-num">02</span>
-    <h4>Revue systématique</h4>
-    <p>Pédagogies de reconnexion à la nature inspirées des sciences participatives (méthodologie PRISMA).</p>
+    <h4>Revue de littérature</h4>
+    <p>Pédagogies de reconnexion à la nature inspirées des sciences participatives.</p>
   </div>
   <div class="study">
     <span class="study-num">03</span>
