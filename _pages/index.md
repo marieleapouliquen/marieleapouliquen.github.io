@@ -30,8 +30,6 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
 
 ## Actualités
 
-## Actualités
-
 <table class="news-table">
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
 {% for item in sorted_news limit:5 %}
