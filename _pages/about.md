@@ -57,21 +57,11 @@ body_class: page-accordion
   </div>
 </div>
 
-<h3>Accéder au Wiki du projet</h3>
-
-<div class="resource-links">
   <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-title">Wiki Cap Nature</span>
-    <span class="resource-link-desc">Guide pédagogique pour répliquer les ateliers, destiné aux enseignant·e·s, médiateur·rice·s et éducateur·rice·s nature (CC BY-SA 4.0).</span>
+    <span class="resource-link-title">Accéder au Wiki du projet</span>
   </a>
-</div>
 
-<!-- GALERIE D'IMAGES -->
-<div class="capnature-gallery">
-  <a href="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" class="capnature-gallery-item">
-    <img src="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
-  </a>
-</div>
+<img src="{{ '/assets/img/projet-cap-nature.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
 
 ## Mon parcours
 
