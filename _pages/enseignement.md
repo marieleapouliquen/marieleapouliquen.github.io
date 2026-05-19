@@ -5,16 +5,11 @@ title: Enseignement
 description: Cours et ressources pédagogiques
 ---
 
-# Climatologie
+## Climatologie
 
-<div class="teaching-cards">
-  <a href="{{ '/cours-climat-rennes/' | relative_url }}" class="teaching-card">
-    <span class="teaching-card-date">2025-2026</span>
-    <h3>Climat et Dynamique des Enveloppes Fluides</h3>
-    <p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES). Bilan radiatif, dynamique atmosphérique et océanique. Slides en ligne.</p>
-    <span class="teaching-card-meta">9h CM + 2 × 8h TD · 3 ECTS</span>
-  </a>
-</div>
+**Climat et Dynamique des Enveloppes Fluides**
+<p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
+
 
 ## Supports de cours
 
