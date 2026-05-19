@@ -30,11 +30,16 @@ description: Marie-Léa Pouliquen — Doctorante en sciences et humanités envir
 
 ## Actualités
 
+## Actualités
+
 <table class="news-table">
-  {% for news_item in site.news reversed %}
-    <tr>
-      <td class="news-date">{{ news_item.date | date: "%d %b %Y" }}</td>
-      <td>{{ news_item.content | markdownify }}</td>
-    </tr>
-  {% endfor %}
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+{% for item in sorted_news limit:5 %}
+  <tr>
+    <td class="news-date">{{ item.date | date: "%d %b %Y" }}</td>
+    <td>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+  </tr>
+{% endfor %}
 </table>
+
+<p style="text-align: right; margin-top: 1rem;"><a href="{{ '/actualites/' | relative_url }}">Voir toutes les actualités →</a></p>
