@@ -5,11 +5,8 @@ title: Enseignement
 description: Cours et ressources pédagogiques
 ---
 
-## Climatologie
-
-**Climat et Dynamique des Enveloppes Fluides**
+## Climat et Dynamique des Enveloppes Fluides
 <p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
-
 
 ### Supports de cours
 
