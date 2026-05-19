@@ -1531,3 +1531,58 @@ body.page-accordion .cv-header h1 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ---------- LISTE EXPÉRIENCES PRO (page À propos) ---------- */
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.job-entry {
+  padding: 1rem 1.2rem;
+  border-left: 2px solid var(--color-border);
+  padding-left: 1.2rem;
+}
+
+.job-entry .job-period {
+  margin: 0 0 0.2rem 0;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.job-entry h4 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem 0;
+  line-height: 1.3;
+}
+
+.job-entry > p {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.93rem;
+  color: var(--color-muted);
+}
+
+.job-entry ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.2rem;
+  font-size: 0.92rem;
+}
+
+.job-entry ul li {
+  margin-bottom: 0.3rem;
+  color: var(--color-text);
+}
+
+/* Titres de sous-sections h3 (Postes / Missions d'enseignement / etc.) */
+.page-accordion h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border);
+}
