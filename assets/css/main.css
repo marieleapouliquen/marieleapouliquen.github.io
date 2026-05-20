@@ -1174,6 +1174,65 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
 }
 .download-card:hover::after { color: var(--color-text); }
 
+/* ---------- Ressources externes (page Enseignement) ---------- */
+.external-resources {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.external-resource {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.15s ease;
+}
+
+.external-resource:hover {
+  border-color: var(--color-text);
+  background: var(--color-bg-alt);
+  transform: translateY(-1px);
+}
+
+.external-resource .resource-name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+.external-resource .external-arrow {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  font-weight: 400;
+  margin-left: 0.2rem;
+}
+
+.external-resource:hover .external-arrow {
+  color: var(--color-text);
+}
+
+.external-resource .resource-desc {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .external-resources {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* ============================================================================
    10. PAGE BLOG
    ============================================================================ */
