@@ -29,8 +29,17 @@ Ma thèse explore cette question à la croisée de la sociologie, de la psycholo
   </div>
 </div>
 
-<img src="{{ '/assets/img/projet-cap-nature-banner.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
+<figure class="cap-nature-banner">
+  <img src="{{ '/assets/img/projet-cap-nature-banner.jpg' | relative_url }}" alt="Atelier Cap Nature au Lycée Lesven, Brest" loading="lazy">
+</figure>
 
-  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-title">Accéder au Wiki du projet</span>
+<div class="wiki-cta-wrapper">
+  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="wiki-cta">
+    Accéder au Wiki du projet
+    <span class="wiki-cta-arrow">↗</span>
   </a>
+</div>
+
+
+
+  
