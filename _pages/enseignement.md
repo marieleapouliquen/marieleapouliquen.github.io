@@ -33,6 +33,8 @@ description: Cours et ressources pédagogiques
 
 ## Ressources pédagogiques en libre accès
 
+### Terra Klima
+
 **Terra Klima** est une plateforme de **ressources pédagogiques interactives** destinées à l'enseignement des sciences du climat et de l'environnement. Chaque module propose un **simulateur en accès libre** permettant d'explorer un mécanisme fondamental du système climatique, en jouant directement avec les paramètres physiques.
 
 ### Modules disponibles
@@ -58,5 +60,10 @@ description: Cours et ressources pédagogiques
   </a>
 
 </div>
+
+### Ressources externes
+
+https://interactive-atlas.ipcc.ch/
+
 
 
