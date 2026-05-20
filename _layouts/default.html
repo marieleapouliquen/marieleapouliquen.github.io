@@ -28,9 +28,13 @@
       {% endunless %}
       <nav class="site-nav" aria-label="Navigation principale">
         {% for item in site.data.navigation %}
-          {% assign current = page.url | replace: '/index.html', '/' %}
-          <a href="{{ item.url | relative_url }}"
-             {% if current == item.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% if item.external %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener" class="nav-external">{{ item.title }} <span class="nav-arrow">↗</span></a>
+          {% else %}
+            {% assign current = page.url | replace: '/index.html', '/' %}
+            <a href="{{ item.url | relative_url }}"
+               {% if current == item.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endif %}
         {% endfor %}
       </nav>
     </div>
