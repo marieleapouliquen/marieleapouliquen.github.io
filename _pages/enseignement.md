@@ -61,9 +61,58 @@ description: Cours et ressources pédagogiques
 
 </div>
 
-### Ressources externes
+## Ressources externes
 
-https://interactive-atlas.ipcc.ch/
-https://carbon.manchester.ac.uk/
+### Outils interactifs et simulateurs
+
+<div class="external-resources">
+
+  <a href="https://interactive-atlas.ipcc.ch/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">IPCC Interactive Atlas <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Atlas interactif du 6<sup>e</sup> rapport du GIEC : projections climatiques régionales selon les scénarios SSP.</span>
+  </a>
+
+  <a href="https://en-roads.climateinteractive.org/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">En-ROADS <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Simulateur de scénarios climatiques développé par Climate Interactive et le MIT.</span>
+  </a>
+
+  <a href="https://climatereanalyzer.org/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">Climate Reanalyzer <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Visualisation en temps réel des données climatiques mondiales (températures, anomalies).</span>
+  </a>
+
+  <a href="https://carbon.manchester.ac.uk/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">Carbon Savings Tool <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Calculateur d'empreinte carbone des trajets (avion, train, voiture) — Université de Manchester.</span>
+  </a>
+
+</div>
+
+### Suivi et analyse
+
+<div class="external-resources">
+
+  <a href="https://climateactiontracker.org/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">Climate Action Tracker <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Évaluation indépendante des engagements climatiques nationaux face aux objectifs de l'Accord de Paris.</span>
+  </a>
+
+  <a href="https://www.carbonbrief.org/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">Carbon Brief <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Journalisme scientifique rigoureux sur le climat, l'énergie et les politiques publiques.</span>
+  </a>
+
+  <a href="https://meteofrance.fr/climat/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">Météo-France — Climat <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Ressources francophones de Météo-France : observations, projections, indicateurs climatiques.</span>
+  </a>
+
+  <a href="https://www.ipsl.fr/" target="_blank" rel="noopener" class="external-resource">
+    <span class="resource-name">IPSL — Institut Pierre-Simon Laplace <span class="external-arrow">↗</span></span>
+    <span class="resource-desc">Laboratoire de référence en sciences du climat en France. Articles, modèles, données.</span>
+  </a>
+
+</div>
 
 
