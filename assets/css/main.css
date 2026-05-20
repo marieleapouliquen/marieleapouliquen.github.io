@@ -21,6 +21,7 @@
  *    10. Page Blog 
  *    11. Page SYA (galerie, bulles syllabus, programme, capstones)
  *    12. Responsive global
+ *    13. License
  *
  * ============================================================================ */
 
@@ -1669,3 +1670,56 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
     transform: none !important;
   }
 }
+
+/* ============================================================================
+   13. Page License
+   ============================================================================ */
+
+.license-page {
+  max-width: 720px;
+}
+
+.license-headline {
+  font-size: 1.1rem;
+  padding: 1.2rem 1.5rem;
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-text);
+  border-radius: 0 4px 4px 0;
+  margin: 0 0 2.5rem 0;
+  line-height: 1.5;
+}
+
+.license-headline strong {
+  font-family: var(--font-serif);
+}
+
+.license-exceptions {
+  margin: 1rem 0 2rem 0;
+}
+
+.license-exceptions dt {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin-top: 1rem;
+  color: var(--color-text);
+}
+
+.license-exceptions dt:first-child {
+  margin-top: 0;
+}
+
+.license-exceptions dd {
+  margin: 0.3rem 0 0 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.license-page code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-bg-alt);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+}
+
