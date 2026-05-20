@@ -1014,6 +1014,77 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
   font-style: italic;
 }
 
+/* ---------- Cartes modules Terra Klima ---------- */
+.terra-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.terra-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.25s ease;
+}
+
+.terra-card:hover {
+  border-color: var(--color-text);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.terra-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.terra-card-content {
+  padding: 1.3rem 1.5rem 1.5rem 1.5rem;
+}
+
+.terra-card .terra-card-num {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.terra-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 0.7rem 0;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+
+.terra-card p {
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: var(--color-muted);
+}
+
+@media (max-width: 700px) {
+  .terra-cards {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ============================================================================
    10. PAGE SYA
