@@ -9,7 +9,7 @@ description: Recherche
 
 Ma thèse explore cette question à la croisée de la sociologie, de la psychologie environnementale et de l’écologie sensorielle.
 
-## Axes de recherche de mon projet doctoral
+## Axes de recherche
 
 <div class="three-studies">
   <div class="study">
