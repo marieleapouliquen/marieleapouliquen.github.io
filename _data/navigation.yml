@@ -15,3 +15,7 @@
 
 - title: Blog
   url: /blog/
+
+- title: Wiki Cap Nature
+  url: https://marieleapouliquen.github.io/wiki-cap-nature/
+  external: true
