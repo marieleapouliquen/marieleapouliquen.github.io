@@ -247,6 +247,37 @@ figcaption {
   padding-right: 1rem;
 }
 
+.news-table .news-content {
+  line-height: 1.5;
+}
+
+.news-table .news-title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-text);
+  text-decoration: none;
+  display: inline;
+  line-height: 1.3;
+}
+
+.news-table .news-title:hover {
+  color: var(--color-muted);
+}
+
+.news-table .news-title em {
+  font-style: italic;
+}
+
+.news-table .news-venue {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  font-style: italic;
+  margin-top: 0.2rem;
+  line-height: 1.4;
+}
+
 /* ---------- 4.2 Publications ---------- */
 .publication {
   margin-bottom: 2rem;
