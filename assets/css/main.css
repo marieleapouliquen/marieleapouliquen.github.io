@@ -1190,7 +1190,7 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
 }
 
 .blog-entry:first-child {
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 .blog-entry:last-child {
