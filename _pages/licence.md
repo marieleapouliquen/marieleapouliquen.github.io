@@ -5,29 +5,29 @@ title: Licence
 description: Conditions d'utilisation des contenus de ce site
 ---
 
-<div class="license-page" markdown="1">
+<div class="license-page">
 
 <p class="license-headline">© 2024 — {{ site.time | date: '%Y' }} Marie-Léa Pouliquen<br><strong>Tous droits réservés</strong> — <em>All rights reserved</em></p>
 
-## Conditions d'utilisation
+<h2>Conditions d'utilisation</h2>
 
-Le contenu de ce site (textes, images, illustrations, structure éditoriale, code) est protégé par le **droit d'auteur**. Aucune reproduction, distribution, modification ou utilisation, totale ou partielle, n'est autorisée sans l'accord écrit préalable de l'autrice.
+<p>Le contenu de ce site (textes, images, illustrations, structure éditoriale, code) est protégé par le <strong>droit d'auteur</strong>. Aucune reproduction, distribution, modification ou utilisation, totale ou partielle, n'est autorisée sans l'accord écrit préalable de l'autrice.</p>
 
-La **citation de courts extraits avec attribution explicite** est permise dans le cadre du droit de citation prévu par la législation française et internationale (droit de citation à des fins d'illustration, de critique ou d'analyse).
+<p>La <strong>citation de courts extraits avec attribution explicite</strong> est permise dans le cadre du droit de citation prévu par la législation française et internationale (droit de citation à des fins d'illustration, de critique ou d'analyse).</p>
 
-## Terms of use *(English)*
+<h2>Terms of use <em>(English)</em></h2>
 
-The content of this site (texts, images, illustrations, editorial structure, code) is protected by **copyright**. No reproduction, distribution, modification, or use, in whole or in part, is authorized without the prior written consent of the author.
+<p>The content of this site (texts, images, illustrations, editorial structure, code) is protected by <strong>copyright</strong>. No reproduction, distribution, modification, or use, in whole or in part, is authorized without the prior written consent of the author.</p>
 
-**Short excerpts may be quoted with explicit attribution** under the fair use / right of citation provisions of French and international law.
+<p><strong>Short excerpts may be quoted with explicit attribution</strong> under the fair use / right of citation provisions of French and international law.</p>
 
-## Demandes de réutilisation
+<h2>Demandes de réutilisation</h2>
 
-Pour toute demande de réutilisation ou de citation longue, merci de me contacter à <a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a>.
+<p>Pour toute demande de réutilisation ou de citation longue, merci de me contacter à <a href="mailto:marie-lea.pouliquen@univ-rennes.fr">marie-lea.pouliquen@univ-rennes.fr</a>.</p>
 
-## Exceptions
+<h2>Exceptions</h2>
 
-Les contenus suivants relèvent de licences spécifiques :
+<p>Les contenus suivants relèvent de licences spécifiques :</p>
 
 <dl class="license-exceptions">
   <dt>Wiki Cap Nature</dt>
@@ -41,4 +41,3 @@ Les contenus suivants relèvent de licences spécifiques :
 </dl>
 
 </div>
-
