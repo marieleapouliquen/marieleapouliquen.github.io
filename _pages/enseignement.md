@@ -37,15 +37,26 @@ description: Cours et ressources pédagogiques
 
 ### Modules disponibles
 
-<div class="cards">
-  <div class="card">
-    <h3><a href="{{ '/terra-klima/planetes-boucle-dor/' | relative_url }}">Modèle 1 — Les planètes Boucle d'Or</a></h3>
-    <p>Pourquoi la Terre est-elle « juste à la bonne température » ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
-  </div>
-  <div class="card">
-    <h3><a href="{{ '/terra-klima/co2-rechauffement/' | relative_url }}">Modèle 2 — Émissions de CO₂ et réchauffement</a></h3>
-    <p>Projection des trajectoires climatiques à l'horizon 2100 selon différents scénarios d'émissions et différentes dates de zéro émissions nettes.</p>
-  </div> 
+<div class="terra-cards">
+
+  <a href="{{ '/terra-klima/planetes-boucle-dor/' | relative_url }}" class="terra-card">
+    <div class="terra-card-image" style="background-image: url('{{ '/assets/img/terra-klima-1.jpg' | relative_url }}');"></div>
+    <div class="terra-card-content">
+      <span class="terra-card-num">Modèle 1</span>
+      <h3>Les planètes Boucle d'Or</h3>
+      <p>Pourquoi la Terre est-elle « juste à la bonne température » ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
+    </div>
+  </a>
+
+  <a href="{{ '/terra-klima/co2-rechauffement/' | relative_url }}" class="terra-card">
+    <div class="terra-card-image" style="background-image: url('{{ '/assets/img/terra-klima-2.jpg' | relative_url }}');"></div>
+    <div class="terra-card-content">
+      <span class="terra-card-num">Modèle 2</span>
+      <h3>Émissions de CO₂ et réchauffement</h3>
+      <p>Projection des trajectoires climatiques à l'horizon 2100 selon différents scénarios d'émissions et différentes dates de zéro émissions nettes.</p>
+    </div>
+  </a>
+
 </div>
 
 
