@@ -27,11 +27,6 @@ description: Marie-Léa Pouliquen — doctorante
     <span class="home-card-meta">→ Voir ma pratique</span>
   </a>
 
-  <a href="{{ '/diffusion/' | relative_url }}" class="home-card">
-    <h3>Diffusion</h3>
-    <span class="home-card-meta">→ Voir mes interventions</span>
-  </a>
-  
 </div>
 
 ## Actualités récentes
@@ -46,4 +41,4 @@ description: Marie-Léa Pouliquen — doctorante
 {% endfor %}
 </table>
 
-<p style="text-align: right; margin-top: 1rem;"><a href="{{ '/actualites/' | relative_url }}">Voir toutes les actualités →</a></p>
+<p style="text-align: right; margin-top: 1rem;"><a href="{{ '/blog/' | relative_url }}">Projets récents, conférences grand public →</a></p>
