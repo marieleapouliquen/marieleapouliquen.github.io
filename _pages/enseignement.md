@@ -103,7 +103,7 @@ description: Cours et ressources pédagogiques
     <span class="resource-desc">Journalisme scientifique rigoureux sur le climat, l'énergie et les politiques publiques.</span>
   </a>
 
-  <a href="https://meteofrance.fr/climat/" target="_blank" rel="noopener" class="external-resource">
+  <a href="https://meteofrance.com/climat/" target="_blank" rel="noopener" class="external-resource">
     <span class="resource-name">Météo-France — Climat <span class="external-arrow">↗</span></span>
     <span class="resource-desc">Ressources francophones de Météo-France : observations, projections, indicateurs climatiques.</span>
   </a>
@@ -114,5 +114,4 @@ description: Cours et ressources pédagogiques
   </a>
 
 </div>
-
 
