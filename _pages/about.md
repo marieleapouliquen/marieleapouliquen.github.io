@@ -48,7 +48,7 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Ingénieure pédagogique et formatrice en Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
+  <h4>Ingénieure pédagogique et enseignante en Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
   <ul>
     <li>Conception et enseignement du programme pédagogique de sciences environnementales (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
