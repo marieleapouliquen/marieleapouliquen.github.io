@@ -24,7 +24,12 @@ description: Marie-Léa Pouliquen — doctorante
 
   <a href="{{ '/enseignement/' | relative_url }}" class="home-card">
     <h3>Enseignement</h3>
-    <span class="home-card-meta">→ Voir ma pratique</span>
+    <span class="home-card-meta">→ Cours de climatologie et ressources pédagogiques</span>
+  </a>
+
+  <a href="{{ '/blog/' | relative_url }}" class="home-card">
+    <h3>Blog</h3>
+    <span class="home-card-meta">→ Projets récents et conférences grand public</span>
   </a>
 
 </div>
@@ -36,9 +41,12 @@ description: Marie-Léa Pouliquen — doctorante
 {% for item in sorted_news limit:5 %}
   <tr>
     <td class="news-date">{{ item.date | date: "%d %b %Y" }}</td>
-    <td>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+    <td class="news-content">
+      {% if item.title %}
+        <a href="{{ '/blog/' | relative_url }}#{{ item.date | date: '%Y-%m-%d' }}" class="news-title">{{ item.title }}</a>
+      {% endif %}
+      {% if item.venue %}<span class="news-venue">{{ item.venue }}</span>{% endif %}
+    </td>
   </tr>
 {% endfor %}
 </table>
-
-<p style="text-align: right; margin-top: 1rem;"><a href="{{ '/blog/' | relative_url }}">Projets récents, conférences grand public →</a></p>
