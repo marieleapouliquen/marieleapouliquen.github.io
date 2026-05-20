@@ -7,14 +7,11 @@
 - title: A propos
   url: /about/
 
-- title: Actualités
-  url: /actualites/
-
 - title: Recherche
   url: /recherche/
 
 - title: Enseignement
   url: /enseignement/
 
-- title: Conférences
-  url: /diffusion/
+- title: Blog
+  url: /blog/
