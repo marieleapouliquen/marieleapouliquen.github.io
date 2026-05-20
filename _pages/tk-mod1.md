@@ -9,239 +9,191 @@ description: "Modèle interactif d'équilibre radiatif planétaire — Terra Kli
 
 <!-- ============ TERRA KLIMA · MODÈLE 1 · PLANÈTES BOUCLE D'OR ============ -->
 <style>
-  .terra-klima-wrap {
+  .tk {
+    --tk-ink: #111111;
+    --tk-muted: #666666;
+    --tk-light: #999999;
     --tk-bg: #ffffff;
-    --tk-ink: #111827;
-    --tk-muted: #374151;
-    --tk-card: #c0f0e0;
-    --tk-line: #c0f0e0;
-    --tk-accent: #0ea5e9;
-    --tk-accent-ink: #fff;
-    --tk-wrap: 1100px;
-    --tk-gap: 22px;
+    --tk-bg-alt: #fafafa;
+    --tk-line: #e5e5e5;
+    --tk-accent: #2c7da0;
+    --tk-serif: 'EB Garamond', Georgia, serif;
+    --tk-sans: 'Inter', -apple-system, sans-serif;
 
-    max-width: var(--tk-wrap);
+    max-width: 820px;
     margin: 0 auto;
     color: var(--tk-ink);
+    font-family: var(--tk-sans);
+  }
+  .tk * { box-sizing: border-box; }
+
+  /* En-tête sobre */
+  .tk-head { margin-bottom: 2.5rem; }
+  .tk-eyebrow {
+    font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--tk-muted); font-weight: 600; margin: 0 0 0.5rem;
+  }
+  .tk-head h1 {
+    font-family: var(--tk-serif); font-size: 2rem; font-weight: 600;
+    line-height: 1.2; margin: 0 0 0.8rem; color: var(--tk-ink);
+  }
+  .tk-head .tk-lead {
+    font-size: 1.05rem; line-height: 1.6; color: var(--tk-muted); margin: 0;
   }
 
-  .terra-klima-wrap * { box-sizing: border-box; }
+  /* Étapes numérotées */
+  .tk-step { margin: 2.5rem 0; padding-top: 2.5rem; border-top: 1px solid var(--tk-line); }
+  .tk-step:first-of-type { border-top: none; padding-top: 0; }
+  .tk-step-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 1.8rem; height: 1.8rem; border-radius: 50%;
+    background: var(--tk-ink); color: #fff; font-size: 0.85rem; font-weight: 600;
+    font-family: var(--tk-sans); margin-bottom: 0.8rem;
+  }
+  .tk-step h2 {
+    font-family: var(--tk-serif); font-size: 1.4rem; font-weight: 600;
+    margin: 0 0 0.6rem; color: var(--tk-ink); line-height: 1.3;
+  }
+  .tk-step p { font-size: 0.97rem; line-height: 1.65; color: var(--tk-muted); margin: 0 0 1rem; }
+  .tk-step p strong { color: var(--tk-ink); }
 
-  .terra-klima-wrap .tk-hero {
-    background:
-      radial-gradient(800px 400px at -10% -20%, rgba(255,215,64,.85) 0%, rgba(255,215,64,0) 60%),
-      linear-gradient(105deg, #ffb703 0%, #fd7e14 22%, #7b2cbf 60%, #0a2540 100%);
-    border: 0;
-    border-radius: 20px;
-    padding: clamp(22px, 3vw, 36px);
-    margin-bottom: var(--tk-gap);
-  }
-  .terra-klima-wrap .tk-hero h1 {
-    margin: 0 0 6px;
-    font-size: clamp(28px, 4vw, 32px);
-    line-height: 1.15;
-    color: #fff;
-    font-family: inherit;
-  }
-  .terra-klima-wrap .tk-hero p {
-    margin: 0;
-    font-size: clamp(15px, 2.1vw, 17px);
-    color: #fff;
-    text-shadow: 0 2px 4px rgba(0,0,0,.4);
-  }
-  .terra-klima-wrap .tk-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
-  .terra-klima-wrap .tk-btn {
-    display: inline-block;
-    padding: 10px 14px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 700;
-    border: 1px solid var(--tk-line);
-  }
-  .terra-klima-wrap .tk-btn.primary { background: #2D2868; color: #fff; border-color: transparent; }
-  .terra-klima-wrap .tk-btn.ghost { color: #2D2868; background: #F6F0FE; border-color: transparent; }
+  /* Graphique */
+  .tk-chart { margin: 1.2rem 0; border: 1px solid var(--tk-line); border-radius: 6px; padding: 0.5rem; background: var(--tk-bg); }
 
-  .terra-klima-wrap section { margin: clamp(28px, 4vw, 48px) 0; }
-  .terra-klima-wrap .tk-module {
-    background: var(--tk-card);
-    border: 1px solid var(--tk-line);
-    border-radius: 16px;
-    padding: clamp(14px, 2vw, 20px);
+  /* Contrôles */
+  .tk-controls {
+    background: var(--tk-bg-alt); border: 1px solid var(--tk-line);
+    border-radius: 6px; padding: 1.2rem 1.4rem; margin: 1.2rem 0;
   }
-  .terra-klima-wrap .tk-module h2 { margin: 0 0 6px; font-family: inherit; }
-  .terra-klima-wrap .tk-caption { font-size: 14px; color: var(--tk-muted); margin: 6px 0 12px; }
+  .tk-control-row { display: grid; grid-template-columns: 200px 1fr 90px; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+  .tk-control-row:last-child { margin-bottom: 0; }
+  .tk-control-row label { font-size: 0.9rem; font-weight: 500; color: var(--tk-ink); }
+  .tk-control-row input[type="range"] { width: 100%; accent-color: var(--tk-accent); }
+  .tk-control-row input[type="number"] {
+    width: 100%; padding: 0.4rem 0.6rem; border: 1px solid var(--tk-line);
+    border-radius: 4px; font-family: var(--tk-sans); font-size: 0.9rem;
+  }
+  .tk-control-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+  .tk-control-head .tk-planet-pick { display: flex; align-items: center; gap: 0.6rem; }
+  .tk-control-head label { font-size: 0.9rem; font-weight: 600; }
+  .tk-control-head select {
+    padding: 0.4rem 0.7rem; border: 1px solid var(--tk-line); border-radius: 4px;
+    font-family: var(--tk-sans); font-size: 0.9rem; font-weight: 500; background: #fff;
+  }
+  .tk-reset {
+    background: none; border: 1px solid var(--tk-line); border-radius: 4px;
+    padding: 0.4rem 0.8rem; font-family: var(--tk-sans); font-size: 0.82rem;
+    color: var(--tk-muted); cursor: pointer; transition: all 0.15s ease;
+  }
+  .tk-reset:hover { border-color: var(--tk-ink); color: var(--tk-ink); }
 
-  .terra-klima-wrap .tk-cols {
-    display: grid;
-    gap: var(--tk-gap);
-    grid-template-columns: 2fr 1fr;
+  /* Encadré "à retenir" */
+  .tk-takeaway {
+    background: var(--tk-bg-alt); border-left: 3px solid var(--tk-accent);
+    border-radius: 0 4px 4px 0; padding: 1.1rem 1.3rem; margin: 1.2rem 0;
   }
-  @media (max-width: 1000px) {
-    .terra-klima-wrap .tk-cols { grid-template-columns: 1fr; }
-  }
-  .terra-klima-wrap .tk-card {
-    background: var(--tk-card);
-    border: 1px solid var(--tk-line);
-    border-radius: 14px;
-    padding: 18px;
-  }
-  .terra-klima-wrap .tk-card h3 { margin: 0 0 8px; font-family: inherit; }
-  .terra-klima-wrap .tk-muted { color: var(--tk-muted); }
-  .terra-klima-wrap .tk-sep { height: 1px; background: var(--tk-line); margin: 18px 0; }
-  .terra-klima-wrap .tk-list { list-style: disc; padding-left: 20px; margin: 8px 0 0; }
-  .terra-klima-wrap .tk-note { font-style: italic; margin-top: 6px; color: var(--tk-muted); }
+  .tk-takeaway p { margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--tk-ink); }
+  .tk-takeaway p strong { font-family: var(--tk-serif); }
 
-  /* Jeu : onglets et contrôles */
-  .terra-klima-wrap .tk-game { max-width: 1100px; margin: 0 auto; }
-  .terra-klima-wrap .tk-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .terra-klima-wrap .tk-tabbtn {
-    cursor: pointer;
-    border: 1px solid var(--tk-line);
-    padding: 8px 12px;
-    border-radius: 10px;
-    background: #f7f7f7;
-    font-family: inherit;
-  }
-  .terra-klima-wrap .tk-tabbtn.active { background: #111; color: #fff; border-color: #111; }
-  .terra-klima-wrap .tk-panel { display: none; }
-  .terra-klima-wrap .tk-panel.active { display: block; }
-  .terra-klima-wrap .tk-controls {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  .terra-klima-wrap .tk-controls .tk-row {
-    display: grid;
-    grid-template-columns: 180px 1fr 120px;
-    align-items: center;
-    gap: 10px;
-  }
-  .terra-klima-wrap .tk-controls .tk-row input[type="number"] {
-    width: 100%;
-    padding: 8px 10px;
-    border: 1px solid #cbd5e1;
-    border-radius: 10px;
-  }
-  .terra-klima-wrap .tk-controls .tk-row input[type="range"] { width: 100%; }
-  .terra-klima-wrap .tk-controls .tk-row label { font-weight: 600; }
-  .terra-klima-wrap .tk-bar { height: 1px; background: #e6e6e6; margin: 12px 0; }
-  .terra-klima-wrap .tk-right { text-align: right; }
-  .terra-klima-wrap .tk-btn.small { padding: 6px 10px; border-radius: 10px; }
-  .terra-klima-wrap select#tk-sel-planet {
-    padding: 8px 12px;
-    font-size: 16px;
-    min-width: 300px;
-    border: 1px solid #cbd5e1;
-    border-radius: 10px;
-    font-weight: 600;
-  }
-  @media (max-width: 760px) {
-    .terra-klima-wrap .tk-controls { grid-template-columns: 1fr; }
+  .tk-hint { font-size: 0.88rem; font-style: italic; color: var(--tk-light); margin-top: 0.5rem; }
+  .tk-energy-readout { font-size: 0.9rem; color: var(--tk-ink); margin: 0.4rem 0 0; }
+  .tk-energy-readout strong { font-family: var(--tk-serif); font-size: 1.05rem; color: var(--tk-accent); }
+  .tk-energy-note { color: var(--tk-light); font-style: italic; font-size: 0.82rem; }
+
+  /* Légende cases à cocher */
+  .tk-checks { display: flex; gap: 1.2rem; flex-wrap: wrap; margin: 0.8rem 0; }
+  .tk-checks label { font-size: 0.85rem; color: var(--tk-muted); display: flex; align-items: center; gap: 0.3rem; cursor: pointer; }
+
+  @media (max-width: 700px) {
+    .tk-control-row { grid-template-columns: 1fr; gap: 0.4rem; }
+    .tk-head h1 { font-size: 1.6rem; }
   }
 </style>
 
-<div class="terra-klima-wrap">
+<div class="tk">
 
-  <div class="tk-hero">
-    <h1>🌎🟠 Les Planètes Boucle d'Or</h1>
-    <p>Pourquoi certaines planètes sont-elles glacées, d'autres brûlantes tandis que la Terre est juste à la bonne température pour permettre la coexistence des trois états de l'eau&nbsp;? Ce mini-jeu vous invite à explorer la relation entre l'énergie reçue du Soleil et la température de surface des planètes.</p>
-    <div class="tk-cta">
-      <a href="#tk-jeu" class="tk-btn primary">Lancer le jeu</a>
-      <a href="#tk-explications" class="tk-btn ghost">Lire les explications</a>
+  <div class="tk-head">
+    <p class="tk-eyebrow">Terra Klima · Modèle 1</p>
+    <h1>Les planètes Boucle d'Or</h1>
+    <p class="tk-lead">Pourquoi la Terre est-elle « juste à la bonne température », quand Vénus brûle et que Mars gèle ? Explorons l'équilibre entre l'énergie reçue du Soleil et la chaleur qu'une planète renvoie vers l'espace.</p>
+  </div>
+
+  <!-- ÉTAPE 1 — La question -->
+  <div class="tk-step">
+    <span class="tk-step-num">1</span>
+    <h2>La question de départ</h2>
+    <p>Chaque planète reçoit une certaine quantité d'énergie du Soleil, d'autant plus faible qu'elle en est éloignée. On pourrait croire que cette distance suffit à prédire sa température. Mais ce n'est pas si simple : <strong>une partie de l'énergie est immédiatement réfléchie</strong> vers l'espace, sans réchauffer la planète. Cette fraction réfléchie s'appelle l'<strong>albédo</strong>.</p>
+    <p>Commençons par observer l'énergie solaire reçue par chaque planète selon sa distance au Soleil.</p>
+    <div class="tk-chart"><div id="tk-chart-energy"></div></div>
+    <p class="tk-hint">Survolez les points pour voir les valeurs. Mercure reçoit près de 10 000 fois plus d'énergie que Neptune.</p>
+  </div>
+
+  <!-- ÉTAPE 2 — Le modèle interactif -->
+  <div class="tk-step">
+    <span class="tk-step-num">2</span>
+    <h2>Calculez la température d'équilibre</h2>
+    <p>Imaginons une planète « nue » : sans atmosphère, sans effet de serre. Sa température se stabilise quand <strong>l'énergie qu'elle absorbe égale l'énergie qu'elle réémet</strong>. C'est la <strong>température d'équilibre radiatif</strong>.</p>
+    <p>Choisissez une planète, puis faites varier sa <strong>distance au Soleil</strong> et son <strong>albédo</strong>. L'énergie reçue se recalcule automatiquement selon la loi en 1/d² (l'énergie diminue avec le carré de la distance). Observez comment la température calculée se déplace.</p>
+
+    <div class="tk-controls">
+      <div class="tk-control-head">
+        <div class="tk-planet-pick">
+          <label for="tk-sel-planet">Planète :</label>
+          <select id="tk-sel-planet">
+            <option>Mercure</option><option>Vénus</option><option selected>Terre</option><option>Mars</option>
+            <option>Jupiter</option><option>Saturne</option><option>Uranus</option><option>Neptune</option>
+          </select>
+        </div>
+        <button id="tk-btn-reset" class="tk-reset">↺ Réinitialiser</button>
+      </div>
+      <div class="tk-control-row">
+        <label for="tk-range-albedo">Albédo (0 – 0,9)</label>
+        <input id="tk-range-albedo" type="range" min="0" max="0.9" step="0.01" />
+        <input id="tk-num-albedo" type="number" min="0" max="0.9" step="0.01" />
+      </div>
+      <div class="tk-control-row">
+        <label for="tk-range-dist">Distance au Soleil (Mkm)</label>
+        <input id="tk-range-dist" type="range" min="40" max="5000" step="1" />
+        <input id="tk-num-dist" type="number" min="40" max="5000" step="1" />
+      </div>
+      <p class="tk-energy-readout">Énergie reçue (calculée) : <strong id="tk-energy-val">—</strong> W/m² <span class="tk-energy-note">— déduite de la distance par la loi en 1/d²</span></p>
+    </div>
+
+    <div class="tk-chart"><div id="tk-chart-model"></div></div>
+    <p class="tk-hint">💡 Rapprochez la planète du Soleil : elle reçoit davantage d'énergie et se réchauffe. Augmentez l'albédo : elle renvoie plus de lumière et se refroidit.</p>
+  </div>
+
+  <!-- ÉTAPE 3 — La confrontation au réel -->
+  <div class="tk-step">
+    <span class="tk-step-num">3</span>
+    <h2>Comparez au réel</h2>
+    <p>Voici le moment intéressant. Superposons la <strong>température calculée</strong> par notre modèle de planète nue avec la <strong>température réellement observée</strong> à la surface de chaque planète.</p>
+    <div class="tk-chart"><div id="tk-chart-compare"></div></div>
+    <p class="tk-hint">◉ Points pleins : température observée &nbsp;·&nbsp; ○ Points creux : température calculée par le modèle</p>
+    <div class="tk-takeaway">
+      <p>Pour plusieurs planètes, la température réelle est <strong>bien plus élevée</strong> que celle prédite par le modèle. Notre planète « nue » est donc incomplète : il manque quelque chose.</p>
     </div>
   </div>
 
-  <section id="tk-jeu">
-    <div class="tk-module">
-      <h2>Simulateur interactif</h2>
-      <p class="tk-caption">Ce mini-jeu explore comment la <strong>distance au Soleil</strong> et l'<strong>albédo</strong> (part de lumière réfléchie) influencent la température d'une planète. En ajustant ces paramètres, vous calculez la <strong>température d'équilibre radiatif</strong> — celle d'une planète « nue », sans atmosphère ni effet de serre.</p>
-      <p class="tk-caption">Le modèle reste volontairement simple : il n'englobe pas toute la complexité des climats planétaires, mais il met en lumière un mécanisme fondamental — l'équilibre entre l'énergie reçue du Soleil et l'énergie réémise vers l'espace. Comparez ensuite les valeurs calculées aux <strong>températures observées</strong> pour comprendre pourquoi certaines planètes (comme <em>Vénus</em> ou <em>la Terre</em>) sont plus chaudes qu'un corps noir idéal.</p>
-      <p class="tk-caption">💡 Indice : plus l'albédo est élevé, plus la planète renvoie la lumière — et plus elle reste froide.</p>
-
-      <div class="tk-game">
-        <div class="tk-tabs">
-          <button class="tk-tabbtn active" data-target="#tk-p-obs">Température réelle de surface</button>
-          <button class="tk-tabbtn" data-target="#tk-p-energy">Énergie solaire reçue</button>
-          <button class="tk-tabbtn" data-target="#tk-p-model">Équilibre interactif</button>
-          <button class="tk-tabbtn" data-target="#tk-p-compare">Réel vs modélisé</button>
-        </div>
-
-        <div class="tk-panel active" id="tk-p-obs"><div id="tk-chart-obs"></div></div>
-        <div class="tk-panel" id="tk-p-energy"><div id="tk-chart-energy"></div></div>
-
-        <div class="tk-panel" id="tk-p-model">
-          <div class="tk-controls">
-            <div class="tk-row" style="grid-column: 1 / -1;">
-              <label for="tk-sel-planet">Planète</label>
-              <select id="tk-sel-planet">
-                <option>Mercure</option><option>Vénus</option><option>Terre</option><option>Mars</option>
-                <option>Jupiter</option><option>Saturne</option><option>Uranus</option><option>Neptune</option>
-              </select>
-              <div class="tk-right">
-                <button id="tk-btn-reset" class="tk-btn small">↺ Réinitialiser</button>
-              </div>
-            </div>
-            <div class="tk-row">
-              <label for="tk-range-albedo">Albédo (0–0,9)</label>
-              <input id="tk-range-albedo" type="range" min="0" max="0.9" step="0.01" />
-              <input id="tk-num-albedo" type="number" min="0" max="0.9" step="0.01" />
-            </div>
-            <div class="tk-row">
-              <label for="tk-range-L">Irradiance L (W/m²)</label>
-              <input id="tk-range-L" type="range" min="0.5" max="20000" step="0.1" />
-              <input id="tk-num-L" type="number" min="0.5" max="20000" step="0.1" />
-            </div>
-          </div>
-
-          <div id="tk-chart-model"></div>
-          <div class="tk-bar"></div>
-          <div class="tk-note">Évolution temporelle (relaxation vers l'équilibre) — synchronisée avec la planète et les paramètres ci-dessus.</div>
-          <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 12px;">
-            <label><input type="checkbox" id="tk-chk-v" checked> Vénus</label>
-            <label><input type="checkbox" id="tk-chk-e" checked> Terre</label>
-            <label><input type="checkbox" id="tk-chk-m" checked> Mars</label>
-          </div>
-          <div id="tk-chart-time-embed"></div>
-        </div>
-
-        <div class="tk-panel" id="tk-p-compare">
-          <div id="tk-chart-compare"></div>
-          <div class="tk-note">◉ Ronds pleins : T_observée &nbsp;&nbsp; ○ Ronds clairs : T_calculée (modèle)</div>
-        </div>
-      </div>
+  <!-- ÉTAPE 4 — L'explication -->
+  <div class="tk-step">
+    <span class="tk-step-num">4</span>
+    <h2>Que révèle l'écart ?</h2>
+    <p>Quand la température observée dépasse la température d'équilibre, c'est que la planète <strong>retient ou produit de la chaleur</strong> au-delà d'un simple corps noir.</p>
+    <p>Pour les <strong>planètes telluriques</strong> comme la Terre ou Vénus, cet écart vient surtout des <strong>gaz à effet de serre</strong>, qui piègent une partie du rayonnement réémis. Vénus, avec son atmosphère dense de CO₂, affiche l'écart le plus spectaculaire — c'est l'effet de serre emballé.</p>
+    <p>Pour les <strong>planètes géantes</strong> comme Jupiter ou Neptune, c'est plutôt leur <strong>chaleur interne</strong> — héritée de leur formation et de leur compression gravitationnelle — qui les maintient plus chaudes que prévu.</p>
+    <div class="tk-takeaway">
+      <p><strong>L'idée Boucle d'Or :</strong> la température d'une planète ne dépend pas que de sa distance au Soleil. L'albédo et surtout l'atmosphère décident si une planète est gelée, brûlante, ou « juste comme il faut » pour l'eau liquide — et donc, peut-être, pour la vie.</p>
     </div>
-  </section>
+  </div>
 
-  <section id="tk-explications">
-    <div class="tk-cols">
-      <div class="tk-card">
-        <h3>Le modèle de l'équilibre radiatif</h3>
-        <p class="tk-muted">Pour illustrer la relation entre l'énergie solaire reçue par une planète et sa température de surface, nous avons construit un modèle de <strong>température d'équilibre radiatif</strong>, fondé sur l'hypothèse du <em>corps noir</em> : chaque planète est supposée absorber et ré-émettre l'énergie solaire sans atmosphère ni transfert interne de chaleur. Ce modèle calcule la température d'une planète « nue », déterminée par l'énergie reçue et son <strong>albédo</strong> (fraction de lumière réfléchie).</p>
-        <div class="tk-sep"></div>
-        <h3>Visualisation</h3>
-        <ul class="tk-list">
-          <li><strong>(1) Température réelle de surface</strong> : température moyenne de surface observée pour chaque planète.</li>
-          <li><strong>(2) Énergie solaire reçue</strong> : puissance du rayonnement en fonction de la distance au Soleil.</li>
-          <li><strong>(3) Équilibre interactif</strong> : jouez sur l'albédo et l'irradiance pour ajuster la température d'équilibre.</li>
-          <li><strong>(4) Réel vs modélisé</strong> : comparez la température calculée par le modèle avec la température réelle.</li>
-        </ul>
-        <div class="tk-sep"></div>
-        <h3>Pourquoi la température d'équilibre est-elle plus basse que la température réelle&nbsp;?</h3>
-        <p class="tk-muted">Lorsque la température observée dépasse la température d'équilibre radiatif, cela signifie que la planète conserve ou génère davantage de chaleur qu'un simple <em>corps noir</em>. Chez les <strong>planètes telluriques</strong> (comme la Terre ou Vénus), cette différence provient principalement des <strong>gaz à effet de serre</strong>. Pour les <strong>planètes géantes</strong> (Jupiter, Saturne, Neptune), c'est surtout la <strong>chaleur interne</strong> — résidu de leur formation et compression gravitationnelle — qui explique leur température plus élevée.</p>
-      </div>
-
-      <aside class="tk-card">
-        <h3>À expérimenter</h3>
-        <ul class="tk-list">
-          <li>Faites varier la <strong>distance au Soleil</strong> (irradiance L) et observez comment la température réagit.</li>
-          <li>Augmentez l'<strong>albédo</strong> pour voir comment la planète se refroidit en réfléchissant davantage de lumière.</li>
-          <li>Comparez l'écart entre la <strong>température réelle</strong> et la <strong>température modélisée</strong> pour Vénus (fort effet de serre) et Mars (atmosphère très fine).</li>
-        </ul>
-      </aside>
-    </div>
-  </section>
+  <!-- Référence : températures observées (en bas, comme donnée de fond) -->
+  <div class="tk-step">
+    <span class="tk-step-num">★</span>
+    <h2>Pour mémoire : les températures observées</h2>
+    <p>Le graphique de référence des températures de surface réellement mesurées sur chaque planète.</p>
+    <div class="tk-chart"><div id="tk-chart-obs"></div></div>
+  </div>
 
 </div>
 
@@ -253,154 +205,173 @@ description: "Modèle interactif d'équilibre radiatif planétaire — Terra Kli
   const L0     = [12300,3140,1360,600,50,10,3.5,1.5];
   const albedo0= [0.06,0.7,0.3,0.15,0.42,0.45,0.53,0.66];
   const temp_true = [179,462,15,-63,-163,-189,-220,-218];
-  const color  = ['gold','fuchsia','lightblue','red','peru','burlywood','turquoise','mediumpurple'];
-
-  let L = [...L0];
-  let albedo = [...albedo0];
+  // Palette sobre : un seul accent bleu + gris, sauf différenciation nécessaire
+  const accent = '#2c7da0';
+  const ink = '#111111';
+  const color  = ['#999','#c1666b','#2c7da0','#a8581f','#7a7a7a','#9a8c5a','#6a8caf','#4a5a8a'];
   const sigma = 5.67e-8;
+
+  let dist = [...d];          // distance courante (manipulable) par planète
+  let albedo = [...albedo0];
+
+  // Loi en 1/d² : l'énergie reçue se déduit de la distance au Soleil.
+  // Référence : 1360 W/m² à 149,2 Mkm (orbite terrestre).
+  const L_REF = 1360, D_REF = 149.2;
+  function energyFromDist(distMkm){ return L_REF * Math.pow(D_REF / distMkm, 2); }
+
+  // Énergie initiale calculée par la loi (cohérente avec le curseur distance)
+  let L = d.map(energyFromDist);
 
   function nakedplanet(alpha, L){ return Math.pow(L*(1-alpha)/(4*sigma), 0.25) - 273.15; }
   function computeTempModel(){ return albedo.map((a,i)=>nakedplanet(a, L[i])); }
 
-  function integrateTemps(alpha, Lin){
-    const dt_year = 1, depth = 4000, Cp = depth * 4.2e6, steps = 2000;
-    const heatIn = Lin * (1 - alpha) / 4;
-    let T = 0, HC = Cp * T;
-    const time = new Array(steps), tempC = new Array(steps);
-    for (let i=0;i<steps;i++){
-      const heatOut = sigma * Math.pow(T,4);
-      HC += (heatIn - heatOut) * dt_year * 3.14e7;
-      T = HC / Cp;
-      time[i] = i * dt_year;
-      tempC[i] = T - 273.15;
-    }
-    return {time, tempC};
-  }
+  const baseLayout = {
+    font: { family: 'Inter, sans-serif', size: 12, color: '#111' },
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    margin: { t: 60, r: 30, b: 60, l: 65 },
+    title: { y: 0.97, yanchor: 'top', x: 0.5, xanchor: 'center' },
+    xaxis: { gridcolor: '#eee', zerolinecolor: '#ddd' },
+    yaxis: { gridcolor: '#eee', zerolinecolor: '#ddd' }
+  };
+  const cfg = { responsive: true, displayModeBar: false };
 
-  Plotly.newPlot('tk-chart-obs', [{
-    x: d, y: temp_true, text: name, mode: 'markers+text', textposition: 'top center',
-    marker: { size: 10, color }, type: 'scatter',
-    hovertemplate: '<b>%{text}</b><br>Distance: %{x:.1f} Mkm<br>T° observée: %{y:.0f} °C<extra></extra>'
-  }], {
-    title: 'Températures de surface (observées)',
-    xaxis: { title: 'Distance au Soleil (millions de km)', range:[0,5000] },
-    yaxis:{ title:'Température [°C]' }, margin:{ t:50, r:20, b:60, l:60 }
-  }, {responsive:true, displayModeBar:false});
+  // Positions de labels alternées pour éviter les chevauchements
+  const labelPos = ['top center','bottom center','top center','bottom center','top center','bottom center','top center','bottom center'];
 
+  // ÉTAPE 1 — Énergie reçue (échelles log sur les deux axes)
   Plotly.newPlot('tk-chart-energy', [{
-    x: d, y: L, text: name, mode: 'markers+text', textposition: 'top center',
-    marker: { size: 10, color }, type: 'scatter',
-    hovertemplate: '<b>%{text}</b><br>Distance: %{x:.1f} Mkm<br>Énergie: %{y:.0f} W/m²<extra></extra>'
-  }], {
-    title: 'Énergie solaire reçue',
-    xaxis: { title: 'Distance au Soleil (millions de km)', range:[0,5000] },
-    yaxis:{ title:'Énergie [W/m²]' }, margin:{ t:50, r:20, b:60, l:60 }
-  }, {responsive:true, displayModeBar:false});
+    x: d, y: L, text: name, mode: 'markers+text', textposition: labelPos,
+    marker: { size: 11, color: accent, line: { color: '#fff', width: 1 } }, type: 'scatter',
+    textfont: { family: 'Inter, sans-serif', size: 11, color: '#444' },
+    cliponaxis: false,
+    hovertemplate: '<b>%{text}</b><br>Distance : %{x:,.0f} Mkm<br>Énergie reçue : %{y:,.1f} W/m²<extra></extra>'
+  }], Object.assign({}, baseLayout, {
+    title: { text: 'Énergie solaire reçue selon la distance', font: { family: 'EB Garamond, serif', size: 16 } },
+    xaxis: Object.assign({}, baseLayout.xaxis, { title: 'Distance au Soleil (millions de km) — échelle log', type: 'log', range:[Math.log10(40), Math.log10(6000)] }),
+    yaxis: Object.assign({}, baseLayout.yaxis, { title: 'Énergie [W/m²] — échelle log', type: 'log' })
+  }), cfg);
 
+  // ÉTAPE 2 — Modèle interactif
   let temp_model = computeTempModel();
   Plotly.newPlot('tk-chart-model', [{
-    x: d, y: temp_model, text: name, mode: 'markers+text', textposition: 'top center',
-    marker: { size: 10, color }, type: 'scatter',
-    hovertemplate: '<b>%{text}</b><br>Distance: %{x:.1f} Mkm<br>T° calculée: %{y:.0f} °C<extra></extra>'
-  }], {
-    title: 'Températures d\'équilibre radiatif',
-    xaxis: { title: 'Distance au Soleil (millions de km)', range:[0,5000] },
-    yaxis:{ title:'Température [°C]' }, margin:{ t:50, r:20, b:60, l:60 }
-  }, {responsive:true, displayModeBar:false});
+    x: d, y: temp_model, text: name, mode: 'markers+text', textposition: labelPos,
+    marker: { size: 11, color: accent, line: { color: '#fff', width: 1 } }, type: 'scatter',
+    textfont: { family: 'Inter, sans-serif', size: 11, color: '#444' },
+    cliponaxis: false,
+    hovertemplate: '<b>%{text}</b><br>T° calculée : %{y:.0f} °C<extra></extra>'
+  }], Object.assign({}, baseLayout, {
+    title: { text: "Température d'équilibre radiatif (modèle de planète nue)", font: { family: 'EB Garamond, serif', size: 16 } },
+    xaxis: Object.assign({}, baseLayout.xaxis, { title: 'Distance au Soleil (millions de km) — échelle log', type: 'log', range:[Math.log10(40), Math.log10(6000)] }),
+    yaxis: Object.assign({}, baseLayout.yaxis, { title: 'Température [°C]' }),
+    shapes: [{
+      type: 'rect', xref: 'paper', yref: 'y', x0: 0, x1: 1, y0: 0, y1: 100,
+      fillcolor: accent, opacity: 0.06, line: { width: 0 }, layer: 'below'
+    }],
+    annotations: [{
+      xref: 'paper', x: 0.99, y: 50, xanchor: 'right', text: 'eau liquide (0–100 °C)',
+      showarrow: false, font: { family: 'Inter, sans-serif', size: 10, color: accent }
+    }]
+  }), cfg);
 
-  const traceReal = { name:'Observée', x:d, y:temp_true, text:name, mode:'markers+text', textposition:'top center', marker:{ size:10, color }, type:'scatter' };
-  const traceModel = { name:'Calculée', x:d, y:temp_model, text:name, mode:'markers', marker:{ size:12, color, line:{color, width:2}, symbol:'circle-open' }, type:'scatter' };
-  Plotly.newPlot('tk-chart-compare', [traceReal, traceModel], {
-    title:'Réel vs Modèle',
-    xaxis:{ title:'Distance au Soleil (millions de km)', range:[0,5000] },
-    yaxis:{ title:'Température [°C]' },
-    margin:{ t:50, r:20, b:60, l:60 }, legend:{ orientation:'h', x:0, y:1.12 }
-  }, {responsive:true, displayModeBar:false});
+  // ÉTAPE 3 — Comparaison (échelle log X + annotations effet de serre + barres d'écart)
+  // Barres verticales reliant T calculée → T observée pour visualiser l'écart
+  const gapShapes = d.map((dist,i)=>({
+    type:'line', xref:'x', yref:'y',
+    x0: dist, x1: dist, y0: temp_model[i], y1: temp_true[i],
+    line:{ color:'#ccc', width:1.5 }, layer:'below'
+  }));
+  const traceReal = { name:'Observée', x:d, y:temp_true, text:name, mode:'markers', marker:{ size:11, color: ink }, type:'scatter',
+    hovertemplate: '<b>%{text}</b><br>T° observée : %{y:.0f} °C<extra></extra>' };
+  const traceModel = { name:'Calculée (modèle)', x:d, y:temp_model, text:name, mode:'markers', marker:{ size:13, color: '#fff', line:{color: accent, width:2}, symbol:'circle' }, type:'scatter',
+    hovertemplate: '<b>%{text}</b><br>T° calculée : %{y:.0f} °C<extra></extra>' };
+  Plotly.newPlot('tk-chart-compare', [traceReal, traceModel], Object.assign({}, baseLayout, {
+    title: { text: 'Température observée vs calculée : l\'écart révèle l\'atmosphère', font: { family: 'EB Garamond, serif', size: 16 }, y: 0.97, yanchor: 'top', x: 0.5, xanchor: 'center' },
+    margin: { t: 60, r: 30, b: 90, l: 65 },
+    xaxis: Object.assign({}, baseLayout.xaxis, { title: 'Distance au Soleil (millions de km) — échelle log', type: 'log', range:[Math.log10(40), Math.log10(6000)] }),
+    yaxis: Object.assign({}, baseLayout.yaxis, { title: 'Température [°C]', range:[-280, 540] }),
+    legend: { orientation:'h', x:0.5, xanchor:'center', y:-0.22, yanchor:'top', font:{ size:11 } },
+    shapes: gapShapes,
+    annotations: [
+      {
+        x: Math.log10(108.2), y: 462, ax: 35, ay: -10, xanchor:'left',
+        text: 'Vénus : +481 °C<br>effet de serre emballé',
+        showarrow: true, arrowhead: 2, arrowsize: 1, arrowwidth: 1.2, arrowcolor: '#c1666b',
+        font: { family: 'Inter, sans-serif', size: 10, color: '#c1666b' },
+        bgcolor: 'rgba(255,255,255,0.85)', bordercolor: '#c1666b', borderwidth: 1, borderpad: 4
+      },
+      {
+        x: Math.log10(149.2), y: 15, ax: 60, ay: -75, xanchor:'left',
+        text: 'Terre : +34 °C<br>effet de serre vital',
+        showarrow: true, arrowhead: 2, arrowsize: 1, arrowwidth: 1.2, arrowcolor: accent,
+        font: { family: 'Inter, sans-serif', size: 10, color: accent },
+        bgcolor: 'rgba(255,255,255,0.9)', bordercolor: accent, borderwidth: 1, borderpad: 4
+      }
+    ]
+  }), cfg);
 
+  // RÉFÉRENCE — Températures observées
+  Plotly.newPlot('tk-chart-obs', [{
+    x: d, y: temp_true, text: name, mode: 'markers+text', textposition: labelPos,
+    marker: { size: 11, color: ink, line: { color: '#fff', width: 1 } }, type: 'scatter',
+    textfont: { family: 'Inter, sans-serif', size: 11, color: '#444' },
+    cliponaxis: false,
+    hovertemplate: '<b>%{text}</b><br>T° observée : %{y:.0f} °C<extra></extra>'
+  }], Object.assign({}, baseLayout, {
+    title: { text: 'Températures de surface observées', font: { family: 'EB Garamond, serif', size: 16 } },
+    xaxis: Object.assign({}, baseLayout.xaxis, { title: 'Distance au Soleil (millions de km) — échelle log', type: 'log', range:[Math.log10(40), Math.log10(6000)] }),
+    yaxis: Object.assign({}, baseLayout.yaxis, { title: 'Température [°C]' })
+  }), cfg);
+
+  // Contrôles interactifs
   const sel = document.getElementById('tk-sel-planet');
   const rA = document.getElementById('tk-range-albedo');
   const nA = document.getElementById('tk-num-albedo');
-  const rL = document.getElementById('tk-range-L');
-  const nL = document.getElementById('tk-num-L');
+  const rD = document.getElementById('tk-range-dist');
+  const nD = document.getElementById('tk-num-dist');
+  const energyVal = document.getElementById('tk-energy-val');
   const btnReset = document.getElementById('tk-btn-reset');
+
+  function fmt(n){ return n >= 100 ? Math.round(n).toLocaleString('fr-FR') : n.toFixed(1); }
 
   function syncInputs(){
     const i = sel.selectedIndex;
     rA.value = albedo[i]; nA.value = albedo[i];
-    rL.value = L[i]; nL.value = L[i];
-    const S = integrateTemps(albedo[i], L[i]);
-    Plotly.restyle('tk-chart-time-embed', { x:[S.time], y:[S.tempC], line:[{color: color[i], width:3}] }, [3]);
+    rD.value = Math.round(dist[i]); nD.value = Math.round(dist[i]);
+    energyVal.textContent = fmt(L[i]);
+  }
+  function refreshCharts(){
+    temp_model = computeTempModel();
+    // Les points se déplacent aussi en X (distance) → on met à jour x ET y
+    Plotly.restyle('tk-chart-energy', { x:[dist], y:[L] });
+    Plotly.restyle('tk-chart-model', { x:[dist], y:[temp_model] });
+    Plotly.restyle('tk-chart-compare', { x:[dist, dist], y:[temp_true, temp_model] }, [0,1]);
+    const newGaps = dist.map((dd,k)=>({
+      type:'line', xref:'x', yref:'y',
+      x0: dd, x1: dd, y0: temp_model[k], y1: temp_true[k],
+      line:{ color:'#ccc', width:1.5 }, layer:'below'
+    }));
+    Plotly.relayout('tk-chart-compare', { shapes: newGaps });
   }
   function applyChange(){
     const i = sel.selectedIndex;
     albedo[i] = Math.max(0, Math.min(0.9, parseFloat(nA.value)));
-    L[i] = Math.max(0.5, Math.min(20000, parseFloat(nL.value)));
-    temp_model = computeTempModel();
-    Plotly.restyle('tk-chart-energy', { y:[L] });
-    Plotly.restyle('tk-chart-model', { y:[temp_model] });
-    Plotly.restyle('tk-chart-compare', { y:[temp_true, temp_model] });
-    const S = integrateTemps(albedo[i], L[i]);
-    Plotly.restyle('tk-chart-time-embed', { x:[S.time], y:[S.tempC], line:[{color: color[i], width:3}] }, [3]);
+    dist[i] = Math.max(40, Math.min(5000, parseFloat(nD.value)));
+    L[i] = energyFromDist(dist[i]);   // recalcul automatique par la loi en 1/d²
+    energyVal.textContent = fmt(L[i]);
+    refreshCharts();
   }
   rA.addEventListener('input', ()=>{ nA.value = rA.value; applyChange(); });
   nA.addEventListener('input', ()=>{ rA.value = nA.value; applyChange(); });
-  rL.addEventListener('input', ()=>{ nL.value = rL.value; applyChange(); });
-  nL.addEventListener('input', ()=>{ rL.value = nL.value; applyChange(); });
+  rD.addEventListener('input', ()=>{ nD.value = rD.value; applyChange(); });
+  nD.addEventListener('input', ()=>{ rD.value = nD.value; applyChange(); });
   sel.addEventListener('change', syncInputs);
   btnReset.addEventListener('click', ()=>{
     const i = sel.selectedIndex;
-    albedo[i] = albedo0[i]; L[i] = L0[i];
-    syncInputs(); applyChange();
+    albedo[i] = albedo0[i]; dist[i] = d[i]; L[i] = energyFromDist(d[i]);
+    syncInputs(); refreshCharts();
   });
 
-  const Sel0 = integrateTemps(albedo[0], L[0]);
-  const Merc0 = integrateTemps(albedo0[0], L0[0]);
-  const Venus0 = integrateTemps(albedo0[1], L0[1]);
-  const Earth0 = integrateTemps(albedo0[2], L0[2]);
-  const Mars0 = integrateTemps(albedo0[3], L0[3]);
-  const Jup0 = integrateTemps(albedo0[4], L0[4]);
-  const Sat0 = integrateTemps(albedo0[5], L0[5]);
-  const Ura0 = integrateTemps(albedo0[6], L0[6]);
-  const Nep0 = integrateTemps(albedo0[7], L0[7]);
-
-  Plotly.newPlot('tk-chart-time-embed', [
-    { name:'Vénus', x:Venus0.time, y:Venus0.tempC, mode:'lines', line:{width:2, color: color[1]} },
-    { name:'Terre', x:Earth0.time, y:Earth0.tempC, mode:'lines', line:{width:2, color: color[2]} },
-    { name:'Mars', x:Mars0.time, y:Mars0.tempC, mode:'lines', line:{width:2, color: color[3]} },
-    { name:'Planète sélectionnée', x:Sel0.time, y:Sel0.tempC, mode:'lines', line:{width:3, color: color[0]} },
-    { name:'Mercure', x:Merc0.time, y:Merc0.tempC, mode:'lines', line:{width:2, color: color[0]} },
-    { name:'Jupiter', x:Jup0.time, y:Jup0.tempC, mode:'lines', line:{width:2, color: color[4]} },
-    { name:'Saturne', x:Sat0.time, y:Sat0.tempC, mode:'lines', line:{width:2, color: color[5]} },
-    { name:'Uranus', x:Ura0.time, y:Ura0.tempC, mode:'lines', line:{width:2, color: color[6]} },
-    { name:'Neptune', x:Nep0.time, y:Nep0.tempC, mode:'lines', line:{width:2, color: color[7]} }
-  ], {
-    title:"Convergence vers T_rad",
-    xaxis:{ title:'Temps [années]' }, yaxis:{ title:'Température [°C]' },
-    margin:{ t:50, r:20, b:60, l:60 }, legend:{orientation:'v'}
-  }, {responsive:true, displayModeBar:false});
-
   syncInputs();
-
-  const chkV = document.getElementById('tk-chk-v');
-  const chkE = document.getElementById('tk-chk-e');
-  const chkM = document.getElementById('tk-chk-m');
-  function updateRefVisibility(){
-    Plotly.restyle('tk-chart-time-embed', { visible: [chkV.checked ? true : 'legendonly'] }, [0]);
-    Plotly.restyle('tk-chart-time-embed', { visible: [chkE.checked ? true : 'legendonly'] }, [1]);
-    Plotly.restyle('tk-chart-time-embed', { visible: [chkM.checked ? true : 'legendonly'] }, [2]);
-  }
-  [chkV, chkE, chkM].forEach(el => el.addEventListener('change', updateRefVisibility));
-  updateRefVisibility();
-
-  document.querySelectorAll('.terra-klima-wrap .tk-tabbtn').forEach(btn => btn.addEventListener('click', () => {
-    document.querySelectorAll('.terra-klima-wrap .tk-tabbtn').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('.terra-klima-wrap .tk-panel').forEach(p=>p.classList.remove('active'));
-    btn.classList.add('active');
-    document.querySelector(btn.dataset.target).classList.add('active');
-    setTimeout(()=>{
-      ['tk-chart-obs','tk-chart-energy','tk-chart-model','tk-chart-compare','tk-chart-time-embed']
-        .forEach(id=>{ const el=document.getElementById(id); if(el){ Plotly.Plots.resize(el); }});
-    }, 0);
-  }));
 })();
 </script>
