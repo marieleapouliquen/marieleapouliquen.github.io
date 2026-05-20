@@ -17,19 +17,23 @@ description: Marie-Léa Pouliquen — doctorante
 ## Explorer mon travail
 
 <div class="home-cards">
+
   <a href="{{ '/recherche/' | relative_url }}" class="home-card">
     <h3>Recherche</h3>
+    <p>Thèse <em>Cap Nature</em> et publications en sciences sociales et sciences du climat.</p>
     <span class="home-card-meta">→ Voir mes travaux</span>
   </a>
 
   <a href="{{ '/enseignement/' | relative_url }}" class="home-card">
     <h3>Enseignement</h3>
-    <span class="home-card-meta">→ Cours de climatologie et ressources pédagogiques</span>
+    <p>Cours de climatologie en licence et ressources pédagogiques en libre accès.</p>
+    <span class="home-card-meta">→ Accéder aux ressources</span>
   </a>
 
   <a href="{{ '/blog/' | relative_url }}" class="home-card">
     <h3>Blog</h3>
-    <span class="home-card-meta">→ Projets récents et conférences grand public</span>
+    <p>Projets récents, conférences grand public et médiation scientifique.</p>
+    <span class="home-card-meta">→ Lire le blog</span>
   </a>
 
 </div>
