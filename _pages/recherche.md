@@ -30,3 +30,7 @@ Ma thèse explore cette question à la croisée de la sociologie, de la psycholo
 </div>
 
 <img src="{{ '/assets/img/projet-cap-nature-banner.jpg' | relative_url }}" alt="Atelier Cap Nature — Lycée Lesven" loading="lazy">
+
+  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
+    <span class="resource-link-title">Accéder au Wiki du projet</span>
+  </a>
