@@ -35,7 +35,7 @@ description: Cours et ressources pédagogiques
 
 ### Terra Klima
 
-**Terra Klima** est une plateforme de **ressources pédagogiques interactives** destinées à l'enseignement des sciences du climat et de l'environnement. Chaque module propose un **simulateur en accès libre** permettant d'explorer un mécanisme fondamental du système climatique, en jouant directement avec les paramètres physiques.
+**Terra Klima** est une collection de **simulateurs interactifs** que j'ai conçus pour l'enseignement, accessibles librement. Ils permettent d'explorer des mécanismes climatiques fondamentaux en manipulant les paramètres physiques.
 
 ### Modules disponibles
 
