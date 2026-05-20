@@ -10,7 +10,7 @@ description: Actualités, conférences, médiation scientifique
     <h1>Blog</h1>
     <p>Actualités, conférences et médiation scientifique au fil de l'eau.</p>
   </div>
-  <div class="blog-header-banner" role="img" aria-label="Forêt bretonne, ruisseau et rochers moussus"></div>
+  <div class="blog-header-banner" role="img" aria-label="Conférence à l'Institut Franco-Américain de Rennes, décembre 2024"></div>
 </div>
 
 <div class="blog-list">
