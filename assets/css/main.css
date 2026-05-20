@@ -184,6 +184,21 @@ figcaption {
 .site-nav a.active { color: var(--color-text); }
 .site-nav a.active { font-weight: 500; }
 
+/* Lien externe dans le menu (Wiki Cap Nature) */
+.site-nav .nav-external .nav-arrow {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-left: 0.15rem;
+  transition: color 0.15s ease;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+
+.site-nav .nav-external:hover .nav-arrow {
+  color: var(--color-text);
+}
+
+
 /* ---------- Main ---------- */
 .site-main {
   padding: 3rem 0 5rem 0;
