@@ -73,8 +73,6 @@ body_class: page-accordion
 </div>
 
 </div>
-  <a href="https://marieleapouliquen.github.io/wiki-cap-nature/" target="_blank" rel="noopener" class="resource-link">
-    <span class="resource-link-title">Accéder au Wiki du projet</span>
-  </a>
+
 
 
