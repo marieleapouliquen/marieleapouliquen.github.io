@@ -8,6 +8,8 @@ description: Cours et ressources pédagogiques
 ## Climat et Dynamique des Enveloppes Fluides
 <p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
 
+<img src="{{ '/assets/img/enseignement-def.jpg' | relative_url }}" alt="Système convectif au-dessus de l'océan" loading="lazy">
+
 ### Supports de cours
 
 <div class="course-downloads">
