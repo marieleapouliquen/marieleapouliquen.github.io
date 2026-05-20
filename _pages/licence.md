@@ -5,7 +5,7 @@ title: Licence
 description: Conditions d'utilisation des contenus de ce site
 ---
 
-<div class="license-page">
+<div class="license-page" markdown="1">
 
 <p class="license-headline">© 2024 — {{ site.time | date: '%Y' }} Marie-Léa Pouliquen<br><strong>Tous droits réservés</strong> — <em>All rights reserved</em></p>
 
