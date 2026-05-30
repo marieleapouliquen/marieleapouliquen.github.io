@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /recherche/
-title: Projet doctoral (2014 - auj.)
+title: Projet doctoral (2024 - auj.)
 description: Recherche
 ---
 
