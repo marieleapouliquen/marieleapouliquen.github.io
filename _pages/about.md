@@ -69,7 +69,7 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>2017 — 2020</em></p>
-  <h4>Diplôme de l'École Normale Supérieure (Ulm), Paris · MSc Sciences de la Terre, de l'Océan et de l'Atmosphère</h4>
+  <h4>Diplôme de l'École Normale Supérieure (Ulm), Paris · MSc Sciences de l'Océan, de l'Atmosphère et du Climat</h4>
 </div>
 
 <div class="job-entry">
