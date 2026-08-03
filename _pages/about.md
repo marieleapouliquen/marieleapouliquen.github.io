@@ -43,23 +43,32 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>2024 — auj.</em></p>
-  <h4>Doctorante en Sociologie et Sciences de l'Environnement · École Doctorale Espaces, Sociétés, Civilisations</h4>
+  <h4>Doctorante en Sciences et Sociologie de l'Environnement · École Doctorale Espaces, Sociétés, Civilisations</h4>
+</div>
+
+<div class="job-entry">
+  <p class="job-period"><em>Oct. 2023</em></p>
+  <h4>Gratification de la Certification d'Enseignement de l'American Meteorological Society</h4>
+  Cette certification est une reconnaissance professionnelle pour les enseignant·e·s actif·ve·s dans la diffusion de la culture scientifique en sciences de l'océan, de l'atmosphère et du climat. [En savoir plus sur le programme CAT ↗](https://www.ametsoc.org/index.cfm/ams/education-careers/careers/ams-professional-certification-programs/certified-ams-teacher-program-cat/)
 </div>
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Ingénieure pédagogique et enseignante en Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
+  <h4>Ingénieure Pédagogique et Enseignante de Sciences Environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
   <ul>
-    <li>Conception et enseignement du programme pédagogique de sciences environnementales (~300 h annuelles)</li>
+    <li>Conception et enseignement du programme de sciences environnementales (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
-    <li>Co-organisation des sorties pédagogiques hebdomadaires, des événements culturels et coordination du club de sciences</li>
-    <li>Distinction <em>Certified AMS Teacher #85</em> de l'American Meteorological Society obtenue en octobre 2023</li>
+    <li>Co-organisation des sorties pédagogiques hebdomadaires et coordination du club de sciences</li>
   </ul>
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>Septembre 2020 — Mars 2021</em></p>
-  <h4>Formatrice aux Enjeux Climatiques · Institut Supérieur de l'Environnement, Versailles</h4>
+  <p class="job-period"><em>2019 — 2021</em></p>
+  <h4>Formatrice Indépendante aux Enjeux Climatiques</h4>
+    <ul>
+    <li>Conception de ressources pédagogiques pour l'enseignement du climat</li>
+    <li>Enseignement des sciences et enjeux climatiques · Institut Supérieur de l'Environnement</li>
+  </ul>
 </div>
 
 <div class="job-entry">
