@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 title: ""
-description: Marie-Léa Pouliquen — doctorante
+description: Marie-Léa Pouliquen
 ---
 
 <a href="{{ '/about/' | relative_url }}" class="home-identity" title="À propos" aria-label="Aller à la page À propos">
@@ -10,7 +10,7 @@ description: Marie-Léa Pouliquen — doctorante
     <h1>Marie-Léa Pouliquen</h1>
   </header>
 
-  <p class="home-tagline">Doctorante-ingénieure CNRS en sciences et humanités environnementales à l'Université de Rennes 2.</p>
+  <p class="home-tagline">Doctorante en sciences environnementales · CNRS / Université de Rennes 2</p>
 
 <div class="home-banner" role="img" aria-label="Paysage forestier"></div>
 
@@ -18,10 +18,10 @@ description: Marie-Léa Pouliquen — doctorante
 
 <div class="home-cards">
 
-  <a href="{{ '/recherche/' | relative_url }}" class="home-card">
-    <h3>Recherche</h3>
-    <p>Thèse <em>Cap Nature</em> et publications en sciences sociales et sciences du climat.</p>
-    <span class="home-card-meta">→ Voir mes travaux</span>
+  <a href="{{ '/blog/' | relative_url }}" class="home-card">
+    <h3>Blog</h3>
+    <p>Articles de médiation scientifique, conférences grand public.</p>
+    <span class="home-card-meta">→ Lire le blog</span>
   </a>
 
   <a href="{{ '/enseignement/' | relative_url }}" class="home-card">
@@ -30,15 +30,15 @@ description: Marie-Léa Pouliquen — doctorante
     <span class="home-card-meta">→ Accéder aux ressources</span>
   </a>
 
-  <a href="{{ '/blog/' | relative_url }}" class="home-card">
-    <h3>Blog</h3>
-    <p>Projets récents, conférences grand public et médiation scientifique.</p>
-    <span class="home-card-meta">→ Lire le blog</span>
+  <a href="{{ '/recherche/' | relative_url }}" class="home-card">
+    <h3>Recherche</h3>
+    <p>Thèse <em>Cap Nature</em> et publications.</p>
+    <span class="home-card-meta">→ Voir mes travaux</span>
   </a>
 
 </div>
 
-## Actualités récentes
+## Derniers posts
 
 <table class="news-table">
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
