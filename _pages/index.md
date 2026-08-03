@@ -38,7 +38,7 @@ description: Marie-Léa Pouliquen
 
 </div>
 
-## Derniers posts
+## Dernières actus du blog
 
 <table class="news-table">
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
