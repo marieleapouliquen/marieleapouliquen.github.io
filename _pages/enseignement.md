@@ -11,7 +11,7 @@ description: Cours et ressources pédagogiques
 
 ### Niveau débutant
 
-<p>Initiation à la climatologie · Tout public</p>
+<p>Modules interactifs · Initiation à la climatologie · Tout public</p>
 
 <div class="course-downloads">
   <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
