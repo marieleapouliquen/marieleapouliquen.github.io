@@ -7,8 +7,29 @@ description: Cours et ressources pédagogiques
 
 <img src="{{ '/assets/img/enseignement-def.jpg' | relative_url }}" alt="Système convectif au-dessus de l'océan" loading="lazy">
 
+## Climat et Dynamique des Enveloppes Fluides · Niveau avancé
 
-## Initiation à la Climatologie
+<p>Supports de cours de physique du climat · <strong>Université de Rennes</strong> · CPGE & Licences 2/3 Physique, Chimie, SVT</p>
+
+<div class="course-downloads">
+  <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 1</span>
+    <span class="download-title">Énergie du système climatique</span>
+    <span class="download-meta">PDF · 6,7 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-2-atmosphere.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 2</span>
+    <span class="download-title">Dynamique de l'atmosphère</span>
+    <span class="download-meta">PDF · 6,5 Mo</span>
+  </a>
+  <a href="{{ '/assets/pdf/cours-climat-seance-3-ocean.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
+    <span class="download-num">Séance 3</span>
+    <span class="download-title">Dynamique de l'océan</span>
+    <span class="download-meta">PDF · 14 Mo</span>
+  </a>
+</div>
+
+## Initiation à la Climatologie · Niveau débutant / Tout public
 
 <div class="course-downloads">
   <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
@@ -30,28 +51,6 @@ description: Cours et ressources pédagogiques
     <span class="download-num">Module 4</span>
     <span class="download-title">Changement climatique </span>
     <span class="download-meta">Négociations climatiques · Prévoir le climat futur</span>
-  </a>
-</div>
-
-## Climat et Dynamique des Enveloppes Fluides · Niveau avancé
-
-<p>Supports de cours de physique du climat · <strong>Université de Rennes</strong> · CPGE & Licences 2/3 Physique, Chimie, SVT</p>
-
-<div class="course-downloads">
-  <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
-    <span class="download-num">Séance 1</span>
-    <span class="download-title">Énergie du système climatique</span>
-    <span class="download-meta">PDF · 6,7 Mo</span>
-  </a>
-  <a href="{{ '/assets/pdf/cours-climat-seance-2-atmosphere.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
-    <span class="download-num">Séance 2</span>
-    <span class="download-title">Dynamique de l'atmosphère</span>
-    <span class="download-meta">PDF · 6,5 Mo</span>
-  </a>
-  <a href="{{ '/assets/pdf/cours-climat-seance-3-ocean.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
-    <span class="download-num">Séance 3</span>
-    <span class="download-title">Dynamique de l'océan</span>
-    <span class="download-meta">PDF · 14 Mo</span>
   </a>
 </div>
 
