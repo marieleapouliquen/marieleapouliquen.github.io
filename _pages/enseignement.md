@@ -11,6 +11,8 @@ description: Cours et ressources pédagogiques
 
 ### Niveau débutant
 
+<p>Initiation à la climatologie · Tout public</p>
+
 <div class="course-downloads">
   <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
     <span class="download-num">Module 1</span>
@@ -36,7 +38,7 @@ description: Cours et ressources pédagogiques
 
 ### Niveau avancé
 
-<p>Supports des cours de physique du climat donnés à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
+<p>Supports de cours de physique du climat · <strong>Université de Rennes</strong> · CPGE & Licences 2/3 Physique, Chimie, SVT</p>
 
 <div class="course-downloads">
   <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
