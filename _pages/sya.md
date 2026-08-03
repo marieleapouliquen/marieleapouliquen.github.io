@@ -5,6 +5,8 @@ title: School Year Abroad
 description: Trois années comme enseignante de sciences environnementales à l'École Américaine de Rennes
 ---
 
+<p style="margin-bottom:1.2rem;"><a href="{{ '/about/' | relative_url }}">← Retour à la page A propos</a></p>
+
 De **2021 à 2024**, j'ai été enseignante à temps plein de **Sciences Environnementales** à l'**École Américaine de Rennes** (*School Year Abroad — SYA France*), un programme international qui accueille chaque année une quarantaine de lycéen·ne·s américain·e·s pour une année d'immersion linguistique et culturelle en France.
 
 Au-delà de la transmission du programme de sciences environnementales, cette expérience m'a permis de développer une **approche pédagogique expérientielle** mêlant sorties de terrain hebdomadaires, projets interdisciplinaires et accompagnement individualisé d'élèves engagé·e·s dans leurs propres projets de recherche.
