@@ -31,7 +31,7 @@ description: Cours et ressources pédagogiques
   </a>
   <a href="{{ '/terra-klima/negociations-et-prevision/' | relative_url }}" class="download-card">
     <span class="download-num">Module 4</span>
-    <span class="download-title">Négociations &amp; prévision</span>
+    <span class="download-title">Négociations climatiques &amp; projections climatiques</span>
     <span class="download-meta">Chronologie des COP · climat futur</span>
   </a>
 </div>
