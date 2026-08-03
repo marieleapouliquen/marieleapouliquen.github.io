@@ -52,7 +52,7 @@ body_class: page-accordion
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
+  <p class="job-period"><em>2021 — 2024 · 3 ans</em></p>
   <h4>Professeure de sciences environnementales · Ecole Américaine de Rennes (School Year Abroad)</h4>
   <ul>
     <li>Conception et enseignement du  <a href="{{ '/sya/' | relative_url }}">programme de sciences environnementales</a> (~300 h annuelles)</li>
