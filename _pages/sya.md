@@ -6,7 +6,6 @@ title: School Year Abroad
 
 <p style="margin-bottom:1.2rem;"><a href="{{ '/about/' | relative_url }}">← Retour à la page <em>A propos</em></a></p>
 
-## L'Ecole Américaine
 
 **School Year Abroad** est un programme académique d’échange culturel fondé en 1967 qui accueille des lycéens américains pour une année scolaire complète à l'étranger, sur l'un de ses campus en France, en Italie ou en Espagne. Le campus français, le deuxième plus ancien du réseau, est installé à Rennes, en Bretagne. Le principe est celui d'une immersion totale. Chaque élève est logé dans une famille d'accueil française et suit des cours enseignés en français. La promotion reste volontairement petite — une soixantaine d'élèves pour une dizaine d'enseignants — ce qui permet un accompagnement rapproché et une vraie proximité entre professeurs, élèves et familles. C'est dans ce cadre que j'ai travaillé pendant trois ans comme professeure de sciences environnementales. Au-delà de mon rôle de professeur, j'étais également encadrante de projets de recherche tutorés (20 à 25 projets par an), academic advisor, coordinatrice du club de sciences, et co-organisatrice des sorties de terrain hebdomadaires (fieldworks) ainsi que des voyages d'étude. Cette polyvalence est au cœur de l'esprit SYA. Dans une petite structure d'immersion, on enseigne, on accompagne et on fait vivre le terrain, souvent en même temps !
 
