@@ -14,7 +14,7 @@ body_class: page-accordion
 
     <p>Diplômée de l'<strong>Institut Mines-Télécom Nord Europe</strong> (ex-École des Mines de Douai) et de l'<strong>ENS Ulm</strong> (Master Sciences de l'Océan, de l'Atmosphère et du Climat), j'ai d'abord exercé dans l'éducation à la transition écologique : conception d'une formation pour l'<strong>Institut Supérieur de l'Environnement</strong>, puis trois ans comme <strong>enseignante à temps plein</strong> à l'<a href="{{ '/sya/' | relative_url }}">École Américaine de Rennes</a> (School Year Abroad), où j'ai élaboré et mis en œuvre un curriculum complet en sciences environnementales.</p>
 
-    <p>Actuellement, je prépare un <strong>doctorat en Sciences &amp; Humanités Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (Espaces et Sociétés, UMR 6590). Cette recherche analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, à l'heure de l'urbanisation croissante et de la numérisation des loisirs.</p>
+    <p>Actuellement, je prépare un <strong>doctorat en Sciences Environnementales</strong> en cotutelle entre l'<strong>Université de Rennes</strong> (Géosciences Rennes, UMR 6118) et l'<strong>Université Rennes 2</strong> (Espaces et Sociétés, UMR 6590). Cette recherche analyse comment se construit la relation à la nature chez les adolescent·e·s et jeunes adultes, à l'heure de l'urbanisation croissante et de la numérisation des loisirs.</p>
 
   </div>
 
@@ -43,7 +43,7 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>2024 — auj.</em></p>
-  <h4>Doctorante en Sciences et Sociologie de l'Environnement · École Doctorale Espaces, Sociétés, Civilisations</h4>
+  <h4>Doctorante en Sciences de l'Environnement · École Doctorale Espaces, Sociétés, Civilisations</h4>
 </div>
 
 <div class="job-entry">
