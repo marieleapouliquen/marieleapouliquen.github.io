@@ -18,6 +18,8 @@ description: "Module 1 — Climatologie : les climats de la planète, les climat
   </div>
 </section>
 
+
+
 <!-- ============ LEÇON 1 · LES CLIMATS DE LA PLANÈTE TERRE ============ -->
 <section class="tks-slide" data-lesson="1" data-lesson-title="Les climats de la planète Terre" data-color="sky" data-title="Introduction">
   <p class="eyebrow">Partie 1 · Les climats de la planète Terre</p>
@@ -192,6 +194,8 @@ description: "Module 1 — Climatologie : les climats de la planète, les climat
   </div>
 </section>
 
+
+
 <!-- ============ LEÇON 3 · LE BILAN RADIATIF DE LA TERRE ============ -->
 <section class="tks-slide" data-lesson="3" data-lesson-title="Le bilan radiatif de la Terre" data-color="amber" data-title="Le bilan radiatif vu de l'espace">
   <p class="eyebrow">Partie 3 · Le bilan radiatif de la Terre</p>
@@ -221,6 +225,8 @@ description: "Module 1 — Climatologie : les climats de la planète, les climat
   <p>La Terre est donc en équilibre thermique, mais celui-ci est <strong>radiatif-convectif</strong> (et non purement radiatif) : le déséquilibre radiatif observé entre les flux solaires et infrarouges est compensé par le transport convectif méridien. Certains facteurs perturbent cet équilibre : les activités humaines (hausse des gaz à effet de serre, effet de serre renforcé) ou des phénomènes naturels comme les éruptions volcaniques massives (aérosols).</p>
   <figure class="tks-fig"><img src="{{ '/assets/img/poly/climato/ch4_05.png' | relative_url }}" alt="Bilan radiatif et transport méridien"><figcaption>Bilan radiatif au sommet de l'atmosphère et transport méridien d'énergie par l'atmosphère et l'océan.</figcaption></figure>
 </section>
+
+
 
 <!-- ============ LEÇON 4 · L'EFFET DE SERRE ============ -->
 <section class="tks-slide" data-lesson="4" data-lesson-title="L'effet de serre" data-color="rose" data-title="Introduction">
@@ -253,6 +259,8 @@ description: "Module 1 — Climatologie : les climats de la planète, les climat
     <figure class="tks-fig"><img src="{{ '/assets/img/poly/climato/ch5_04.png' | relative_url }}" alt="Émissions mondiales de GES"><figcaption>Les émissions anthropiques mondiales de gaz à effet de serre continuent d'augmenter (GIEC, AR6).</figcaption></figure>
   </div>
 </section>
+
+
 
 <!-- ============ LEÇON 5 · LE CYCLE DU CARBONE ============ -->
 <section class="tks-slide" data-lesson="5" data-lesson-title="Le cycle du carbone" data-color="violet" data-title="Le cycle géologique du carbone">
@@ -307,6 +315,8 @@ description: "Module 1 — Climatologie : les climats de la planète, les climat
   <figure class="tks-fig"><img src="{{ '/assets/img/poly/climato/ch6_11.png' | relative_url }}" alt="Albédo et réchauffement urbain"><figcaption>Albédo et réchauffement : les surfaces sombres (albédo faible) absorbent la chaleur, les surfaces claires (albédo élevé) la réfléchissent.</figcaption></figure>
   <p>La réduction de la menace climatique est l'un des défis scientifiques, politiques, économiques et éthiques les plus urgents : le problème est <strong>mondial</strong> et exige une coopération sans précédent ; il est <strong>de long terme</strong>, alors que ses effets ne sont pas perçus comme urgents ; ses effets sont <strong>inégalement répartis</strong> ; enfin, les <strong>solutions</strong> (sortie des fossiles) sont controversées et les projections comportent des incertitudes, d'où la nécessité d'intensifier la recherche.</p>
 </section>
+
+
 
 <!-- ============ LEÇON 6 · LE CHANGEMENT CLIMATIQUE ============ -->
 <section class="tks-slide" data-lesson="6" data-lesson-title="Le changement climatique" data-color="cyan" data-title="Les premières alertes">
