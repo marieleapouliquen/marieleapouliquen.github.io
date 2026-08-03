@@ -53,9 +53,9 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Professeure de sciences environnementales · <a href="{{ '/sya/' | relative_url }}">Ecole Américaine de Rennes (School Year Abroad)</a></h4>
+  <h4>Professeure de sciences environnementales · Ecole Américaine de Rennes (School Year Abroad)</h4>
   <ul>
-    <li>Conception et enseignement du programme de sciences environnementales (~300 h annuelles)</li>
+    <li>Conception et enseignement du  <a href="{{ '/sya/' | relative_url }}">programme de sciences environnementales</a> (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
     <li>Co-organisation des sorties pédagogiques hebdomadaires et coordination du club de sciences</li>
     <li>Conseillère pédagogique (<em>Academic Advisor</em>)</li>
