@@ -4,13 +4,6 @@ title: "Le changement climatique aux États-Unis à la lumière du <em>Fifth U.S
 venue: "Auditorium de l'Institut Franco-Américain, Rennes"
 ---
 
-<div class="blog-header">
-  <div class="blog-header-text">
-    <h1>Blog</h1>
-  </div>
-  <div class="blog-header-banner" role="img" aria-label="Conférence à l'Institut Franco-Américain de Rennes, décembre 2024"></div>
-</div>
-
 Conférence exposant les principaux processus physiques du changement climatique, puis analysant ses conséquences écologiques et sociétales aux États-Unis (méga-feux, vagues de chaleur, sécheresses, ouragans), à partir des travaux du GIEC et du *Fifth U.S. National Climate Assessment*.
 
 [→ Voir la présentation officielle sur le site de l'IFA ↗](https://ifa-rennes.org/le-changement-climatique-aux-etats-unis-a-la-lumiere-du-fifth-u-s-national-climate-assessment/){:.external-link}
