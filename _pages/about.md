@@ -48,8 +48,7 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Oct. 2023</em></p>
-  <h4>Gratification de la Certification d'Enseignement de l'American Meteorological Society</h4>
-  Cette certification est une reconnaissance professionnelle pour les enseignant·e·s actif·ve·s dans la diffusion de la culture scientifique en sciences de l'océan, de l'atmosphère et du climat. [En savoir plus sur le programme CAT ↗](https://www.ametsoc.org/index.cfm/ams/education-careers/careers/ams-professional-certification-programs/certified-ams-teacher-program-cat/)
+  <h4>Gratification de la [Certification d'Enseignement de l'American Meteorological Society ↗](https://www.ametsoc.org/index.cfm/ams/education-careers/careers/ams-professional-certification-programs/certified-ams-teacher-program-cat/)</h4>
 </div>
 
 <div class="job-entry">
@@ -63,17 +62,17 @@ body_class: page-accordion
 </div>
 
 <div class="job-entry">
-  <p class="job-period"><em>2019 — 2021</em></p>
-  <h4>Formatrice Indépendante aux Enjeux Climatiques</h4>
-    <ul>
-    <li>Conception de ressources pédagogiques pour l'enseignement du climat</li>
-    <li>Enseignement des sciences et enjeux climatiques · Institut Supérieur de l'Environnement</li>
-  </ul>
+  <p class="job-period"><em>2020 — 2021</em></p>
+  <h4>Formatrice aux Enjeux Climatiques · Institut Supérieur de l'Environnement, Versailles</h4>
 </div>
 
 <div class="job-entry">
   <p class="job-period"><em>2017 — 2020</em></p>
-  <h4>Diplôme de l'École Normale Supérieure (Ulm), Paris · MSc Sciences de la Terre, de l'Océan et de l'Atmosphère</h4>
+  <h4>Diplôme de l'École Normale Supérieure (Ulm), Paris · Géosciences & Environnement</h4>
+    <ul>
+    <li>Majeure Géosciences · MSc Sciences de la Terre, de l'Océan et de l'Atmosphère, parcours Météorologie, Océanographie, Climat et Ingénierie Spatiale </li>
+    <li>Mineure Environnement & Société</li>
+    </ul>
 </div>
 
 <div class="job-entry">
