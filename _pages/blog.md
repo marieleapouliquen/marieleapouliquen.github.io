@@ -8,7 +8,6 @@ description: Actualités, conférences, médiation scientifique
 <div class="blog-header">
   <div class="blog-header-text">
     <h1>Blog</h1>
-    <p>Actualités, conférences et médiation scientifique au fil de l'eau.</p>
   </div>
   <div class="blog-header-banner" role="img" aria-label="Conférence à l'Institut Franco-Américain de Rennes, décembre 2024"></div>
 </div>
