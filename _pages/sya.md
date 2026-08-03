@@ -63,9 +63,9 @@ Le cours de sciences comprend également une dimension expérientielle. Chaque n
 
 L'évaluation globale du cours reflète la double exigence de fond et de communication propre à une école bilingue : 60 % d'évaluations sommatives centrées sur l'écrit et l'oral (examens, présentations), et 40 % d'évaluations formatives récompensant une participation orale régulière et engagée. 
 
-### EnviroSYA — la chaîne YouTube du cours de sciences environnementales conçues avec les élèves
+### Les projets de recherche tutorés (Capstone)
 
-<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
+Le *Capstone* est l'**aboutissement académique** du parcours d'un·e élève à SYA. C'est l'occasion pour les élèves de **mobiliser l'ensemble des connaissances et compétences** acquises au cours de leur scolarité, en les appliquant à un problème ou à une question concrète qu'ils choisissent eux-mêmes. À SYA, le Capstone porte sur une **question de recherche significative**, choisie par l'élève, qui mobilise généralement plusieurs disciplines : sciences sociales, politique, arts, psychologie, sciences de l'environnement, technologies. Intégré au cours de français, le projet doit être **culturellement pertinent et ancré dans le territoire** breton. Un·e tuteur·rice académique accompagne l'élève tout au long du projet, par des retours réguliers. Mais l'exercice est exigeant : il demande à l'élève de **s'approprier sa démarche** et de **gagner en autonomie**. La restitution finale prend la forme d'une présentation devant un jury.
 
 <div class="sya-gallery">
   <a href="{{ '/assets/img/sya-jardin-recolte.jpg' | relative_url }}" class="sya-gallery-item">
@@ -88,50 +88,8 @@ L'évaluation globale du cours reflète la double exigence de fond et de communi
   </a>
 </div>
 
-### Les projets de recherche tutorés (Capstone)
+### EnviroSYA — la chaîne YouTube du cours de sciences environnementales conçues avec les élèves
 
-Le *Capstone* est l'**aboutissement académique** du parcours d'un·e élève à SYA. C'est l'occasion pour les élèves de **mobiliser l'ensemble des connaissances et compétences** acquises au cours de leur scolarité, en les appliquant à un problème ou à une question concrète qu'ils choisissent eux-mêmes. À SYA, le Capstone porte sur une **question de recherche significative**, choisie par l'élève, qui mobilise généralement plusieurs disciplines : sciences sociales, politique, arts, psychologie, sciences de l'environnement, technologies. Intégré au cours de français, le projet doit être **culturellement pertinent et ancré dans le territoire** breton. Un·e tuteur·rice académique accompagne l'élève tout au long du projet, par des retours réguliers. Mais l'exercice est exigeant : il demande à l'élève de **s'approprier sa démarche** et de **gagner en autonomie**. La restitution finale prend la forme d'une présentation devant un jury.
+<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
 
-### Exemples de Capstones interdisciplinaires
-
-Voici, à titre non exhaustif, quelques projets que j'ai supervisés au cours de ces trois ans.
-
-#### Printemps 2024
-
-<div class="capstone">
-  <h4>La production laitière biologique en Bretagne</h4>
-  <p><em>Adeline</em></p>
-  <p>Étude du processus de fabrication des produits laitiers en Bretagne, de la traite jusqu'à la vente au marché. Visite des installations d'une ferme locale (étable, salle de traite, fromagerie), entretiens avec des producteurs et observation directe de l'ensemble des transformations.</p>
-</div>
-
-<div class="capstone">
-  <h4>Mobilité environnementale</h4>
-  <p><em>Angelina</em></p>
-  <p>Analyse du déploiement des réseaux de transport durable à Rennes. Entretien avec le responsable du service Transport de Rennes Métropole sur les projets d'urbanisme à venir, et enquête de terrain auprès des citoyens pour recueillir leurs perceptions des aménagements actuels et futurs.</p>
-</div>
-
-<div class="capstone">
-  <h4>Dans le quotidien des pêcheurs</h4>
-  <p><em>Angela</em></p>
-  <p>Enquête sur la vie quotidienne des pêcheurs bretons. Prise de contact avec des associations locales, échanges avec les pêcheurs du marché des Lices, puis déplacement à Plougrescant (Côtes-d'Armor) pour rencontrer des ostréiculteurs et découvrir leur métier de l'intérieur.</p>
-</div>
-
-<div class="capstone">
-  <h4>Parcs urbains et réduction du stress</h4>
-  <p><em>Lucy</em></p>
-  <p>Étude des bénéfices des parcs urbains rennais sur la santé mentale des citadins. Revue de littérature, puis enquête par questionnaire auprès de passants volontaires. L'analyse statistique a révélé une corrélation forte entre la fréquentation des parcs, la recherche de réduction du stress et le sentiment de calme.</p>
-</div>
-
-#### Printemps 2023
-
-<div class="capstone">
-  <h4>Agriculture urbaine à Rennes</h4>
-  <p><em>Hope</em></p>
-  <p>Exploration des pratiques d'agriculture urbaine à Rennes. Plusieurs visites au jardin partagé du GAEC, entretien avec le fondateur de Cols Verts, et création par l'élève de son propre petit jardin partagé au sein de l'école.</p>
-</div>
-
-<div class="capstone">
-  <h4>Alimentation locale et cuisine durable</h4>
-  <p><em>Keili</em></p>
-  <p>Étude des circuits courts alimentaires. Visite de marchés et de restaurants pour interroger producteurs, restaurateurs et consommateurs sur l'origine des produits qu'ils vendent, cuisinent et consomment.</p>
-</div>
+<p style="margin-bottom:1.2rem;"><a href="{{ '/about/' | relative_url }}">← Retour à la page <em>A propos</em></a></p>
