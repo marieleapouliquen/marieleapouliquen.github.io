@@ -56,7 +56,7 @@ body_class: page-accordion
   <h4>Professeure de sciences environnementales · Ecole Américaine de Rennes (School Year Abroad)</h4>
   <ul>
     <li>Conception et enseignement du  <a href="{{ '/sya/' | relative_url }}">programme de sciences environnementales</a> (~300 h annuelles)</li>
-    <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
+    <li>Encadrement des projets de recherche <em>Capstone</em></li>
     <li>Co-organisation des sorties pédagogiques hebdomadaires et coordination du club de sciences</li>
     <li>Conseillère pédagogique (<em>Academic Advisor</em>)</li>
   </ul>
