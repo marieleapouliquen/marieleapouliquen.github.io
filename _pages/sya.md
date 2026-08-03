@@ -90,5 +90,3 @@ Le *Capstone* est l'**aboutissement académique** du parcours d'un·e élève à
     <img src="{{ '/assets/img/sya-cartes-climat.jpg' | relative_url }}" alt="Atelier cartes du climat en classe" loading="lazy">
   </a>
 </div>
-
-<p style="margin-bottom:1.2rem;"><a href="{{ '/about/' | relative_url }}">← Retour à la page <em>A propos</em></a></p>
