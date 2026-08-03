@@ -7,11 +7,8 @@ description: Cours et ressources pédagogiques
 
 <img src="{{ '/assets/img/enseignement-def.jpg' | relative_url }}" alt="Système convectif au-dessus de l'océan" loading="lazy">
 
-# Climat et Dynamique des Enveloppes Fluides
 
-## Niveau débutant
-
-<p>Modules interactifs · Initiation à la climatologie · Tout public</p>
+## Initiation à la Climatologie
 
 <div class="course-downloads">
   <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
@@ -36,7 +33,7 @@ description: Cours et ressources pédagogiques
   </a>
 </div>
 
-## Niveau avancé
+## Climat et Dynamique des Enveloppes Fluides · Niveau avancé
 
 <p>Supports de cours de physique du climat · <strong>Université de Rennes</strong> · CPGE & Licences 2/3 Physique, Chimie, SVT</p>
 
