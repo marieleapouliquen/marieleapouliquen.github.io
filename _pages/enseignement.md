@@ -6,11 +6,37 @@ description: Cours et ressources pédagogiques
 ---
 
 ## Climat et Dynamique des Enveloppes Fluides
-<p>Cours magistraux et travaux dirigés en physique du climat à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
 
 <img src="{{ '/assets/img/enseignement-def.jpg' | relative_url }}" alt="Système convectif au-dessus de l'océan" loading="lazy">
 
-### Supports de cours
+### Niveau débutant
+
+<div class="course-downloads">
+  <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
+    <span class="download-num">Module 1</span>
+    <span class="download-title">Climatologie</span>
+    <span class="download-meta">Le climat · archives · bilan radiatif · dérèglement</span>
+  </a>
+  <a href="{{ '/terra-klima/meteorologie/' | relative_url }}" class="download-card">
+    <span class="download-num">Module 2</span>
+    <span class="download-title">Météorologie</span>
+    <span class="download-meta">Atmosphère · pression · circulation générale</span>
+  </a>
+  <a href="{{ '/terra-klima/oceanographie/' | relative_url }}" class="download-card">
+    <span class="download-num">Module 3</span>
+    <span class="download-title">Océanographie</span>
+    <span class="download-meta">Portrait de l'océan · circulation · courants</span>
+  </a>
+  <a href="{{ '/terra-klima/negociations-et-prevision/' | relative_url }}" class="download-card">
+    <span class="download-num">Module 4</span>
+    <span class="download-title">Négociations &amp; prévision</span>
+    <span class="download-meta">Chronologie des COP · climat futur</span>
+  </a>
+</div>
+
+### Niveau avancé
+
+<p>Supports des cours de physique du climat donnés à l'<strong>Université de Rennes</strong> (L2 STE / L3 SVT / CPES)</p>
 
 <div class="course-downloads">
   <a href="{{ '/assets/pdf/cours-climat-seance-1-energie.pdf' | relative_url }}" class="download-card" target="_blank" rel="noopener">
@@ -30,14 +56,9 @@ description: Cours et ressources pédagogiques
   </a>
 </div>
 
+## Outils interactifs
 
-## Ressources pédagogiques en libre accès
-
-### Terra Klima
-
-**Terra Klima** est une collection de **simulateurs interactifs** que j'ai conçus pour l'enseignement, accessibles librement. Ils permettent d'explorer des mécanismes climatiques fondamentaux en manipulant les paramètres physiques.
-
-### Modules disponibles
+Ces deux simulateurs conçus spécifiquement pour la formation vous permettent de manipuler vous-même des modèles climatiques simplifiés. 
 
 <div class="terra-cards">
 
@@ -46,7 +67,7 @@ description: Cours et ressources pédagogiques
     <div class="terra-card-content">
       <span class="terra-card-num">Modèle 1</span>
       <h3>Les planètes Boucle d'Or</h3>
-      <p>Pourquoi la Terre est-elle « juste à la bonne température » ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
+      <p>Quels paramètres déterminent la température globale d'une planète ? Un simulateur d'équilibre radiatif planétaire pour explorer le rôle de la distance au Soleil et de l'albédo.</p>
     </div>
   </a>
 
@@ -62,8 +83,6 @@ description: Cours et ressources pédagogiques
 </div>
 
 ## Ressources externes
-
-### Outils interactifs et simulateurs
 
 <div class="external-resources">
 
@@ -86,12 +105,6 @@ description: Cours et ressources pédagogiques
     <span class="resource-name">Carbon Savings Tool <span class="external-arrow">↗</span></span>
     <span class="resource-desc">Calculateur d'empreinte carbone des trajets (avion, train, voiture) — Université de Manchester.</span>
   </a>
-
-</div>
-
-### Suivi et analyse
-
-<div class="external-resources">
 
   <a href="https://climateactiontracker.org/" target="_blank" rel="noopener" class="external-resource">
     <span class="resource-name">Climate Action Tracker <span class="external-arrow">↗</span></span>
