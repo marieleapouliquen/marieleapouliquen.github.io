@@ -48,12 +48,12 @@ body_class: page-accordion
 
 <div class="job-entry">
   <p class="job-period"><em>Oct. 2023</em></p>
-  <h4>Gratification de la <a href="{https://www.ametsoc.org/index.cfm/ams/education-careers/careers/ams-professional-certification-programs/certified-ams-teacher-program-cat/}">certification d'enseignement de l'American Meteorological Society</a>
+  <h4>Gratification de la <a href="https://www.ametsoc.org/index.cfm/ams/education-careers/careers/ams-professional-certification-programs/certified-ams-teacher-program-cat/">certification d'enseignement de l'American Meteorological Society</a></h4>
 </div>
 
 <div class="job-entry">
   <p class="job-period"><em>Septembre 2021 — Juin 2024 · 3 ans</em></p>
-  <h4>Professeure de sciences environnementales · <a href="{{ '/sya/' | relative_url }}">School Year Abroad France</a></h4>
+  <h4>Professeure de sciences environnementales · <a href="{{ '/sya/' | relative_url }}">Ecole Américaine de Rennes (School Year Abroad)/a></h4>
   <ul>
     <li>Conception et enseignement du programme de sciences environnementales (~300 h annuelles)</li>
     <li>Encadrement des projets de recherche <em>Capstone</em> (2 h/semaine, 15-20 élèves)</li>
