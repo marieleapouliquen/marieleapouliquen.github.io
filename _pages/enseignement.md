@@ -16,22 +16,23 @@ description: Cours et ressources pédagogiques
 <div class="course-downloads">
   <a href="{{ '/terra-klima/climatologie/' | relative_url }}" class="download-card">
     <span class="download-num">Module 1</span>
-    <span class="download-title">Climatologie · Le système climatique</span>
+    <span class="download-title">Climatologie</span>
+    <span class="download-meta">Le système climatique</span>
   </a>
   <a href="{{ '/terra-klima/meteorologie/' | relative_url }}" class="download-card">
     <span class="download-num">Module 2</span>
     <span class="download-title">Météorologie</span>
-    <span class="download-meta">Portrait de l'atmosphère · Circulation générale</span>
+    <span class="download-meta">Portrait de l'atmosphère</span>
   </a>
   <a href="{{ '/terra-klima/oceanographie/' | relative_url }}" class="download-card">
     <span class="download-num">Module 3</span>
     <span class="download-title">Océanographie</span>
-    <span class="download-meta">Portrait de l'océan · Circulation générale</span>
+    <span class="download-meta">Portrait de l'océan</span>
   </a>
   <a href="{{ '/terra-klima/negociations-et-prevision/' | relative_url }}" class="download-card">
     <span class="download-num">Module 4</span>
-    <span class="download-title">Climatologie · Le changement climatique </span>
-    <span class="download-meta">Bref historique des négociations climatiques · Prévoir le climat futur</span>
+    <span class="download-title">Changement climatique </span>
+    <span class="download-meta">Négociations climatiques · Prévoir le climat futur</span>
   </a>
 </div>
 
