@@ -62,6 +62,10 @@ Le cours de sciences comprend également une dimension expérientielle. Chaque n
 
 L'évaluation globale du cours reflète la double exigence de fond et de communication propre à une école bilingue : 60 % d'évaluations sommatives centrées sur l'écrit et l'oral (examens, présentations), et 40 % d'évaluations formatives récompensant une participation orale régulière et engagée. 
 
+### EnviroSYA — la chaîne YouTube du cours de sciences environnementales conçues avec les élèves
+
+<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
+
 ### Les projets de recherche tutorés (Capstone)
 
 Le *Capstone* est l'**aboutissement académique** du parcours d'un·e élève à SYA. C'est l'occasion pour les élèves de **mobiliser l'ensemble des connaissances et compétences** acquises au cours de leur scolarité, en les appliquant à un problème ou à une question concrète qu'ils choisissent eux-mêmes. À SYA, le Capstone porte sur une **question de recherche significative**, choisie par l'élève, qui mobilise généralement plusieurs disciplines : sciences sociales, politique, arts, psychologie, sciences de l'environnement, technologies. Intégré au cours de français, le projet doit être **culturellement pertinent et ancré dans le territoire** breton. Un·e tuteur·rice académique accompagne l'élève tout au long du projet, par des retours réguliers. Mais l'exercice est exigeant : il demande à l'élève de **s'approprier sa démarche** et de **gagner en autonomie**. La restitution finale prend la forme d'une présentation devant un jury.
@@ -86,9 +90,5 @@ Le *Capstone* est l'**aboutissement académique** du parcours d'un·e élève à
     <img src="{{ '/assets/img/sya-cartes-climat.jpg' | relative_url }}" alt="Atelier cartes du climat en classe" loading="lazy">
   </a>
 </div>
-
-### EnviroSYA — la chaîne YouTube du cours de sciences environnementales conçues avec les élèves
-
-<p style="margin-top: 1.5rem;"><a href="https://www.youtube.com/@envirosya" class="btn-external">▶ Voir la chaîne EnviroSYA sur YouTube ↗</a></p>
 
 <p style="margin-bottom:1.2rem;"><a href="{{ '/about/' | relative_url }}">← Retour à la page <em>A propos</em></a></p>
