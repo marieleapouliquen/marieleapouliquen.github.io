@@ -2,9 +2,8 @@
 layout: default
 permalink: /blog/
 title: ""
-description: Actualités, conférences, médiation scientifique
+description: Conférences et médiation scientifique
 ---
-
 <div class="blog-header">
   <div class="blog-header-text">
     <h1>Blog</h1>
@@ -13,15 +12,27 @@ description: Actualités, conférences, médiation scientifique
 </div>
 
 <div class="blog-list">
-{% assign sorted_posts = site.news | sort: 'date' | reverse %}
-{% for item in sorted_posts %}
-  <article class="blog-entry" id="{{ item.date | date: '%Y-%m-%d' }}">  
+{% assign all_items = site.news | concat: site.syntheses | sort: 'date' | reverse %}
+{% for item in all_items %}
+  <article class="blog-entry{% if item.collection == 'syntheses' %} blog-entry--synthese{% endif %}" id="{{ item.date | date: '%Y-%m-%d' }}">
     <p class="blog-date">{{ item.date | date: "%-d %B %Y" }}</p>
-    {% if item.title %}<h2 class="blog-title">{{ item.title }}</h2>{% endif %}
-    {% if item.venue %}<p class="blog-venue">{{ item.venue }}</p>{% endif %}
-    <div class="blog-content">
-      {{ item.content | markdownify }}
-    </div>
+
+    {% if item.collection == 'syntheses' %}
+      <h2 class="blog-title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+      {% if item.venue %}<p class="blog-venue">{{ item.venue }}</p>{% endif %}
+      {% if item.summary %}
+      <div class="blog-content">
+        <p>{{ item.summary }}</p>
+      </div>
+      {% endif %}
+      <a class="blog-readmore" href="{{ item.url | relative_url }}">Lire la synthèse</a>
+    {% else %}
+      {% if item.title %}<h2 class="blog-title">{{ item.title }}</h2>{% endif %}
+      {% if item.venue %}<p class="blog-venue">{{ item.venue }}</p>{% endif %}
+      <div class="blog-content">
+        {{ item.content | markdownify }}
+      </div>
+    {% endif %}
   </article>
 {% endfor %}
 </div>
