@@ -1,6 +1,7 @@
 ---
 date: 2024-10-10
 title: "Écosystèmes, biodiversité et services écosystémiques face au changement climatique"
+summary: "Synthèse du chapitre 8 de la Cinquième évaluation nationale du climat des États-Unis (NCA5, 2023)"
 ---
 
 # Écosystèmes, biodiversité et services écosystémiques face au changement climatique
