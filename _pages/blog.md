@@ -4,12 +4,6 @@ permalink: /blog/
 title: ""
 description: Conférences et médiation scientifique
 ---
-<div class="blog-header">
-  <div class="blog-header-text">
-    <h1>Blog</h1>
-  </div>
-  <div class="blog-header-banner" role="img" aria-label="Conférence à l'Institut Franco-Américain de Rennes, décembre 2024"></div>
-</div>
 
 <div class="blog-list">
 {% assign all_items = site.news | concat: site.syntheses | sort: 'date' | reverse %}
