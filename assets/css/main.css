@@ -1439,7 +1439,12 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
 }
 
 /* ---------- Page d'une synthèse ---------- */
-.synthese-title { margin: 0.3rem 0 0.5rem 0; }
+.synthese-meta {
+  margin-top: -0.8rem;
+  margin-bottom: 1.5rem;
+}
+.synthese-meta .blog-date  { margin-bottom: 0.2rem; }
+.synthese-meta .blog-venue { margin-bottom: 0; }
 
 .synthese-summary {
   font-size: 1.1rem;
