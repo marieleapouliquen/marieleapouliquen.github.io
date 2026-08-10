@@ -121,7 +121,7 @@ La NCA5 mobilise dans ce contexte le cadre **Résister–Accepter–Diriger** (*
 <img src="{{ '/assets/img/figure8_9.jpg' | relative_url }}" alt="Cadres décisionnels adaptatifs pour la gestion des écosystèmes en contexte de changement climatique" loading="lazy">
 *Figure 8.9 — Cadres décisionnels adaptatifs pour la gestion des écosystèmes en contexte de changement climatique. Source : NCA5, chapitre 8, adapté de West et al. (2017, 2018) et Lynch et al. (2022).*
 
-Le cadre RAD ne constitue pas une prescription universelle. Il fournit plutôt une grille permettant d'expliciter les **objectifs de gestion, les trajectoires attendues et les arbitrages** associés à différentes situations écologiques.
+Le cadre RAD fournit ainsi une grille permettant d'expliciter les **objectifs de gestion, les trajectoires attendues et les arbitrages** associés à différentes situations écologiques.
 
 ## Conclusion : protéger le vivant dans un climat en transformation
 
