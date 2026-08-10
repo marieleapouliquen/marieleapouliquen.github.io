@@ -1415,6 +1415,58 @@ body.page-accordion .cv-header h1 { margin: 0 0 0.5rem 0; }
   }
 }
 
+/* ---------- Synthèses : aperçu vers page dédiée ---------- */
+.blog-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.blog-title a:hover { color: var(--color-muted); }
+
+.blog-readmore {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.blog-readmore::after { content: " →"; }
+.blog-readmore:hover {
+  color: var(--color-text);
+  border-bottom-color: var(--color-text);
+}
+
+/* ---------- Page d'une synthèse ---------- */
+.synthese-title { margin: 0.3rem 0 0.5rem 0; }
+
+.synthese-summary {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+  padding-bottom: 1.5rem;
+  margin: 0 0 2rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.synthese-body {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.synthese-body h2 { font-size: 1.4rem; }
+.synthese-body h3 { font-size: 1.15rem; }
+
+.synthese-back {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+.synthese-back a { color: var(--color-muted); text-decoration: none; }
+.synthese-back a::before { content: "← "; }
+.synthese-back a:hover { color: var(--color-text); }
+
 
 /* ============================================================================
    11. PAGE SYA
