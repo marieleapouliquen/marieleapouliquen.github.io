@@ -1,5 +1,5 @@
 ---
-date: 2024-12-05
+date: 2024-10-10
 title: "Écosystèmes, biodiversité et services écosystémiques face au changement climatique"
 ---
 
