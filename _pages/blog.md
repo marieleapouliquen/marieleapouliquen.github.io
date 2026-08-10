@@ -5,6 +5,8 @@ title: ""
 description: Conférences et médiation scientifique
 ---
 
+# Blog
+
 <div class="blog-list">
 {% assign all_items = site.news | concat: site.syntheses | sort: 'date' | reverse %}
 {% for item in all_items %}
