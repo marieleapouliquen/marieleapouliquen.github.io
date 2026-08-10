@@ -4,10 +4,6 @@ title: "Écosystèmes, biodiversité et services écosystémiques face au change
 summary: "Synthèse du chapitre 8 de la Cinquième évaluation nationale du climat des États-Unis (NCA5, 2023)"
 ---
 
-# Écosystèmes, biodiversité et services écosystémiques face au changement climatique
-
-*Synthèse du chapitre 8 de la Cinquième évaluation nationale du climat des États-Unis (NCA5, 2023)*
-
 ## Un changement climatique qui reconfigure les systèmes écologiques
 
 Les écosystèmes constituent le support de nombreuses fonctions écologiques dont dépendent directement les sociétés humaines : production alimentaire, approvisionnement et régulation de l'eau, pollinisation, stockage du carbone, régulation microclimatique, protection contre certains aléas, ressources biologiques, ainsi que de nombreuses dimensions culturelles et récréatives. Ces fonctions contribuent au bien-être humain par l'intermédiaire des **services écosystémiques**.
