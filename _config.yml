@@ -64,6 +64,16 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  syntheses:
+    output: true
+    permalink: /blog/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: syntheses
+    values:
+      layout: synthese
 
 # Plugins
 plugins:
