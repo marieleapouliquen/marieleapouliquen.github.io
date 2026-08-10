@@ -1,4 +1,9 @@
-# Écosystèmes, biodiversité et services écosystémiques face au forçage climatique
+---
+date: 2024-12-05
+title: "Écosystèmes, biodiversité et services écosystémiques face au changement climatique"
+---
+
+# Écosystèmes, biodiversité et services écosystémiques face au changement climatique
 
 *Synthèse du chapitre 8 de la Cinquième évaluation nationale du climat des États-Unis (NCA5, 2023)*
 
@@ -12,7 +17,7 @@ Le chapitre 8 de la **Cinquième évaluation nationale du climat des États-Unis
 
 Le cadre conceptuel présenté par la NCA5 articule ainsi quatre dimensions interdépendantes : **biodiversité, écosystèmes, services écosystémiques et bien-être humain**, auxquelles s'ajoutent les facteurs de forçage climatiques et non climatiques.
 
-![Figure 8.1 — Chaîne exposition → impacts → adaptation → atténuation pour les écosystèmes. Source : NCA5, chapitre 8, adapté de Lipton et al. (2018)](figures/figure8_1.jpg)
+![Figure 8.1 — Chaîne exposition → impacts → adaptation → atténuation pour les écosystèmes. Source : NCA5, chapitre 8, adapté de Lipton et al. (2018)](figures/nca5/figure8_1.jpg)
 
 *Figure 8.1 — Chaîne exposition → impacts → adaptation → atténuation pour les écosystèmes. Source : NCA5, chapitre 8, adapté de Lipton et al. (2018).*
 
@@ -42,7 +47,7 @@ Le risque concerne notamment les relations trophiques et mutualistes : une resso
 
 Ces changements ont également des conséquences pour les sociétés humaines. L'allongement de certaines saisons polliniques peut accroître l'exposition aux allergènes, tandis que la modification des conditions thermiques peut affecter la dynamique de certains ravageurs.
 
-![Figure 8.11 — Modifications observées des aires de répartition et de la phénologie. Source : NCA5, chapitre 8 ; University of Arizona et USFWS.](figures/figure8_11.jpg)
+![Figure 8.11 — Modifications observées des aires de répartition et de la phénologie. Source : NCA5, chapitre 8 ; University of Arizona et USFWS.](figures/nca5/figure8_11.jpg)
 
 *Figure 8.11 — Modifications observées des aires de répartition et de la phénologie. Source : NCA5, chapitre 8 ; University of Arizona et USFWS.*
 
@@ -114,7 +119,7 @@ La NCA5 mobilise dans ce contexte le cadre **Résister–Accepter–Diriger** (*
 * **Accepter** : reconnaître qu'une transformation est inévitable et accompagner cette évolution ;
 * **Diriger** : intervenir activement pour orienter le système vers une trajectoire ou un état futur considéré comme souhaitable.
 
-![Figure 8.9 — Cadres décisionnels adaptatifs pour la gestion des écosystèmes en contexte de changement climatique. Source : NCA5, chapitre 8, adapté de West et al. (2017, 2018) et Lynch et al. (2022)](figures/figure8_9.jpg)
+![Figure 8.9 — Cadres décisionnels adaptatifs pour la gestion des écosystèmes en contexte de changement climatique. Source : NCA5, chapitre 8, adapté de West et al. (2017, 2018) et Lynch et al. (2022)](figures/nca5/figure8_9.jpg)
 
 *Figure 8.9 — Cadres décisionnels adaptatifs pour la gestion des écosystèmes en contexte de changement climatique. Source : NCA5, chapitre 8, adapté de West et al. (2017, 2018) et Lynch et al. (2022).*
 
