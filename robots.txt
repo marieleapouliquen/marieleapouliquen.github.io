@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.marieleapouliquen.com/sitemap.xml
+Sitemap: https://www.marieleapouliquen.com/arty/sitemap.xml
